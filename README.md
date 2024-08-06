@@ -1,8 +1,10 @@
-1、在FGAT12同级目录下新建CNNNERmodel文件夹，并将词向量集和BERT预训练模型放到该文件夹，词向量集和BERT预训练模型可分别通过https://ai.tencent.com/ailab/nlp/en/download.html和https://huggingface.co/google-bert/bert-base-chinese/tree/main下载。
-2、通过修改main1.py文件下的这几行代码，决定训练的数据集。
+1、Create a folder named CNNNERmodel in the same directory as FGAT12, and place the word embedding set and the BERT pre-trained model into this folder. The word embedding set and the BERT pre-trained model can be downloaded from Tencent AI Lab (https://ai.tencent.com/ailab/nlp/en/download.html) and Hugging Face (https://huggingface.co/google-bert/bert-base-chinese/tree/main)respectively.
+
+2、Decide the training dataset by modifying these lines of code in the main1.py file.
     parser.add_argument('--modelname', default="WeiboNER")
     parser.add_argument('--savedset', help='Dir of saved data setting', default="data/WeiboNER.dadset")
     parser.add_argument('--train', default="data/WeiboNER/train.all.bmes")
     parser.add_argument('--dev', default="data/WeiboNER/dev.all.bmes")
     parser.add_argument('--test', default="data/WeiboNER/test.all.bmes")
-3、运行main1.py文件。
+
+3、run main1.py
