@@ -1,0 +1,1521 @@
+2023-01-27 21:32:56 - main1.py[line:296] - INFO: Epoch: 0/100
+2023-01-27 21:32:56 - main1.py[line:121] - INFO:  Learning rate is setted as: 0.005
+2023-01-27 21:33:07 - main1.py[line:344] - INFO:      Instance: 500; Time: 11.09s; loss: 196395.7188; acc: 62100.0/92651.0=0.6703
+2023-01-27 21:33:18 - main1.py[line:344] - INFO:      Instance: 1000; Time: 11.11s; loss: 95496.8594; acc: 137406.0/187187.0=0.7341
+2023-01-27 21:33:29 - main1.py[line:344] - INFO:      Instance: 1500; Time: 11.20s; loss: 76890.0469; acc: 213385.0/280867.0=0.7597
+2023-01-27 21:33:40 - main1.py[line:344] - INFO:      Instance: 2000; Time: 11.10s; loss: 69298.4609; acc: 291072.0/376241.0=0.7736
+2023-01-27 21:33:52 - main1.py[line:344] - INFO:      Instance: 2500; Time: 11.23s; loss: 62900.9375; acc: 367631.0/470031.0=0.7821
+2023-01-27 21:33:57 - main1.py[line:356] - INFO:      Instance: 2749; Time: 5.75s; loss: 29715.5859; acc: 406297.0/516868.0=0.7861
+2023-01-27 21:33:57 - main1.py[line:361] - INFO: Epoch: 0 training finished. Time: 61.47s, speed: 44.72st/s,  total loss: tensor(530697.6875, device='cuda:0')
+2023-01-27 21:34:01 - metric.py[line:62] - INFO: gold_num = 2576 pred_num = 0 right_num = 0
+2023-01-27 21:34:01 - main1.py[line:370] - INFO: Dev: time: 3.39s, speed: 97.37st/s; acc: 0.8387, p: -1.0000, r: 0.0000, f: -1.0000
+2023-01-27 21:34:04 - metric.py[line:62] - INFO: gold_num = 2681 pred_num = 0 right_num = 0
+2023-01-27 21:34:04 - main1.py[line:396] - INFO: Test: time: 3.51s, speed: 97.82st/s; acc: 0.8348, p: -1.0000, r: 0.0000, f: -1.0000
+2023-01-27 21:34:04 - main1.py[line:408] - INFO: Best dev score: p:-1, r:-1, f:-1
+2023-01-27 21:34:04 - main1.py[line:409] - INFO: Test score: p:-1, r:-1, f:-1
+2023-01-27 21:34:15 - main1.py[line:296] - INFO: Epoch: 1/100
+2023-01-27 21:34:15 - main1.py[line:121] - INFO:  Learning rate is setted as: 0.00475
+2023-01-27 21:34:26 - main1.py[line:344] - INFO:      Instance: 500; Time: 11.07s; loss: 57264.6289; acc: 77943.0/94603.0=0.8239
+2023-01-27 21:34:37 - main1.py[line:344] - INFO:      Instance: 1000; Time: 11.26s; loss: 52450.3789; acc: 155475.0/188517.0=0.8247
+2023-01-27 21:34:48 - main1.py[line:344] - INFO:      Instance: 1500; Time: 11.11s; loss: 47827.2695; acc: 233516.0/281257.0=0.8303
+2023-01-27 21:34:59 - main1.py[line:344] - INFO:      Instance: 2000; Time: 11.14s; loss: 45691.2227; acc: 313056.0/375256.0=0.8342
+2023-01-27 21:35:10 - main1.py[line:344] - INFO:      Instance: 2500; Time: 10.99s; loss: 45233.1016; acc: 394726.0/472067.0=0.8362
+2023-01-27 21:35:16 - main1.py[line:356] - INFO:      Instance: 2749; Time: 5.73s; loss: 19090.1250; acc: 433089.0/516868.0=0.8379
+2023-01-27 21:35:16 - main1.py[line:361] - INFO: Epoch: 1 training finished. Time: 61.31s, speed: 44.84st/s,  total loss: tensor(267556.8125, device='cuda:0')
+2023-01-27 21:35:19 - metric.py[line:62] - INFO: gold_num = 2576 pred_num = 1946 right_num = 855
+2023-01-27 21:35:19 - main1.py[line:370] - INFO: Dev: time: 3.37s, speed: 97.99st/s; acc: 0.8669, p: 0.4394, r: 0.3319, f: 0.3782
+2023-01-27 21:35:19 - main1.py[line:379] - INFO: Exceed previous best f score: -1
+2023-01-27 21:35:23 - metric.py[line:62] - INFO: gold_num = 2681 pred_num = 2061 right_num = 823
+2023-01-27 21:35:23 - main1.py[line:396] - INFO: Test: time: 4.16s, speed: 96.52st/s; acc: 0.8719, p: 0.3993, r: 0.3070, f: 0.3471
+2023-01-27 21:35:23 - main1.py[line:408] - INFO: Best dev score: p:0.4393627954779034, r:0.3319099378881988, f:0.37815126050420167
+2023-01-27 21:35:23 - main1.py[line:409] - INFO: Test score: p:0.3993207180980107, r:0.30697500932487876, f:0.34711092366090257
+2023-01-27 21:35:35 - main1.py[line:296] - INFO: Epoch: 2/100
+2023-01-27 21:35:35 - main1.py[line:121] - INFO:  Learning rate is setted as: 0.0045125
+2023-01-27 21:35:46 - main1.py[line:344] - INFO:      Instance: 500; Time: 11.00s; loss: 37868.8242; acc: 79079.0/91941.0=0.8601
+2023-01-27 21:35:57 - main1.py[line:344] - INFO:      Instance: 1000; Time: 11.19s; loss: 37854.8711; acc: 163122.0/188940.0=0.8634
+2023-01-27 21:36:08 - main1.py[line:344] - INFO:      Instance: 1500; Time: 11.15s; loss: 34904.4141; acc: 247673.0/285407.0=0.8678
+2023-01-27 21:36:20 - main1.py[line:344] - INFO:      Instance: 2000; Time: 11.24s; loss: 31708.9844; acc: 327831.0/376973.0=0.8696
+2023-01-27 21:36:31 - main1.py[line:344] - INFO:      Instance: 2500; Time: 11.25s; loss: 31535.7539; acc: 410186.0/470585.0=0.8717
+2023-01-27 21:36:37 - main1.py[line:356] - INFO:      Instance: 2749; Time: 5.76s; loss: 13169.1865; acc: 452018.0/516868.0=0.8745
+2023-01-27 21:36:37 - main1.py[line:361] - INFO: Epoch: 2 training finished. Time: 61.59s, speed: 44.63st/s,  total loss: tensor(187042., device='cuda:0')
+2023-01-27 21:36:40 - metric.py[line:62] - INFO: gold_num = 2576 pred_num = 2316 right_num = 1395
+2023-01-27 21:36:40 - main1.py[line:370] - INFO: Dev: time: 3.35s, speed: 98.83st/s; acc: 0.9107, p: 0.6023, r: 0.5415, f: 0.5703
+2023-01-27 21:36:40 - main1.py[line:379] - INFO: Exceed previous best f score: 0
+2023-01-27 21:36:44 - metric.py[line:62] - INFO: gold_num = 2681 pred_num = 2413 right_num = 1422
+2023-01-27 21:36:44 - main1.py[line:396] - INFO: Test: time: 4.29s, speed: 93.57st/s; acc: 0.9148, p: 0.5893, r: 0.5304, f: 0.5583
+2023-01-27 21:36:44 - main1.py[line:408] - INFO: Best dev score: p:0.6023316062176166, r:0.5415372670807453, f:0.5703188879803761
+2023-01-27 21:36:44 - main1.py[line:409] - INFO: Test score: p:0.5893079154579361, r:0.5303991048116374, f:0.558303886925795
+2023-01-27 21:36:56 - main1.py[line:296] - INFO: Epoch: 3/100
+2023-01-27 21:36:56 - main1.py[line:121] - INFO:  Learning rate is setted as: 0.004286875
+2023-01-27 21:37:07 - main1.py[line:344] - INFO:      Instance: 500; Time: 11.05s; loss: 26380.5156; acc: 83071.0/92284.0=0.9002
+2023-01-27 21:37:18 - main1.py[line:344] - INFO:      Instance: 1000; Time: 11.05s; loss: 23648.3516; acc: 168021.0/185536.0=0.9056
+2023-01-27 21:37:29 - main1.py[line:344] - INFO:      Instance: 1500; Time: 11.13s; loss: 27362.5586; acc: 255143.0/282615.0=0.9028
+2023-01-27 21:37:40 - main1.py[line:344] - INFO:      Instance: 2000; Time: 11.22s; loss: 23321.7383; acc: 338681.0/374911.0=0.9034
+2023-01-27 21:37:51 - main1.py[line:344] - INFO:      Instance: 2500; Time: 11.35s; loss: 22165.1035; acc: 424155.0/468819.0=0.9047
+2023-01-27 21:37:57 - main1.py[line:356] - INFO:      Instance: 2749; Time: 5.75s; loss: 10564.9570; acc: 468351.0/516868.0=0.9061
+2023-01-27 21:37:57 - main1.py[line:361] - INFO: Epoch: 3 training finished. Time: 61.55s, speed: 44.66st/s,  total loss: tensor(133443.2656, device='cuda:0')
+2023-01-27 21:38:01 - metric.py[line:62] - INFO: gold_num = 2576 pred_num = 2471 right_num = 1706
+2023-01-27 21:38:01 - main1.py[line:370] - INFO: Dev: time: 3.39s, speed: 97.47st/s; acc: 0.9355, p: 0.6904, r: 0.6623, f: 0.6760
+2023-01-27 21:38:01 - main1.py[line:379] - INFO: Exceed previous best f score: 0
+2023-01-27 21:38:05 - metric.py[line:62] - INFO: gold_num = 2681 pred_num = 2583 right_num = 1783
+2023-01-27 21:38:05 - main1.py[line:396] - INFO: Test: time: 4.13s, speed: 97.21st/s; acc: 0.9423, p: 0.6903, r: 0.6651, f: 0.6774
+2023-01-27 21:38:05 - main1.py[line:408] - INFO: Best dev score: p:0.6904087414002428, r:0.6622670807453416, f:0.6760451753516941
+2023-01-27 21:38:05 - main1.py[line:409] - INFO: Test score: p:0.6902826171118854, r:0.6650503543453935, f:0.6774316109422494
+2023-01-27 21:38:16 - main1.py[line:296] - INFO: Epoch: 4/100
+2023-01-27 21:38:16 - main1.py[line:121] - INFO:  Learning rate is setted as: 0.00407253125
+2023-01-27 21:38:27 - main1.py[line:344] - INFO:      Instance: 500; Time: 11.01s; loss: 20130.3203; acc: 87251.0/95034.0=0.9181
+2023-01-27 21:38:38 - main1.py[line:344] - INFO:      Instance: 1000; Time: 11.23s; loss: 17893.1504; acc: 173412.0/188141.0=0.9217
+2023-01-27 21:38:50 - main1.py[line:344] - INFO:      Instance: 1500; Time: 11.34s; loss: 18749.8223; acc: 263603.0/285662.0=0.9228
+2023-01-27 21:39:01 - main1.py[line:344] - INFO:      Instance: 2000; Time: 11.14s; loss: 16788.0723; acc: 348886.0/377642.0=0.9239
+2023-01-27 21:39:12 - main1.py[line:344] - INFO:      Instance: 2500; Time: 11.10s; loss: 16494.9570; acc: 436766.0/472294.0=0.9248
+2023-01-27 21:39:18 - main1.py[line:356] - INFO:      Instance: 2749; Time: 5.78s; loss: 7609.4248; acc: 478319.0/516868.0=0.9254
+2023-01-27 21:39:18 - main1.py[line:361] - INFO: Epoch: 4 training finished. Time: 61.60s, speed: 44.63st/s,  total loss: tensor(97665.7266, device='cuda:0')
+2023-01-27 21:39:21 - metric.py[line:62] - INFO: gold_num = 2576 pred_num = 2608 right_num = 1973
+2023-01-27 21:39:21 - main1.py[line:370] - INFO: Dev: time: 3.39s, speed: 97.50st/s; acc: 0.9479, p: 0.7565, r: 0.7659, f: 0.7612
+2023-01-27 21:39:21 - main1.py[line:379] - INFO: Exceed previous best f score: 0
+2023-01-27 21:39:25 - metric.py[line:62] - INFO: gold_num = 2681 pred_num = 2747 right_num = 2061
+2023-01-27 21:39:25 - main1.py[line:396] - INFO: Test: time: 4.15s, speed: 96.43st/s; acc: 0.9545, p: 0.7503, r: 0.7687, f: 0.7594
+2023-01-27 21:39:25 - main1.py[line:408] - INFO: Best dev score: p:0.7565184049079755, r:0.765916149068323, f:0.7611882716049383
+2023-01-27 21:39:25 - main1.py[line:409] - INFO: Test score: p:0.7502730251183108, r:0.7687430063409175, f:0.7593957258658807
+2023-01-27 21:39:37 - main1.py[line:296] - INFO: Epoch: 5/100
+2023-01-27 21:39:37 - main1.py[line:121] - INFO:  Learning rate is setted as: 0.003868904687499999
+2023-01-27 21:39:48 - main1.py[line:344] - INFO:      Instance: 500; Time: 11.11s; loss: 14984.6240; acc: 87242.0/93154.0=0.9365
+2023-01-27 21:39:59 - main1.py[line:344] - INFO:      Instance: 1000; Time: 11.19s; loss: 14609.6006; acc: 176908.0/188803.0=0.9370
+2023-01-27 21:40:10 - main1.py[line:344] - INFO:      Instance: 1500; Time: 11.12s; loss: 14143.1865; acc: 263676.0/281376.0=0.9371
+2023-01-27 21:40:21 - main1.py[line:344] - INFO:      Instance: 2000; Time: 11.24s; loss: 13782.7061; acc: 353160.0/376787.0=0.9373
+2023-01-27 21:40:32 - main1.py[line:344] - INFO:      Instance: 2500; Time: 11.13s; loss: 13927.5312; acc: 442246.0/471847.0=0.9373
+2023-01-27 21:40:38 - main1.py[line:356] - INFO:      Instance: 2749; Time: 5.84s; loss: 6002.7036; acc: 484649.0/516868.0=0.9377
+2023-01-27 21:40:38 - main1.py[line:361] - INFO: Epoch: 5 training finished. Time: 61.63s, speed: 44.60st/s,  total loss: tensor(77450.3438, device='cuda:0')
+2023-01-27 21:40:42 - metric.py[line:62] - INFO: gold_num = 2576 pred_num = 2526 right_num = 1999
+2023-01-27 21:40:42 - main1.py[line:370] - INFO: Dev: time: 3.38s, speed: 97.83st/s; acc: 0.9516, p: 0.7914, r: 0.7760, f: 0.7836
+2023-01-27 21:40:42 - main1.py[line:379] - INFO: Exceed previous best f score: 0
+2023-01-27 21:40:46 - metric.py[line:62] - INFO: gold_num = 2681 pred_num = 2658 right_num = 2110
+2023-01-27 21:40:46 - main1.py[line:396] - INFO: Test: time: 4.15s, speed: 96.79st/s; acc: 0.9589, p: 0.7938, r: 0.7870, f: 0.7904
+2023-01-27 21:40:46 - main1.py[line:408] - INFO: Best dev score: p:0.7913697545526525, r:0.7760093167701864, f:0.7836142689141513
+2023-01-27 21:40:46 - main1.py[line:409] - INFO: Test score: p:0.7938299473288186, r:0.7870197687430064, f:0.7904101891740026
+2023-01-27 21:40:57 - main1.py[line:296] - INFO: Epoch: 6/100
+2023-01-27 21:40:57 - main1.py[line:121] - INFO:  Learning rate is setted as: 0.003675459453124999
+2023-01-27 21:41:08 - main1.py[line:344] - INFO:      Instance: 500; Time: 10.94s; loss: 12892.5527; acc: 88416.0/94000.0=0.9406
+2023-01-27 21:41:19 - main1.py[line:344] - INFO:      Instance: 1000; Time: 11.21s; loss: 12193.7627; acc: 174130.0/185243.0=0.9400
+2023-01-27 21:41:31 - main1.py[line:344] - INFO:      Instance: 1500; Time: 11.15s; loss: 12158.5215; acc: 265390.0/282078.0=0.9408
+2023-01-27 21:41:42 - main1.py[line:344] - INFO:      Instance: 2000; Time: 11.17s; loss: 11336.7539; acc: 353010.0/374792.0=0.9419
+2023-01-27 21:41:53 - main1.py[line:344] - INFO:      Instance: 2500; Time: 11.25s; loss: 11503.8262; acc: 444207.0/471059.0=0.9430
+2023-01-27 21:41:59 - main1.py[line:356] - INFO:      Instance: 2749; Time: 5.77s; loss: 4973.0386; acc: 487664.0/516868.0=0.9435
+2023-01-27 21:41:59 - main1.py[line:361] - INFO: Epoch: 6 training finished. Time: 61.48s, speed: 44.71st/s,  total loss: tensor(65058.4336, device='cuda:0')
+2023-01-27 21:42:02 - metric.py[line:62] - INFO: gold_num = 2576 pred_num = 2588 right_num = 2081
+2023-01-27 21:42:02 - main1.py[line:370] - INFO: Dev: time: 3.35s, speed: 98.75st/s; acc: 0.9551, p: 0.8041, r: 0.8078, f: 0.8060
+2023-01-27 21:42:02 - main1.py[line:379] - INFO: Exceed previous best f score: 0
+2023-01-27 21:42:06 - metric.py[line:62] - INFO: gold_num = 2681 pred_num = 2739 right_num = 2176
+2023-01-27 21:42:06 - main1.py[line:396] - INFO: Test: time: 4.13s, speed: 97.28st/s; acc: 0.9623, p: 0.7945, r: 0.8116, f: 0.8030
+2023-01-27 21:42:06 - main1.py[line:408] - INFO: Best dev score: p:0.8040958268933539, r:0.8078416149068323, f:0.8059643687064291
+2023-01-27 21:42:06 - main1.py[line:409] - INFO: Test score: p:0.7944505293902884, r:0.8116374487131667, f:0.8029520295202951
+2023-01-27 21:42:18 - main1.py[line:296] - INFO: Epoch: 7/100
+2023-01-27 21:42:18 - main1.py[line:121] - INFO:  Learning rate is setted as: 0.003491686480468749
+2023-01-27 21:42:29 - main1.py[line:344] - INFO:      Instance: 500; Time: 10.99s; loss: 11125.4111; acc: 88903.0/94334.0=0.9424
+2023-01-27 21:42:40 - main1.py[line:344] - INFO:      Instance: 1000; Time: 11.12s; loss: 10826.5859; acc: 177782.0/188281.0=0.9442
+2023-01-27 21:42:51 - main1.py[line:344] - INFO:      Instance: 1500; Time: 11.20s; loss: 10163.0869; acc: 265942.0/281179.0=0.9458
+2023-01-27 21:43:02 - main1.py[line:344] - INFO:      Instance: 2000; Time: 11.03s; loss: 9999.7812; acc: 355670.0/375654.0=0.9468
+2023-01-27 21:43:13 - main1.py[line:344] - INFO:      Instance: 2500; Time: 10.93s; loss: 9655.7100; acc: 446632.0/471219.0=0.9478
+2023-01-27 21:43:19 - main1.py[line:356] - INFO:      Instance: 2749; Time: 5.76s; loss: 4674.3516; acc: 489945.0/516868.0=0.9479
+2023-01-27 21:43:19 - main1.py[line:361] - INFO: Epoch: 7 training finished. Time: 61.03s, speed: 45.04st/s,  total loss: tensor(56444.9453, device='cuda:0')
+2023-01-27 21:43:22 - metric.py[line:62] - INFO: gold_num = 2576 pred_num = 2598 right_num = 2099
+2023-01-27 21:43:22 - main1.py[line:370] - INFO: Dev: time: 3.35s, speed: 98.68st/s; acc: 0.9566, p: 0.8079, r: 0.8148, f: 0.8114
+2023-01-27 21:43:22 - main1.py[line:379] - INFO: Exceed previous best f score: 0
+2023-01-27 21:43:26 - metric.py[line:62] - INFO: gold_num = 2681 pred_num = 2724 right_num = 2208
+2023-01-27 21:43:26 - main1.py[line:396] - INFO: Test: time: 4.16s, speed: 96.46st/s; acc: 0.9639, p: 0.8106, r: 0.8236, f: 0.8170
+2023-01-27 21:43:26 - main1.py[line:408] - INFO: Best dev score: p:0.8079291762894534, r:0.8148291925465838, f:0.8113645148821028
+2023-01-27 21:43:26 - main1.py[line:409] - INFO: Test score: p:0.8105726872246696, r:0.8235732935471839, f:0.8170212765957447
+2023-01-27 21:43:38 - main1.py[line:296] - INFO: Epoch: 8/100
+2023-01-27 21:43:38 - main1.py[line:121] - INFO:  Learning rate is setted as: 0.0033171021564453113
+2023-01-27 21:43:49 - main1.py[line:344] - INFO:      Instance: 500; Time: 11.09s; loss: 9563.5078; acc: 90515.0/95357.0=0.9492
+2023-01-27 21:44:00 - main1.py[line:344] - INFO:      Instance: 1000; Time: 11.24s; loss: 9528.3184; acc: 181001.0/190692.0=0.9492
+2023-01-27 21:44:11 - main1.py[line:344] - INFO:      Instance: 1500; Time: 11.16s; loss: 8515.5049; acc: 268922.0/282840.0=0.9508
+2023-01-27 21:44:22 - main1.py[line:344] - INFO:      Instance: 2000; Time: 11.13s; loss: 9022.7627; acc: 356976.0/375492.0=0.9507
+2023-01-27 21:44:34 - main1.py[line:344] - INFO:      Instance: 2500; Time: 11.22s; loss: 9533.9678; acc: 446811.0/470213.0=0.9502
+2023-01-27 21:44:39 - main1.py[line:356] - INFO:      Instance: 2749; Time: 5.77s; loss: 4495.3608; acc: 491021.0/516868.0=0.9500
+2023-01-27 21:44:39 - main1.py[line:361] - INFO: Epoch: 8 training finished. Time: 61.62s, speed: 44.62st/s,  total loss: tensor(50659.4258, device='cuda:0')
+2023-01-27 21:44:43 - metric.py[line:62] - INFO: gold_num = 2576 pred_num = 2626 right_num = 2119
+2023-01-27 21:44:43 - main1.py[line:370] - INFO: Dev: time: 3.41s, speed: 96.87st/s; acc: 0.9569, p: 0.8069, r: 0.8226, f: 0.8147
+2023-01-27 21:44:43 - main1.py[line:379] - INFO: Exceed previous best f score: 0
+2023-01-27 21:44:47 - metric.py[line:62] - INFO: gold_num = 2681 pred_num = 2730 right_num = 2233
+2023-01-27 21:44:47 - main1.py[line:396] - INFO: Test: time: 4.18s, speed: 96.09st/s; acc: 0.9647, p: 0.8179, r: 0.8329, f: 0.8254
+2023-01-27 21:44:47 - main1.py[line:408] - INFO: Best dev score: p:0.806930693069307, r:0.8225931677018633, f:0.8146866589773165
+2023-01-27 21:44:47 - main1.py[line:409] - INFO: Test score: p:0.8179487179487179, r:0.8328981723237598, f:0.8253557567917206
+2023-01-27 21:44:58 - main1.py[line:296] - INFO: Epoch: 9/100
+2023-01-27 21:44:58 - main1.py[line:121] - INFO:  Learning rate is setted as: 0.0031512470486230455
+2023-01-27 21:45:10 - main1.py[line:344] - INFO:      Instance: 500; Time: 11.07s; loss: 8244.8809; acc: 89703.0/93806.0=0.9563
+2023-01-27 21:45:21 - main1.py[line:344] - INFO:      Instance: 1000; Time: 11.26s; loss: 9285.8857; acc: 181858.0/190908.0=0.9526
+2023-01-27 21:45:32 - main1.py[line:344] - INFO:      Instance: 1500; Time: 11.20s; loss: 7885.9551; acc: 268290.0/281570.0=0.9528
+2023-01-27 21:45:43 - main1.py[line:344] - INFO:      Instance: 2000; Time: 11.18s; loss: 8417.8770; acc: 358681.0/376450.0=0.9528
+2023-01-27 21:45:54 - main1.py[line:344] - INFO:      Instance: 2500; Time: 11.07s; loss: 8695.6143; acc: 448416.0/470601.0=0.9529
+2023-01-27 21:46:00 - main1.py[line:356] - INFO:      Instance: 2749; Time: 5.81s; loss: 3763.7976; acc: 492675.0/516868.0=0.9532
+2023-01-27 21:46:00 - main1.py[line:361] - INFO: Epoch: 9 training finished. Time: 61.58s, speed: 44.64st/s,  total loss: tensor(46294.0234, device='cuda:0')
+2023-01-27 21:46:03 - metric.py[line:62] - INFO: gold_num = 2576 pred_num = 2621 right_num = 2123
+2023-01-27 21:46:03 - main1.py[line:370] - INFO: Dev: time: 3.38s, speed: 97.96st/s; acc: 0.9579, p: 0.8100, r: 0.8241, f: 0.8170
+2023-01-27 21:46:03 - main1.py[line:379] - INFO: Exceed previous best f score: 0
+2023-01-27 21:46:08 - metric.py[line:62] - INFO: gold_num = 2681 pred_num = 2736 right_num = 2240
+2023-01-27 21:46:08 - main1.py[line:396] - INFO: Test: time: 4.12s, speed: 97.39st/s; acc: 0.9647, p: 0.8187, r: 0.8355, f: 0.8270
+2023-01-27 21:46:08 - main1.py[line:408] - INFO: Best dev score: p:0.8099961846623426, r:0.8241459627329193, f:0.8170098133538579
+2023-01-27 21:46:08 - main1.py[line:409] - INFO: Test score: p:0.8187134502923976, r:0.835509138381201, f:0.8270260291674358
+2023-01-27 21:46:19 - main1.py[line:296] - INFO: Epoch: 10/100
+2023-01-27 21:46:19 - main1.py[line:121] - INFO:  Learning rate is setted as: 0.0029936846961918936
+2023-01-27 21:46:30 - main1.py[line:344] - INFO:      Instance: 500; Time: 10.95s; loss: 7934.4336; acc: 90300.0/94783.0=0.9527
+2023-01-27 21:46:41 - main1.py[line:344] - INFO:      Instance: 1000; Time: 10.98s; loss: 7978.1890; acc: 180948.0/189917.0=0.9528
+2023-01-27 21:46:52 - main1.py[line:344] - INFO:      Instance: 1500; Time: 11.23s; loss: 7487.3833; acc: 271901.0/285122.0=0.9536
+2023-01-27 21:47:03 - main1.py[line:344] - INFO:      Instance: 2000; Time: 11.09s; loss: 7718.3989; acc: 362844.0/380246.0=0.9542
+2023-01-27 21:47:14 - main1.py[line:344] - INFO:      Instance: 2500; Time: 11.17s; loss: 7164.4932; acc: 449278.0/470628.0=0.9546
+2023-01-27 21:47:20 - main1.py[line:356] - INFO:      Instance: 2749; Time: 5.78s; loss: 3743.9314; acc: 493472.0/516868.0=0.9547
+2023-01-27 21:47:20 - main1.py[line:361] - INFO: Epoch: 10 training finished. Time: 61.19s, speed: 44.93st/s,  total loss: tensor(42026.8398, device='cuda:0')
+2023-01-27 21:47:24 - metric.py[line:62] - INFO: gold_num = 2576 pred_num = 2591 right_num = 2143
+2023-01-27 21:47:24 - main1.py[line:370] - INFO: Dev: time: 3.40s, speed: 97.26st/s; acc: 0.9605, p: 0.8271, r: 0.8319, f: 0.8295
+2023-01-27 21:47:24 - main1.py[line:379] - INFO: Exceed previous best f score: 0
+2023-01-27 21:47:28 - metric.py[line:62] - INFO: gold_num = 2681 pred_num = 2725 right_num = 2253
+2023-01-27 21:47:28 - main1.py[line:396] - INFO: Test: time: 4.17s, speed: 96.56st/s; acc: 0.9672, p: 0.8268, r: 0.8404, f: 0.8335
+2023-01-27 21:47:28 - main1.py[line:408] - INFO: Best dev score: p:0.8270937861829409, r:0.8319099378881988, f:0.8294948712986259
+2023-01-27 21:47:28 - main1.py[line:409] - INFO: Test score: p:0.826788990825688, r:0.8403580753450205, f:0.8335183129855716
+2023-01-27 21:47:39 - main1.py[line:296] - INFO: Epoch: 11/100
+2023-01-27 21:47:39 - main1.py[line:121] - INFO:  Learning rate is setted as: 0.0028440004613822984
+2023-01-27 21:47:50 - main1.py[line:344] - INFO:      Instance: 500; Time: 11.04s; loss: 6887.3970; acc: 88993.0/92655.0=0.9605
+2023-01-27 21:48:01 - main1.py[line:344] - INFO:      Instance: 1000; Time: 11.21s; loss: 7119.3838; acc: 178262.0/185750.0=0.9597
+2023-01-27 21:48:13 - main1.py[line:344] - INFO:      Instance: 1500; Time: 11.18s; loss: 6883.7402; acc: 270104.0/281242.0=0.9604
+2023-01-27 21:48:24 - main1.py[line:344] - INFO:      Instance: 2000; Time: 11.19s; loss: 7201.9414; acc: 360017.0/375167.0=0.9596
+2023-01-27 21:48:35 - main1.py[line:344] - INFO:      Instance: 2500; Time: 11.16s; loss: 7071.6641; acc: 450640.0/469807.0=0.9592
+2023-01-27 21:48:41 - main1.py[line:356] - INFO:      Instance: 2749; Time: 5.84s; loss: 3335.7183; acc: 495859.0/516868.0=0.9594
+2023-01-27 21:48:41 - main1.py[line:361] - INFO: Epoch: 11 training finished. Time: 61.62s, speed: 44.61st/s,  total loss: tensor(38499.8398, device='cuda:0')
+2023-01-27 21:48:44 - metric.py[line:62] - INFO: gold_num = 2576 pred_num = 2623 right_num = 2144
+2023-01-27 21:48:44 - main1.py[line:370] - INFO: Dev: time: 3.39s, speed: 97.56st/s; acc: 0.9576, p: 0.8174, r: 0.8323, f: 0.8248
+2023-01-27 21:48:48 - metric.py[line:62] - INFO: gold_num = 2681 pred_num = 2749 right_num = 2256
+2023-01-27 21:48:48 - main1.py[line:396] - INFO: Test: time: 3.51s, speed: 97.88st/s; acc: 0.9651, p: 0.8207, r: 0.8415, f: 0.8309
+2023-01-27 21:48:48 - main1.py[line:408] - INFO: Best dev score: p:0.8270937861829409, r:0.8319099378881988, f:0.8294948712986259
+2023-01-27 21:48:48 - main1.py[line:409] - INFO: Test score: p:0.826788990825688, r:0.8403580753450205, f:0.8335183129855716
+2023-01-27 21:48:59 - main1.py[line:296] - INFO: Epoch: 12/100
+2023-01-27 21:48:59 - main1.py[line:121] - INFO:  Learning rate is setted as: 0.0027018004383131834
+2023-01-27 21:49:10 - main1.py[line:344] - INFO:      Instance: 500; Time: 11.06s; loss: 6559.1387; acc: 88969.0/92594.0=0.9609
+2023-01-27 21:49:21 - main1.py[line:344] - INFO:      Instance: 1000; Time: 11.14s; loss: 6654.9873; acc: 178842.0/186064.0=0.9612
+2023-01-27 21:49:33 - main1.py[line:344] - INFO:      Instance: 1500; Time: 11.19s; loss: 6887.5200; acc: 269797.0/280823.0=0.9607
+2023-01-27 21:49:44 - main1.py[line:344] - INFO:      Instance: 2000; Time: 10.95s; loss: 6818.8442; acc: 361393.0/376243.0=0.9605
+2023-01-27 21:49:54 - main1.py[line:344] - INFO:      Instance: 2500; Time: 10.92s; loss: 6154.5806; acc: 451750.0/470028.0=0.9611
+2023-01-27 21:50:00 - main1.py[line:356] - INFO:      Instance: 2749; Time: 5.73s; loss: 3309.2974; acc: 496667.0/516868.0=0.9609
+2023-01-27 21:50:00 - main1.py[line:361] - INFO: Epoch: 12 training finished. Time: 60.98s, speed: 45.08st/s,  total loss: tensor(36384.3750, device='cuda:0')
+2023-01-27 21:50:04 - metric.py[line:62] - INFO: gold_num = 2576 pred_num = 2619 right_num = 2155
+2023-01-27 21:50:04 - main1.py[line:370] - INFO: Dev: time: 3.37s, speed: 98.13st/s; acc: 0.9590, p: 0.8228, r: 0.8366, f: 0.8296
+2023-01-27 21:50:04 - main1.py[line:379] - INFO: Exceed previous best f score: 0
+2023-01-27 21:50:08 - metric.py[line:62] - INFO: gold_num = 2681 pred_num = 2742 right_num = 2277
+2023-01-27 21:50:08 - main1.py[line:396] - INFO: Test: time: 4.16s, speed: 96.48st/s; acc: 0.9674, p: 0.8304, r: 0.8493, f: 0.8398
+2023-01-27 21:50:08 - main1.py[line:408] - INFO: Best dev score: p:0.8228331424207713, r:0.8365683229813664, f:0.8296438883541868
+2023-01-27 21:50:08 - main1.py[line:409] - INFO: Test score: p:0.8304157549234136, r:0.8493099589705334, f:0.8397565922920893
+2023-01-27 21:50:19 - main1.py[line:296] - INFO: Epoch: 13/100
+2023-01-27 21:50:19 - main1.py[line:121] - INFO:  Learning rate is setted as: 0.002566710416397524
+2023-01-27 21:50:30 - main1.py[line:344] - INFO:      Instance: 500; Time: 10.84s; loss: 5750.6133; acc: 87480.0/90741.0=0.9641
+2023-01-27 21:50:41 - main1.py[line:344] - INFO:      Instance: 1000; Time: 11.15s; loss: 6096.2837; acc: 177684.0/184399.0=0.9636
+2023-01-27 21:50:52 - main1.py[line:344] - INFO:      Instance: 1500; Time: 11.21s; loss: 6289.5869; acc: 270270.0/280683.0=0.9629
+2023-01-27 21:51:03 - main1.py[line:344] - INFO:      Instance: 2000; Time: 11.06s; loss: 6279.2080; acc: 362259.0/376271.0=0.9628
+2023-01-27 21:51:15 - main1.py[line:344] - INFO:      Instance: 2500; Time: 11.14s; loss: 6191.8037; acc: 450439.0/468121.0=0.9622
+2023-01-27 21:51:20 - main1.py[line:356] - INFO:      Instance: 2749; Time: 5.85s; loss: 3232.1150; acc: 497285.0/516868.0=0.9621
+2023-01-27 21:51:20 - main1.py[line:361] - INFO: Epoch: 13 training finished. Time: 61.25s, speed: 44.88st/s,  total loss: tensor(33839.6016, device='cuda:0')
+2023-01-27 21:51:24 - metric.py[line:62] - INFO: gold_num = 2576 pred_num = 2592 right_num = 2143
+2023-01-27 21:51:24 - main1.py[line:370] - INFO: Dev: time: 3.36s, speed: 98.47st/s; acc: 0.9598, p: 0.8268, r: 0.8319, f: 0.8293
+2023-01-27 21:51:27 - metric.py[line:62] - INFO: gold_num = 2681 pred_num = 2731 right_num = 2260
+2023-01-27 21:51:27 - main1.py[line:396] - INFO: Test: time: 3.52s, speed: 97.84st/s; acc: 0.9671, p: 0.8275, r: 0.8430, f: 0.8352
+2023-01-27 21:51:27 - main1.py[line:408] - INFO: Best dev score: p:0.8228331424207713, r:0.8365683229813664, f:0.8296438883541868
+2023-01-27 21:51:27 - main1.py[line:409] - INFO: Test score: p:0.8304157549234136, r:0.8493099589705334, f:0.8397565922920893
+2023-01-27 21:51:39 - main1.py[line:296] - INFO: Epoch: 14/100
+2023-01-27 21:51:39 - main1.py[line:121] - INFO:  Learning rate is setted as: 0.0024383748955776477
+2023-01-27 21:51:50 - main1.py[line:344] - INFO:      Instance: 500; Time: 11.00s; loss: 6088.4141; acc: 90682.0/94447.0=0.9601
+2023-01-27 21:52:01 - main1.py[line:344] - INFO:      Instance: 1000; Time: 11.12s; loss: 5786.9253; acc: 180069.0/187281.0=0.9615
+2023-01-27 21:52:12 - main1.py[line:344] - INFO:      Instance: 1500; Time: 11.11s; loss: 5890.6245; acc: 269174.0/279966.0=0.9615
+2023-01-27 21:52:23 - main1.py[line:344] - INFO:      Instance: 2000; Time: 11.17s; loss: 5687.1484; acc: 359697.0/374090.0=0.9615
+2023-01-27 21:52:34 - main1.py[line:344] - INFO:      Instance: 2500; Time: 11.23s; loss: 6072.2285; acc: 451284.0/469219.0=0.9618
+2023-01-27 21:52:40 - main1.py[line:356] - INFO:      Instance: 2749; Time: 5.70s; loss: 2950.4070; acc: 497148.0/516868.0=0.9618
+2023-01-27 21:52:40 - main1.py[line:361] - INFO: Epoch: 14 training finished. Time: 61.34s, speed: 44.82st/s,  total loss: tensor(32475.7480, device='cuda:0')
+2023-01-27 21:52:44 - metric.py[line:62] - INFO: gold_num = 2576 pred_num = 2598 right_num = 2158
+2023-01-27 21:52:44 - main1.py[line:370] - INFO: Dev: time: 3.42s, speed: 96.85st/s; acc: 0.9610, p: 0.8306, r: 0.8377, f: 0.8342
+2023-01-27 21:52:44 - main1.py[line:379] - INFO: Exceed previous best f score: 0
+2023-01-27 21:52:48 - metric.py[line:62] - INFO: gold_num = 2681 pred_num = 2736 right_num = 2299
+2023-01-27 21:52:48 - main1.py[line:396] - INFO: Test: time: 4.11s, speed: 97.72st/s; acc: 0.9688, p: 0.8403, r: 0.8575, f: 0.8488
+2023-01-27 21:52:48 - main1.py[line:408] - INFO: Best dev score: p:0.8306389530408006, r:0.8377329192546584, f:0.8341708542713567
+2023-01-27 21:52:48 - main1.py[line:409] - INFO: Test score: p:0.8402777777777778, r:0.8575158522939201, f:0.8488093040428282
+2023-01-27 21:52:59 - main1.py[line:296] - INFO: Epoch: 15/100
+2023-01-27 21:52:59 - main1.py[line:121] - INFO:  Learning rate is setted as: 0.002316456150798765
+2023-01-27 21:53:10 - main1.py[line:344] - INFO:      Instance: 500; Time: 11.00s; loss: 5139.7715; acc: 90608.0/93777.0=0.9662
+2023-01-27 21:53:21 - main1.py[line:344] - INFO:      Instance: 1000; Time: 11.06s; loss: 4893.6167; acc: 178597.0/184627.0=0.9673
+2023-01-27 21:53:32 - main1.py[line:344] - INFO:      Instance: 1500; Time: 11.21s; loss: 5929.5767; acc: 270014.0/279903.0=0.9647
+2023-01-27 21:53:44 - main1.py[line:344] - INFO:      Instance: 2000; Time: 11.26s; loss: 5960.2549; acc: 361397.0/374812.0=0.9642
+2023-01-27 21:53:55 - main1.py[line:344] - INFO:      Instance: 2500; Time: 11.06s; loss: 5300.7329; acc: 451235.0/467748.0=0.9647
+2023-01-27 21:54:00 - main1.py[line:356] - INFO:      Instance: 2749; Time: 5.76s; loss: 3076.0015; acc: 498475.0/516868.0=0.9644
+2023-01-27 21:54:00 - main1.py[line:361] - INFO: Epoch: 15 training finished. Time: 61.35s, speed: 44.81st/s,  total loss: tensor(30299.9531, device='cuda:0')
+2023-01-27 21:54:04 - metric.py[line:62] - INFO: gold_num = 2576 pred_num = 2581 right_num = 2173
+2023-01-27 21:54:04 - main1.py[line:370] - INFO: Dev: time: 3.40s, speed: 97.15st/s; acc: 0.9634, p: 0.8419, r: 0.8436, f: 0.8427
+2023-01-27 21:54:04 - main1.py[line:379] - INFO: Exceed previous best f score: 0
+2023-01-27 21:54:08 - metric.py[line:62] - INFO: gold_num = 2681 pred_num = 2712 right_num = 2303
+2023-01-27 21:54:08 - main1.py[line:396] - INFO: Test: time: 4.15s, speed: 96.86st/s; acc: 0.9692, p: 0.8492, r: 0.8590, f: 0.8541
+2023-01-27 21:54:08 - main1.py[line:408] - INFO: Best dev score: p:0.8419217357613328, r:0.843555900621118, f:0.8427380259840991
+2023-01-27 21:54:08 - main1.py[line:409] - INFO: Test score: p:0.849188790560472, r:0.8590078328981723, f:0.8540700908585204
+2023-01-27 21:54:19 - main1.py[line:296] - INFO: Epoch: 16/100
+2023-01-27 21:54:19 - main1.py[line:121] - INFO:  Learning rate is setted as: 0.0022006333432588268
+2023-01-27 21:54:30 - main1.py[line:344] - INFO:      Instance: 500; Time: 10.73s; loss: 5502.3472; acc: 91900.0/95368.0=0.9636
+2023-01-27 21:54:41 - main1.py[line:344] - INFO:      Instance: 1000; Time: 11.13s; loss: 5308.3872; acc: 182419.0/189155.0=0.9644
+2023-01-27 21:54:52 - main1.py[line:344] - INFO:      Instance: 1500; Time: 11.15s; loss: 5129.8223; acc: 273367.0/283511.0=0.9642
+2023-01-27 21:55:04 - main1.py[line:344] - INFO:      Instance: 2000; Time: 11.14s; loss: 5287.9492; acc: 363083.0/376576.0=0.9642
+2023-01-27 21:55:15 - main1.py[line:344] - INFO:      Instance: 2500; Time: 11.12s; loss: 4840.4663; acc: 454280.0/470788.0=0.9649
+2023-01-27 21:55:21 - main1.py[line:356] - INFO:      Instance: 2749; Time: 5.82s; loss: 2678.9397; acc: 498770.0/516868.0=0.9650
+2023-01-27 21:55:21 - main1.py[line:361] - INFO: Epoch: 16 training finished. Time: 61.09s, speed: 45.00st/s,  total loss: tensor(28747.9121, device='cuda:0')
+2023-01-27 21:55:24 - metric.py[line:62] - INFO: gold_num = 2576 pred_num = 2630 right_num = 2171
+2023-01-27 21:55:24 - main1.py[line:370] - INFO: Dev: time: 3.34s, speed: 99.04st/s; acc: 0.9598, p: 0.8255, r: 0.8428, f: 0.8340
+2023-01-27 21:55:27 - metric.py[line:62] - INFO: gold_num = 2681 pred_num = 2760 right_num = 2292
+2023-01-27 21:55:27 - main1.py[line:396] - INFO: Test: time: 3.53s, speed: 97.52st/s; acc: 0.9670, p: 0.8304, r: 0.8549, f: 0.8425
+2023-01-27 21:55:27 - main1.py[line:408] - INFO: Best dev score: p:0.8419217357613328, r:0.843555900621118, f:0.8427380259840991
+2023-01-27 21:55:27 - main1.py[line:409] - INFO: Test score: p:0.849188790560472, r:0.8590078328981723, f:0.8540700908585204
+2023-01-27 21:55:39 - main1.py[line:296] - INFO: Epoch: 17/100
+2023-01-27 21:55:39 - main1.py[line:121] - INFO:  Learning rate is setted as: 0.0020906016760958855
+2023-01-27 21:55:50 - main1.py[line:344] - INFO:      Instance: 500; Time: 11.12s; loss: 5129.2549; acc: 92656.0/95762.0=0.9676
+2023-01-27 21:56:01 - main1.py[line:344] - INFO:      Instance: 1000; Time: 11.16s; loss: 4882.1675; acc: 181127.0/187511.0=0.9660
+2023-01-27 21:56:12 - main1.py[line:344] - INFO:      Instance: 1500; Time: 11.21s; loss: 4942.0513; acc: 272622.0/282355.0=0.9655
+2023-01-27 21:56:23 - main1.py[line:344] - INFO:      Instance: 2000; Time: 11.12s; loss: 5335.4902; acc: 364281.0/377330.0=0.9654
+2023-01-27 21:56:35 - main1.py[line:344] - INFO:      Instance: 2500; Time: 11.09s; loss: 4664.2173; acc: 454970.0/471015.0=0.9659
+2023-01-27 21:56:40 - main1.py[line:356] - INFO:      Instance: 2749; Time: 5.78s; loss: 2359.2988; acc: 499291.0/516868.0=0.9660
+2023-01-27 21:56:40 - main1.py[line:361] - INFO: Epoch: 17 training finished. Time: 61.47s, speed: 44.72st/s,  total loss: tensor(27312.4766, device='cuda:0')
+2023-01-27 21:56:44 - metric.py[line:62] - INFO: gold_num = 2576 pred_num = 2611 right_num = 2168
+2023-01-27 21:56:44 - main1.py[line:370] - INFO: Dev: time: 3.41s, speed: 96.91st/s; acc: 0.9588, p: 0.8303, r: 0.8416, f: 0.8359
+2023-01-27 21:56:47 - metric.py[line:62] - INFO: gold_num = 2681 pred_num = 2750 right_num = 2302
+2023-01-27 21:56:47 - main1.py[line:396] - INFO: Test: time: 3.53s, speed: 97.33st/s; acc: 0.9679, p: 0.8371, r: 0.8586, f: 0.8477
+2023-01-27 21:56:47 - main1.py[line:408] - INFO: Best dev score: p:0.8419217357613328, r:0.843555900621118, f:0.8427380259840991
+2023-01-27 21:56:47 - main1.py[line:409] - INFO: Test score: p:0.849188790560472, r:0.8590078328981723, f:0.8540700908585204
+2023-01-27 21:56:59 - main1.py[line:296] - INFO: Epoch: 18/100
+2023-01-27 21:56:59 - main1.py[line:121] - INFO:  Learning rate is setted as: 0.001986071592291091
+2023-01-27 21:57:10 - main1.py[line:344] - INFO:      Instance: 500; Time: 10.98s; loss: 5176.3457; acc: 95032.0/98345.0=0.9663
+2023-01-27 21:57:21 - main1.py[line:344] - INFO:      Instance: 1000; Time: 11.21s; loss: 4482.2524; acc: 185026.0/191343.0=0.9670
+2023-01-27 21:57:32 - main1.py[line:344] - INFO:      Instance: 1500; Time: 11.10s; loss: 5082.3691; acc: 273844.0/283599.0=0.9656
+2023-01-27 21:57:43 - main1.py[line:344] - INFO:      Instance: 2000; Time: 11.23s; loss: 4812.6353; acc: 366016.0/378918.0=0.9660
+2023-01-27 21:57:54 - main1.py[line:344] - INFO:      Instance: 2500; Time: 11.22s; loss: 4502.5693; acc: 455948.0/471987.0=0.9660
+2023-01-27 21:58:00 - main1.py[line:356] - INFO:      Instance: 2749; Time: 5.75s; loss: 2148.6919; acc: 499514.0/516868.0=0.9664
+2023-01-27 21:58:00 - main1.py[line:361] - INFO: Epoch: 18 training finished. Time: 61.50s, speed: 44.70st/s,  total loss: tensor(26204.8672, device='cuda:0')
+2023-01-27 21:58:03 - metric.py[line:62] - INFO: gold_num = 2576 pred_num = 2594 right_num = 2163
+2023-01-27 21:58:03 - main1.py[line:370] - INFO: Dev: time: 3.36s, speed: 98.52st/s; acc: 0.9597, p: 0.8338, r: 0.8397, f: 0.8368
+2023-01-27 21:58:07 - metric.py[line:62] - INFO: gold_num = 2681 pred_num = 2729 right_num = 2312
+2023-01-27 21:58:07 - main1.py[line:396] - INFO: Test: time: 3.53s, speed: 97.51st/s; acc: 0.9695, p: 0.8472, r: 0.8624, f: 0.8547
+2023-01-27 21:58:07 - main1.py[line:408] - INFO: Best dev score: p:0.8419217357613328, r:0.843555900621118, f:0.8427380259840991
+2023-01-27 21:58:07 - main1.py[line:409] - INFO: Test score: p:0.849188790560472, r:0.8590078328981723, f:0.8540700908585204
+2023-01-27 21:58:18 - main1.py[line:296] - INFO: Epoch: 19/100
+2023-01-27 21:58:18 - main1.py[line:121] - INFO:  Learning rate is setted as: 0.0018867680126765363
+2023-01-27 21:58:30 - main1.py[line:344] - INFO:      Instance: 500; Time: 11.09s; loss: 4741.8247; acc: 91424.0/94627.0=0.9662
+2023-01-27 21:58:41 - main1.py[line:344] - INFO:      Instance: 1000; Time: 11.16s; loss: 4812.8628; acc: 183083.0/189412.0=0.9666
+2023-01-27 21:58:52 - main1.py[line:344] - INFO:      Instance: 1500; Time: 11.13s; loss: 4164.8154; acc: 271968.0/280983.0=0.9679
+2023-01-27 21:59:03 - main1.py[line:344] - INFO:      Instance: 2000; Time: 11.14s; loss: 4472.9209; acc: 359679.0/371745.0=0.9675
+2023-01-27 21:59:14 - main1.py[line:344] - INFO:      Instance: 2500; Time: 11.23s; loss: 4784.6680; acc: 452320.0/467604.0=0.9673
+2023-01-27 21:59:20 - main1.py[line:356] - INFO:      Instance: 2749; Time: 5.77s; loss: 2336.9717; acc: 499978.0/516868.0=0.9673
+2023-01-27 21:59:20 - main1.py[line:361] - INFO: Epoch: 19 training finished. Time: 61.54s, speed: 44.67st/s,  total loss: tensor(25314.0586, device='cuda:0')
+2023-01-27 21:59:23 - metric.py[line:62] - INFO: gold_num = 2576 pred_num = 2599 right_num = 2156
+2023-01-27 21:59:23 - main1.py[line:370] - INFO: Dev: time: 3.37s, speed: 98.18st/s; acc: 0.9572, p: 0.8295, r: 0.8370, f: 0.8332
+2023-01-27 21:59:27 - metric.py[line:62] - INFO: gold_num = 2681 pred_num = 2722 right_num = 2285
+2023-01-27 21:59:27 - main1.py[line:396] - INFO: Test: time: 3.54s, speed: 97.06st/s; acc: 0.9673, p: 0.8395, r: 0.8523, f: 0.8458
+2023-01-27 21:59:27 - main1.py[line:408] - INFO: Best dev score: p:0.8419217357613328, r:0.843555900621118, f:0.8427380259840991
+2023-01-27 21:59:27 - main1.py[line:409] - INFO: Test score: p:0.849188790560472, r:0.8590078328981723, f:0.8540700908585204
+2023-01-27 21:59:38 - main1.py[line:296] - INFO: Epoch: 20/100
+2023-01-27 21:59:38 - main1.py[line:121] - INFO:  Learning rate is setted as: 0.0017924296120427094
+2023-01-27 21:59:49 - main1.py[line:344] - INFO:      Instance: 500; Time: 11.06s; loss: 4203.7051; acc: 93333.0/96070.0=0.9715
+2023-01-27 22:00:01 - main1.py[line:344] - INFO:      Instance: 1000; Time: 11.22s; loss: 4687.2285; acc: 182758.0/188629.0=0.9689
+2023-01-27 22:00:12 - main1.py[line:344] - INFO:      Instance: 1500; Time: 11.17s; loss: 4437.3105; acc: 273157.0/282037.0=0.9685
+2023-01-27 22:00:23 - main1.py[line:344] - INFO:      Instance: 2000; Time: 11.25s; loss: 4056.3118; acc: 362565.0/374169.0=0.9690
+2023-01-27 22:00:34 - main1.py[line:344] - INFO:      Instance: 2500; Time: 11.11s; loss: 4268.1846; acc: 454213.0/468720.0=0.9690
+2023-01-27 22:00:40 - main1.py[line:356] - INFO:      Instance: 2749; Time: 5.65s; loss: 2523.6914; acc: 500563.0/516868.0=0.9685
+2023-01-27 22:00:40 - main1.py[line:361] - INFO: Epoch: 20 training finished. Time: 61.45s, speed: 44.73st/s,  total loss: tensor(24176.4297, device='cuda:0')
+2023-01-27 22:00:43 - metric.py[line:62] - INFO: gold_num = 2576 pred_num = 2573 right_num = 2177
+2023-01-27 22:00:43 - main1.py[line:370] - INFO: Dev: time: 3.45s, speed: 95.95st/s; acc: 0.9626, p: 0.8461, r: 0.8451, f: 0.8456
+2023-01-27 22:00:43 - main1.py[line:379] - INFO: Exceed previous best f score: 0
+2023-01-27 22:00:47 - metric.py[line:62] - INFO: gold_num = 2681 pred_num = 2704 right_num = 2299
+2023-01-27 22:00:47 - main1.py[line:396] - INFO: Test: time: 4.14s, speed: 96.60st/s; acc: 0.9705, p: 0.8502, r: 0.8575, f: 0.8539
+2023-01-27 22:00:47 - main1.py[line:408] - INFO: Best dev score: p:0.8460940536338905, r:0.845108695652174, f:0.8456010875898233
+2023-01-27 22:00:47 - main1.py[line:409] - INFO: Test score: p:0.8502218934911243, r:0.8575158522939201, f:0.853853296193129
+2023-01-27 22:00:59 - main1.py[line:296] - INFO: Epoch: 21/100
+2023-01-27 22:00:59 - main1.py[line:121] - INFO:  Learning rate is setted as: 0.001702808131440574
+2023-01-27 22:01:10 - main1.py[line:344] - INFO:      Instance: 500; Time: 10.99s; loss: 4171.4785; acc: 91510.0/94322.0=0.9702
+2023-01-27 22:01:21 - main1.py[line:344] - INFO:      Instance: 1000; Time: 11.10s; loss: 4564.4438; acc: 180624.0/186459.0=0.9687
+2023-01-27 22:01:32 - main1.py[line:344] - INFO:      Instance: 1500; Time: 11.15s; loss: 4206.7065; acc: 272676.0/281420.0=0.9689
+2023-01-27 22:01:43 - main1.py[line:344] - INFO:      Instance: 2000; Time: 11.12s; loss: 4144.4028; acc: 363512.0/375225.0=0.9688
+2023-01-27 22:01:54 - main1.py[line:344] - INFO:      Instance: 2500; Time: 11.12s; loss: 4097.2002; acc: 454603.0/469205.0=0.9689
+2023-01-27 22:02:00 - main1.py[line:356] - INFO:      Instance: 2749; Time: 5.80s; loss: 2030.4816; acc: 500758.0/516868.0=0.9688
+2023-01-27 22:02:00 - main1.py[line:361] - INFO: Epoch: 21 training finished. Time: 61.29s, speed: 44.85st/s,  total loss: tensor(23214.7051, device='cuda:0')
+2023-01-27 22:02:04 - metric.py[line:62] - INFO: gold_num = 2576 pred_num = 2644 right_num = 2196
+2023-01-27 22:02:04 - main1.py[line:370] - INFO: Dev: time: 3.38s, speed: 97.96st/s; acc: 0.9614, p: 0.8306, r: 0.8525, f: 0.8414
+2023-01-27 22:02:07 - metric.py[line:62] - INFO: gold_num = 2681 pred_num = 2779 right_num = 2325
+2023-01-27 22:02:07 - main1.py[line:396] - INFO: Test: time: 3.53s, speed: 97.56st/s; acc: 0.9694, p: 0.8366, r: 0.8672, f: 0.8516
+2023-01-27 22:02:07 - main1.py[line:408] - INFO: Best dev score: p:0.8460940536338905, r:0.845108695652174, f:0.8456010875898233
+2023-01-27 22:02:07 - main1.py[line:409] - INFO: Test score: p:0.8502218934911243, r:0.8575158522939201, f:0.853853296193129
+2023-01-27 22:02:18 - main1.py[line:296] - INFO: Epoch: 22/100
+2023-01-27 22:02:18 - main1.py[line:121] - INFO:  Learning rate is setted as: 0.0016176677248685451
+2023-01-27 22:02:29 - main1.py[line:344] - INFO:      Instance: 500; Time: 11.01s; loss: 3982.0566; acc: 90933.0/93665.0=0.9708
+2023-01-27 22:02:41 - main1.py[line:344] - INFO:      Instance: 1000; Time: 11.11s; loss: 4407.7744; acc: 180879.0/186563.0=0.9695
+2023-01-27 22:02:52 - main1.py[line:344] - INFO:      Instance: 1500; Time: 11.17s; loss: 3939.1265; acc: 270490.0/278935.0=0.9697
+2023-01-27 22:03:03 - main1.py[line:344] - INFO:      Instance: 2000; Time: 10.82s; loss: 3872.1421; acc: 364200.0/375205.0=0.9707
+2023-01-27 22:03:14 - main1.py[line:344] - INFO:      Instance: 2500; Time: 11.14s; loss: 4006.7336; acc: 454809.0/468708.0=0.9703
+2023-01-27 22:03:19 - main1.py[line:356] - INFO:      Instance: 2749; Time: 5.79s; loss: 2029.4819; acc: 501626.0/516868.0=0.9705
+2023-01-27 22:03:20 - main1.py[line:361] - INFO: Epoch: 22 training finished. Time: 61.04s, speed: 45.03st/s,  total loss: tensor(22237.3203, device='cuda:0')
+2023-01-27 22:03:23 - metric.py[line:62] - INFO: gold_num = 2576 pred_num = 2574 right_num = 2185
+2023-01-27 22:03:23 - main1.py[line:370] - INFO: Dev: time: 3.37s, speed: 98.11st/s; acc: 0.9639, p: 0.8489, r: 0.8482, f: 0.8485
+2023-01-27 22:03:23 - main1.py[line:379] - INFO: Exceed previous best f score: 0
+2023-01-27 22:03:27 - metric.py[line:62] - INFO: gold_num = 2681 pred_num = 2708 right_num = 2319
+2023-01-27 22:03:27 - main1.py[line:396] - INFO: Test: time: 4.11s, speed: 97.59st/s; acc: 0.9712, p: 0.8564, r: 0.8650, f: 0.8606
+2023-01-27 22:03:27 - main1.py[line:408] - INFO: Best dev score: p:0.8488733488733489, r:0.8482142857142857, f:0.8485436893203883
+2023-01-27 22:03:27 - main1.py[line:409] - INFO: Test score: p:0.8563515509601182, r:0.8649757553151809, f:0.8606420486175542
+2023-01-27 22:03:38 - main1.py[line:296] - INFO: Epoch: 23/100
+2023-01-27 22:03:38 - main1.py[line:121] - INFO:  Learning rate is setted as: 0.001536784338625118
+2023-01-27 22:03:49 - main1.py[line:344] - INFO:      Instance: 500; Time: 11.10s; loss: 3740.2297; acc: 92828.0/95498.0=0.9720
+2023-01-27 22:04:01 - main1.py[line:344] - INFO:      Instance: 1000; Time: 11.10s; loss: 3908.6711; acc: 185011.0/190301.0=0.9722
+2023-01-27 22:04:12 - main1.py[line:344] - INFO:      Instance: 1500; Time: 11.21s; loss: 3540.4338; acc: 269752.0/277523.0=0.9720
+2023-01-27 22:04:23 - main1.py[line:344] - INFO:      Instance: 2000; Time: 11.24s; loss: 3881.2852; acc: 361797.0/372360.0=0.9716
+2023-01-27 22:04:34 - main1.py[line:344] - INFO:      Instance: 2500; Time: 11.20s; loss: 4238.5283; acc: 454761.0/468270.0=0.9712
+2023-01-27 22:04:40 - main1.py[line:356] - INFO:      Instance: 2749; Time: 5.76s; loss: 1960.0846; acc: 501831.0/516868.0=0.9709
+2023-01-27 22:04:40 - main1.py[line:361] - INFO: Epoch: 23 training finished. Time: 61.60s, speed: 44.62st/s,  total loss: tensor(21269.2402, device='cuda:0')
+2023-01-27 22:04:43 - metric.py[line:62] - INFO: gold_num = 2576 pred_num = 2595 right_num = 2179
+2023-01-27 22:04:43 - main1.py[line:370] - INFO: Dev: time: 3.38s, speed: 97.75st/s; acc: 0.9598, p: 0.8397, r: 0.8459, f: 0.8428
+2023-01-27 22:04:47 - metric.py[line:62] - INFO: gold_num = 2681 pred_num = 2711 right_num = 2298
+2023-01-27 22:04:47 - main1.py[line:396] - INFO: Test: time: 3.53s, speed: 97.30st/s; acc: 0.9685, p: 0.8477, r: 0.8571, f: 0.8524
+2023-01-27 22:04:47 - main1.py[line:408] - INFO: Best dev score: p:0.8488733488733489, r:0.8482142857142857, f:0.8485436893203883
+2023-01-27 22:04:47 - main1.py[line:409] - INFO: Test score: p:0.8563515509601182, r:0.8649757553151809, f:0.8606420486175542
+2023-01-27 22:04:58 - main1.py[line:296] - INFO: Epoch: 24/100
+2023-01-27 22:04:58 - main1.py[line:121] - INFO:  Learning rate is setted as: 0.001459945121693862
+2023-01-27 22:05:09 - main1.py[line:344] - INFO:      Instance: 500; Time: 10.96s; loss: 4051.8809; acc: 94068.0/96844.0=0.9713
+2023-01-27 22:05:21 - main1.py[line:344] - INFO:      Instance: 1000; Time: 11.18s; loss: 3925.0955; acc: 187717.0/193242.0=0.9714
+2023-01-27 22:05:32 - main1.py[line:344] - INFO:      Instance: 1500; Time: 11.05s; loss: 3432.7122; acc: 277330.0/285394.0=0.9717
+2023-01-27 22:05:43 - main1.py[line:344] - INFO:      Instance: 2000; Time: 11.09s; loss: 3569.5437; acc: 367585.0/378166.0=0.9720
+2023-01-27 22:05:53 - main1.py[line:344] - INFO:      Instance: 2500; Time: 10.76s; loss: 3533.4058; acc: 455155.0/468471.0=0.9716
+2023-01-27 22:05:59 - main1.py[line:356] - INFO:      Instance: 2749; Time: 5.71s; loss: 2047.8214; acc: 501982.0/516868.0=0.9712
+2023-01-27 22:05:59 - main1.py[line:361] - INFO: Epoch: 24 training finished. Time: 60.75s, speed: 45.25st/s,  total loss: tensor(20560.4570, device='cuda:0')
+2023-01-27 22:06:03 - metric.py[line:62] - INFO: gold_num = 2576 pred_num = 2630 right_num = 2199
+2023-01-27 22:06:03 - main1.py[line:370] - INFO: Dev: time: 3.37s, speed: 98.23st/s; acc: 0.9625, p: 0.8361, r: 0.8536, f: 0.8448
+2023-01-27 22:06:06 - metric.py[line:62] - INFO: gold_num = 2681 pred_num = 2765 right_num = 2335
+2023-01-27 22:06:06 - main1.py[line:396] - INFO: Test: time: 3.51s, speed: 97.94st/s; acc: 0.9703, p: 0.8445, r: 0.8709, f: 0.8575
+2023-01-27 22:06:06 - main1.py[line:408] - INFO: Best dev score: p:0.8488733488733489, r:0.8482142857142857, f:0.8485436893203883
+2023-01-27 22:06:06 - main1.py[line:409] - INFO: Test score: p:0.8563515509601182, r:0.8649757553151809, f:0.8606420486175542
+2023-01-27 22:06:18 - main1.py[line:296] - INFO: Epoch: 25/100
+2023-01-27 22:06:18 - main1.py[line:121] - INFO:  Learning rate is setted as: 0.001386947865609169
+2023-01-27 22:06:29 - main1.py[line:344] - INFO:      Instance: 500; Time: 11.12s; loss: 3311.7349; acc: 90905.0/93392.0=0.9734
+2023-01-27 22:06:40 - main1.py[line:344] - INFO:      Instance: 1000; Time: 11.14s; loss: 3682.6169; acc: 182735.0/187820.0=0.9729
+2023-01-27 22:06:51 - main1.py[line:344] - INFO:      Instance: 1500; Time: 11.14s; loss: 3622.3445; acc: 271286.0/278796.0=0.9731
+2023-01-27 22:07:02 - main1.py[line:344] - INFO:      Instance: 2000; Time: 11.20s; loss: 3469.7383; acc: 362069.0/372174.0=0.9728
+2023-01-27 22:07:13 - main1.py[line:344] - INFO:      Instance: 2500; Time: 11.26s; loss: 3794.3049; acc: 456206.0/469285.0=0.9721
+2023-01-27 22:07:19 - main1.py[line:356] - INFO:      Instance: 2749; Time: 5.55s; loss: 1807.0679; acc: 502397.0/516868.0=0.9720
+2023-01-27 22:07:19 - main1.py[line:361] - INFO: Epoch: 25 training finished. Time: 61.40s, speed: 44.78st/s,  total loss: tensor(19687.8105, device='cuda:0')
+2023-01-27 22:07:22 - metric.py[line:62] - INFO: gold_num = 2576 pred_num = 2607 right_num = 2187
+2023-01-27 22:07:22 - main1.py[line:370] - INFO: Dev: time: 3.37s, speed: 98.14st/s; acc: 0.9614, p: 0.8389, r: 0.8490, f: 0.8439
+2023-01-27 22:07:26 - metric.py[line:62] - INFO: gold_num = 2681 pred_num = 2756 right_num = 2331
+2023-01-27 22:07:26 - main1.py[line:396] - INFO: Test: time: 3.53s, speed: 97.45st/s; acc: 0.9701, p: 0.8458, r: 0.8695, f: 0.8575
+2023-01-27 22:07:26 - main1.py[line:408] - INFO: Best dev score: p:0.8488733488733489, r:0.8482142857142857, f:0.8485436893203883
+2023-01-27 22:07:26 - main1.py[line:409] - INFO: Test score: p:0.8563515509601182, r:0.8649757553151809, f:0.8606420486175542
+2023-01-27 22:07:37 - main1.py[line:296] - INFO: Epoch: 26/100
+2023-01-27 22:07:37 - main1.py[line:121] - INFO:  Learning rate is setted as: 0.0013176004723287101
+2023-01-27 22:07:48 - main1.py[line:344] - INFO:      Instance: 500; Time: 10.99s; loss: 3202.8899; acc: 86082.0/88418.0=0.9736
+2023-01-27 22:07:59 - main1.py[line:344] - INFO:      Instance: 1000; Time: 11.22s; loss: 3184.7810; acc: 176355.0/181063.0=0.9740
+2023-01-27 22:08:11 - main1.py[line:344] - INFO:      Instance: 1500; Time: 11.18s; loss: 3759.6245; acc: 269515.0/277279.0=0.9720
+2023-01-27 22:08:22 - main1.py[line:344] - INFO:      Instance: 2000; Time: 11.22s; loss: 3682.3083; acc: 361792.0/372298.0=0.9718
+2023-01-27 22:08:33 - main1.py[line:344] - INFO:      Instance: 2500; Time: 11.23s; loss: 3471.5398; acc: 455306.0/468344.0=0.9722
+2023-01-27 22:08:39 - main1.py[line:356] - INFO:      Instance: 2749; Time: 5.76s; loss: 1890.3944; acc: 502230.0/516868.0=0.9717
+2023-01-27 22:08:39 - main1.py[line:361] - INFO: Epoch: 26 training finished. Time: 61.61s, speed: 44.62st/s,  total loss: tensor(19191.5391, device='cuda:0')
+2023-01-27 22:08:42 - metric.py[line:62] - INFO: gold_num = 2576 pred_num = 2590 right_num = 2149
+2023-01-27 22:08:42 - main1.py[line:370] - INFO: Dev: time: 3.43s, speed: 96.51st/s; acc: 0.9565, p: 0.8297, r: 0.8342, f: 0.8320
+2023-01-27 22:08:46 - metric.py[line:62] - INFO: gold_num = 2681 pred_num = 2723 right_num = 2291
+2023-01-27 22:08:46 - main1.py[line:396] - INFO: Test: time: 3.52s, speed: 97.77st/s; acc: 0.9668, p: 0.8414, r: 0.8545, f: 0.8479
+2023-01-27 22:08:46 - main1.py[line:408] - INFO: Best dev score: p:0.8488733488733489, r:0.8482142857142857, f:0.8485436893203883
+2023-01-27 22:08:46 - main1.py[line:409] - INFO: Test score: p:0.8563515509601182, r:0.8649757553151809, f:0.8606420486175542
+2023-01-27 22:08:57 - main1.py[line:296] - INFO: Epoch: 27/100
+2023-01-27 22:08:57 - main1.py[line:121] - INFO:  Learning rate is setted as: 0.0012517204487122746
+2023-01-27 22:09:08 - main1.py[line:344] - INFO:      Instance: 500; Time: 11.01s; loss: 3485.7034; acc: 91710.0/94372.0=0.9718
+2023-01-27 22:09:19 - main1.py[line:344] - INFO:      Instance: 1000; Time: 11.02s; loss: 3621.0168; acc: 186637.0/192025.0=0.9719
+2023-01-27 22:09:30 - main1.py[line:344] - INFO:      Instance: 1500; Time: 11.21s; loss: 3072.0225; acc: 277852.0/285659.0=0.9727
+2023-01-27 22:09:42 - main1.py[line:344] - INFO:      Instance: 2000; Time: 11.06s; loss: 3371.0549; acc: 368160.0/378437.0=0.9728
+2023-01-27 22:09:53 - main1.py[line:344] - INFO:      Instance: 2500; Time: 11.21s; loss: 3403.1558; acc: 457451.0/470294.0=0.9727
+2023-01-27 22:09:59 - main1.py[line:356] - INFO:      Instance: 2749; Time: 5.76s; loss: 1745.6005; acc: 502641.0/516868.0=0.9725
+2023-01-27 22:09:59 - main1.py[line:361] - INFO: Epoch: 27 training finished. Time: 61.27s, speed: 44.86st/s,  total loss: tensor(18698.5586, device='cuda:0')
+2023-01-27 22:10:02 - metric.py[line:62] - INFO: gold_num = 2576 pred_num = 2557 right_num = 2171
+2023-01-27 22:10:02 - main1.py[line:370] - INFO: Dev: time: 3.36s, speed: 98.52st/s; acc: 0.9620, p: 0.8490, r: 0.8428, f: 0.8459
+2023-01-27 22:10:05 - metric.py[line:62] - INFO: gold_num = 2681 pred_num = 2685 right_num = 2300
+2023-01-27 22:10:05 - main1.py[line:396] - INFO: Test: time: 3.53s, speed: 97.35st/s; acc: 0.9702, p: 0.8566, r: 0.8579, f: 0.8572
+2023-01-27 22:10:05 - main1.py[line:408] - INFO: Best dev score: p:0.8488733488733489, r:0.8482142857142857, f:0.8485436893203883
+2023-01-27 22:10:05 - main1.py[line:409] - INFO: Test score: p:0.8563515509601182, r:0.8649757553151809, f:0.8606420486175542
+2023-01-27 22:10:17 - main1.py[line:296] - INFO: Epoch: 28/100
+2023-01-27 22:10:17 - main1.py[line:121] - INFO:  Learning rate is setted as: 0.0011891344262766608
+2023-01-27 22:10:28 - main1.py[line:344] - INFO:      Instance: 500; Time: 10.99s; loss: 3430.9414; acc: 90624.0/93341.0=0.9709
+2023-01-27 22:10:39 - main1.py[line:344] - INFO:      Instance: 1000; Time: 11.12s; loss: 3162.1011; acc: 181342.0/186372.0=0.9730
+2023-01-27 22:10:50 - main1.py[line:344] - INFO:      Instance: 1500; Time: 11.08s; loss: 3229.8174; acc: 271724.0/279208.0=0.9732
+2023-01-27 22:11:01 - main1.py[line:344] - INFO:      Instance: 2000; Time: 11.15s; loss: 3168.8921; acc: 365518.0/375480.0=0.9735
+2023-01-27 22:11:12 - main1.py[line:344] - INFO:      Instance: 2500; Time: 11.21s; loss: 3571.2139; acc: 457938.0/470364.0=0.9736
+2023-01-27 22:11:18 - main1.py[line:356] - INFO:      Instance: 2749; Time: 5.81s; loss: 1595.1760; acc: 503149.0/516868.0=0.9735
+2023-01-27 22:11:18 - main1.py[line:361] - INFO: Epoch: 28 training finished. Time: 61.36s, speed: 44.80st/s,  total loss: tensor(18158.1406, device='cuda:0')
+2023-01-27 22:11:22 - metric.py[line:62] - INFO: gold_num = 2576 pred_num = 2619 right_num = 2190
+2023-01-27 22:11:22 - main1.py[line:370] - INFO: Dev: time: 3.35s, speed: 98.73st/s; acc: 0.9608, p: 0.8362, r: 0.8502, f: 0.8431
+2023-01-27 22:11:25 - metric.py[line:62] - INFO: gold_num = 2681 pred_num = 2749 right_num = 2324
+2023-01-27 22:11:25 - main1.py[line:396] - INFO: Test: time: 3.50s, speed: 98.32st/s; acc: 0.9697, p: 0.8454, r: 0.8668, f: 0.8560
+2023-01-27 22:11:25 - main1.py[line:408] - INFO: Best dev score: p:0.8488733488733489, r:0.8482142857142857, f:0.8485436893203883
+2023-01-27 22:11:25 - main1.py[line:409] - INFO: Test score: p:0.8563515509601182, r:0.8649757553151809, f:0.8606420486175542
+2023-01-27 22:11:36 - main1.py[line:296] - INFO: Epoch: 29/100
+2023-01-27 22:11:36 - main1.py[line:121] - INFO:  Learning rate is setted as: 0.0011296777049628279
+2023-01-27 22:11:48 - main1.py[line:344] - INFO:      Instance: 500; Time: 11.09s; loss: 3259.3552; acc: 92892.0/95409.0=0.9736
+2023-01-27 22:11:59 - main1.py[line:344] - INFO:      Instance: 1000; Time: 11.19s; loss: 3323.2297; acc: 186382.0/191331.0=0.9741
+2023-01-27 22:12:10 - main1.py[line:344] - INFO:      Instance: 1500; Time: 11.10s; loss: 3354.0051; acc: 277826.0/285300.0=0.9738
+2023-01-27 22:12:21 - main1.py[line:344] - INFO:      Instance: 2000; Time: 11.12s; loss: 2999.2771; acc: 368200.0/378033.0=0.9740
+2023-01-27 22:12:32 - main1.py[line:344] - INFO:      Instance: 2500; Time: 11.22s; loss: 3017.1096; acc: 460173.0/472372.0=0.9742
+2023-01-27 22:12:38 - main1.py[line:356] - INFO:      Instance: 2749; Time: 5.72s; loss: 1506.2242; acc: 503544.0/516868.0=0.9742
+2023-01-27 22:12:38 - main1.py[line:361] - INFO: Epoch: 29 training finished. Time: 61.45s, speed: 44.73st/s,  total loss: tensor(17459.1992, device='cuda:0')
+2023-01-27 22:12:41 - metric.py[line:62] - INFO: gold_num = 2576 pred_num = 2613 right_num = 2189
+2023-01-27 22:12:41 - main1.py[line:370] - INFO: Dev: time: 3.44s, speed: 96.09st/s; acc: 0.9610, p: 0.8377, r: 0.8498, f: 0.8437
+2023-01-27 22:12:45 - metric.py[line:62] - INFO: gold_num = 2681 pred_num = 2745 right_num = 2336
+2023-01-27 22:12:45 - main1.py[line:396] - INFO: Test: time: 3.56s, speed: 96.67st/s; acc: 0.9706, p: 0.8510, r: 0.8713, f: 0.8610
+2023-01-27 22:12:45 - main1.py[line:408] - INFO: Best dev score: p:0.8488733488733489, r:0.8482142857142857, f:0.8485436893203883
+2023-01-27 22:12:45 - main1.py[line:409] - INFO: Test score: p:0.8563515509601182, r:0.8649757553151809, f:0.8606420486175542
+2023-01-27 22:12:56 - main1.py[line:296] - INFO: Epoch: 30/100
+2023-01-27 22:12:56 - main1.py[line:121] - INFO:  Learning rate is setted as: 0.0010731938197146864
+2023-01-27 22:13:07 - main1.py[line:344] - INFO:      Instance: 500; Time: 10.95s; loss: 3288.4426; acc: 91600.0/94188.0=0.9725
+2023-01-27 22:13:18 - main1.py[line:344] - INFO:      Instance: 1000; Time: 11.20s; loss: 3096.1755; acc: 183013.0/188006.0=0.9734
+2023-01-27 22:13:30 - main1.py[line:344] - INFO:      Instance: 1500; Time: 11.21s; loss: 2960.6272; acc: 274855.0/282006.0=0.9746
+2023-01-27 22:13:41 - main1.py[line:344] - INFO:      Instance: 2000; Time: 11.18s; loss: 3190.6208; acc: 365660.0/375377.0=0.9741
+2023-01-27 22:13:52 - main1.py[line:344] - INFO:      Instance: 2500; Time: 11.22s; loss: 3340.8442; acc: 458611.0/470771.0=0.9742
+2023-01-27 22:13:58 - main1.py[line:356] - INFO:      Instance: 2749; Time: 5.77s; loss: 1562.8668; acc: 503475.0/516868.0=0.9741
+2023-01-27 22:13:58 - main1.py[line:361] - INFO: Epoch: 30 training finished. Time: 61.53s, speed: 44.68st/s,  total loss: tensor(17439.5762, device='cuda:0')
+2023-01-27 22:14:01 - metric.py[line:62] - INFO: gold_num = 2576 pred_num = 2616 right_num = 2203
+2023-01-27 22:14:01 - main1.py[line:370] - INFO: Dev: time: 3.37s, speed: 98.28st/s; acc: 0.9633, p: 0.8421, r: 0.8552, f: 0.8486
+2023-01-27 22:14:01 - main1.py[line:379] - INFO: Exceed previous best f score: 0
+2023-01-27 22:14:05 - metric.py[line:62] - INFO: gold_num = 2681 pred_num = 2748 right_num = 2341
+2023-01-27 22:14:05 - main1.py[line:396] - INFO: Test: time: 4.11s, speed: 97.58st/s; acc: 0.9717, p: 0.8519, r: 0.8732, f: 0.8624
+2023-01-27 22:14:05 - main1.py[line:408] - INFO: Best dev score: p:0.8421253822629969, r:0.8552018633540373, f:0.848613251155624
+2023-01-27 22:14:05 - main1.py[line:409] - INFO: Test score: p:0.8518922852983989, r:0.8731816486385677, f:0.8624055995579298
+2023-01-27 22:14:17 - main1.py[line:296] - INFO: Epoch: 31/100
+2023-01-27 22:14:17 - main1.py[line:121] - INFO:  Learning rate is setted as: 0.0010195341287289519
+2023-01-27 22:14:28 - main1.py[line:344] - INFO:      Instance: 500; Time: 11.06s; loss: 2847.6040; acc: 88887.0/91090.0=0.9758
+2023-01-27 22:14:39 - main1.py[line:344] - INFO:      Instance: 1000; Time: 11.19s; loss: 2661.6240; acc: 179247.0/183643.0=0.9761
+2023-01-27 22:14:50 - main1.py[line:344] - INFO:      Instance: 1500; Time: 11.21s; loss: 3050.8430; acc: 274540.0/281203.0=0.9763
+2023-01-27 22:15:01 - main1.py[line:344] - INFO:      Instance: 2000; Time: 11.16s; loss: 3085.8140; acc: 365234.0/374234.0=0.9760
+2023-01-27 22:15:13 - main1.py[line:344] - INFO:      Instance: 2500; Time: 11.08s; loss: 3384.0642; acc: 457384.0/468951.0=0.9753
+2023-01-27 22:15:18 - main1.py[line:356] - INFO:      Instance: 2749; Time: 5.77s; loss: 1492.4376; acc: 504097.0/516868.0=0.9753
+2023-01-27 22:15:18 - main1.py[line:361] - INFO: Epoch: 31 training finished. Time: 61.48s, speed: 44.71st/s,  total loss: tensor(16522.3848, device='cuda:0')
+2023-01-27 22:15:22 - metric.py[line:62] - INFO: gold_num = 2576 pred_num = 2610 right_num = 2190
+2023-01-27 22:15:22 - main1.py[line:370] - INFO: Dev: time: 3.35s, speed: 98.75st/s; acc: 0.9629, p: 0.8391, r: 0.8502, f: 0.8446
+2023-01-27 22:15:25 - metric.py[line:62] - INFO: gold_num = 2681 pred_num = 2752 right_num = 2323
+2023-01-27 22:15:25 - main1.py[line:396] - INFO: Test: time: 3.50s, speed: 98.16st/s; acc: 0.9702, p: 0.8441, r: 0.8665, f: 0.8551
+2023-01-27 22:15:25 - main1.py[line:408] - INFO: Best dev score: p:0.8421253822629969, r:0.8552018633540373, f:0.848613251155624
+2023-01-27 22:15:25 - main1.py[line:409] - INFO: Test score: p:0.8518922852983989, r:0.8731816486385677, f:0.8624055995579298
+2023-01-27 22:15:37 - main1.py[line:296] - INFO: Epoch: 32/100
+2023-01-27 22:15:37 - main1.py[line:121] - INFO:  Learning rate is setted as: 0.0009685574222925043
+2023-01-27 22:15:47 - main1.py[line:344] - INFO:      Instance: 500; Time: 10.73s; loss: 3019.7109; acc: 91122.0/93685.0=0.9726
+2023-01-27 22:15:59 - main1.py[line:344] - INFO:      Instance: 1000; Time: 11.23s; loss: 3047.4211; acc: 183234.0/188175.0=0.9737
+2023-01-27 22:16:10 - main1.py[line:344] - INFO:      Instance: 1500; Time: 11.05s; loss: 2748.8652; acc: 273397.0/280516.0=0.9746
+2023-01-27 22:16:21 - main1.py[line:344] - INFO:      Instance: 2000; Time: 11.22s; loss: 3082.3276; acc: 365553.0/375004.0=0.9748
+2023-01-27 22:16:32 - main1.py[line:344] - INFO:      Instance: 2500; Time: 11.14s; loss: 2897.3308; acc: 458039.0/469774.0=0.9750
+2023-01-27 22:16:38 - main1.py[line:356] - INFO:      Instance: 2749; Time: 5.72s; loss: 1564.6318; acc: 503959.0/516868.0=0.9750
+2023-01-27 22:16:38 - main1.py[line:361] - INFO: Epoch: 32 training finished. Time: 61.10s, speed: 44.99st/s,  total loss: tensor(16360.2920, device='cuda:0')
+2023-01-27 22:16:41 - metric.py[line:62] - INFO: gold_num = 2576 pred_num = 2586 right_num = 2193
+2023-01-27 22:16:41 - main1.py[line:370] - INFO: Dev: time: 3.41s, speed: 97.07st/s; acc: 0.9630, p: 0.8480, r: 0.8513, f: 0.8497
+2023-01-27 22:16:41 - main1.py[line:379] - INFO: Exceed previous best f score: 0
+2023-01-27 22:16:45 - metric.py[line:62] - INFO: gold_num = 2681 pred_num = 2720 right_num = 2329
+2023-01-27 22:16:45 - main1.py[line:396] - INFO: Test: time: 4.15s, speed: 96.76st/s; acc: 0.9712, p: 0.8562, r: 0.8687, f: 0.8624
+2023-01-27 22:16:45 - main1.py[line:408] - INFO: Best dev score: p:0.8480278422273781, r:0.8513198757763976, f:0.8496706702828362
+2023-01-27 22:16:45 - main1.py[line:409] - INFO: Test score: p:0.85625, r:0.8687057068258113, f:0.8624328827994815
+2023-01-27 22:16:57 - main1.py[line:296] - INFO: Epoch: 33/100
+2023-01-27 22:16:57 - main1.py[line:121] - INFO:  Learning rate is setted as: 0.0009201295511778792
+2023-01-27 22:17:07 - main1.py[line:344] - INFO:      Instance: 500; Time: 10.73s; loss: 3096.3599; acc: 90645.0/92904.0=0.9757
+2023-01-27 22:17:19 - main1.py[line:344] - INFO:      Instance: 1000; Time: 11.20s; loss: 3008.5830; acc: 184071.0/188715.0=0.9754
+2023-01-27 22:17:30 - main1.py[line:344] - INFO:      Instance: 1500; Time: 11.13s; loss: 2760.6741; acc: 276386.0/283235.0=0.9758
+2023-01-27 22:17:41 - main1.py[line:344] - INFO:      Instance: 2000; Time: 11.18s; loss: 2890.6328; acc: 367312.0/376464.0=0.9757
+2023-01-27 22:17:52 - main1.py[line:344] - INFO:      Instance: 2500; Time: 11.09s; loss: 2724.4756; acc: 459758.0/471147.0=0.9758
+2023-01-27 22:17:58 - main1.py[line:356] - INFO:      Instance: 2749; Time: 5.82s; loss: 1309.9750; acc: 504422.0/516868.0=0.9759
+2023-01-27 22:17:58 - main1.py[line:361] - INFO: Epoch: 33 training finished. Time: 61.16s, speed: 44.95st/s,  total loss: tensor(15790.7002, device='cuda:0')
+2023-01-27 22:18:01 - metric.py[line:62] - INFO: gold_num = 2576 pred_num = 2604 right_num = 2185
+2023-01-27 22:18:01 - main1.py[line:370] - INFO: Dev: time: 3.39s, speed: 97.68st/s; acc: 0.9617, p: 0.8391, r: 0.8482, f: 0.8436
+2023-01-27 22:18:05 - metric.py[line:62] - INFO: gold_num = 2681 pred_num = 2735 right_num = 2320
+2023-01-27 22:18:05 - main1.py[line:396] - INFO: Test: time: 3.50s, speed: 98.23st/s; acc: 0.9705, p: 0.8483, r: 0.8653, f: 0.8567
+2023-01-27 22:18:05 - main1.py[line:408] - INFO: Best dev score: p:0.8480278422273781, r:0.8513198757763976, f:0.8496706702828362
+2023-01-27 22:18:05 - main1.py[line:409] - INFO: Test score: p:0.85625, r:0.8687057068258113, f:0.8624328827994815
+2023-01-27 22:18:16 - main1.py[line:296] - INFO: Epoch: 34/100
+2023-01-27 22:18:16 - main1.py[line:121] - INFO:  Learning rate is setted as: 0.0008741230736189851
+2023-01-27 22:18:27 - main1.py[line:344] - INFO:      Instance: 500; Time: 11.06s; loss: 2826.5974; acc: 90658.0/92760.0=0.9773
+2023-01-27 22:18:38 - main1.py[line:344] - INFO:      Instance: 1000; Time: 11.06s; loss: 2898.0217; acc: 183011.0/187450.0=0.9763
+2023-01-27 22:18:50 - main1.py[line:344] - INFO:      Instance: 1500; Time: 11.28s; loss: 2917.5796; acc: 276008.0/282766.0=0.9761
+2023-01-27 22:19:01 - main1.py[line:344] - INFO:      Instance: 2000; Time: 11.17s; loss: 2590.0500; acc: 365899.0/374763.0=0.9763
+2023-01-27 22:19:12 - main1.py[line:344] - INFO:      Instance: 2500; Time: 11.20s; loss: 2784.3896; acc: 457941.0/469066.0=0.9763
+2023-01-27 22:19:18 - main1.py[line:356] - INFO:      Instance: 2749; Time: 5.70s; loss: 1643.7137; acc: 504485.0/516868.0=0.9760
+2023-01-27 22:19:18 - main1.py[line:361] - INFO: Epoch: 34 training finished. Time: 61.47s, speed: 44.72st/s,  total loss: tensor(15660.3506, device='cuda:0')
+2023-01-27 22:19:21 - metric.py[line:62] - INFO: gold_num = 2576 pred_num = 2599 right_num = 2197
+2023-01-27 22:19:21 - main1.py[line:370] - INFO: Dev: time: 3.37s, speed: 98.25st/s; acc: 0.9647, p: 0.8453, r: 0.8529, f: 0.8491
+2023-01-27 22:19:25 - metric.py[line:62] - INFO: gold_num = 2681 pred_num = 2753 right_num = 2345
+2023-01-27 22:19:25 - main1.py[line:396] - INFO: Test: time: 3.52s, speed: 97.82st/s; acc: 0.9718, p: 0.8518, r: 0.8747, f: 0.8631
+2023-01-27 22:19:25 - main1.py[line:408] - INFO: Best dev score: p:0.8480278422273781, r:0.8513198757763976, f:0.8496706702828362
+2023-01-27 22:19:25 - main1.py[line:409] - INFO: Test score: p:0.85625, r:0.8687057068258113, f:0.8624328827994815
+2023-01-27 22:19:36 - main1.py[line:296] - INFO: Epoch: 35/100
+2023-01-27 22:19:36 - main1.py[line:121] - INFO:  Learning rate is setted as: 0.0008304169199380358
+2023-01-27 22:19:47 - main1.py[line:344] - INFO:      Instance: 500; Time: 10.90s; loss: 2538.5903; acc: 90778.0/92931.0=0.9768
+2023-01-27 22:19:58 - main1.py[line:344] - INFO:      Instance: 1000; Time: 11.21s; loss: 2908.6572; acc: 185730.0/190107.0=0.9770
+2023-01-27 22:20:09 - main1.py[line:344] - INFO:      Instance: 1500; Time: 11.18s; loss: 2682.1553; acc: 275701.0/282237.0=0.9768
+2023-01-27 22:20:21 - main1.py[line:344] - INFO:      Instance: 2000; Time: 11.20s; loss: 2655.1345; acc: 365816.0/374459.0=0.9769
+2023-01-27 22:20:32 - main1.py[line:344] - INFO:      Instance: 2500; Time: 11.22s; loss: 2965.0525; acc: 459872.0/470854.0=0.9767
+2023-01-27 22:20:37 - main1.py[line:356] - INFO:      Instance: 2749; Time: 5.77s; loss: 1276.8794; acc: 504671.0/516868.0=0.9764
+2023-01-27 22:20:37 - main1.py[line:361] - INFO: Epoch: 35 training finished. Time: 61.48s, speed: 44.72st/s,  total loss: tensor(15026.4678, device='cuda:0')
+2023-01-27 22:20:41 - metric.py[line:62] - INFO: gold_num = 2576 pred_num = 2603 right_num = 2193
+2023-01-27 22:20:41 - main1.py[line:370] - INFO: Dev: time: 3.36s, speed: 98.53st/s; acc: 0.9619, p: 0.8425, r: 0.8513, f: 0.8469
+2023-01-27 22:20:44 - metric.py[line:62] - INFO: gold_num = 2681 pred_num = 2740 right_num = 2331
+2023-01-27 22:20:44 - main1.py[line:396] - INFO: Test: time: 3.55s, speed: 96.90st/s; acc: 0.9703, p: 0.8507, r: 0.8695, f: 0.8600
+2023-01-27 22:20:44 - main1.py[line:408] - INFO: Best dev score: p:0.8480278422273781, r:0.8513198757763976, f:0.8496706702828362
+2023-01-27 22:20:44 - main1.py[line:409] - INFO: Test score: p:0.85625, r:0.8687057068258113, f:0.8624328827994815
+2023-01-27 22:20:56 - main1.py[line:296] - INFO: Epoch: 36/100
+2023-01-27 22:20:56 - main1.py[line:121] - INFO:  Learning rate is setted as: 0.000788896073941134
+2023-01-27 22:21:07 - main1.py[line:344] - INFO:      Instance: 500; Time: 11.04s; loss: 2616.8970; acc: 91520.0/93683.0=0.9769
+2023-01-27 22:21:18 - main1.py[line:344] - INFO:      Instance: 1000; Time: 11.21s; loss: 2654.0408; acc: 181514.0/185811.0=0.9769
+2023-01-27 22:21:29 - main1.py[line:344] - INFO:      Instance: 1500; Time: 11.15s; loss: 2547.8882; acc: 272368.0/278875.0=0.9767
+2023-01-27 22:21:40 - main1.py[line:344] - INFO:      Instance: 2000; Time: 11.01s; loss: 2989.2373; acc: 367448.0/376182.0=0.9768
+2023-01-27 22:21:51 - main1.py[line:344] - INFO:      Instance: 2500; Time: 11.18s; loss: 2722.2449; acc: 461524.0/472468.0=0.9768
+2023-01-27 22:21:57 - main1.py[line:356] - INFO:      Instance: 2749; Time: 5.73s; loss: 1218.9615; acc: 504962.0/516868.0=0.9770
+2023-01-27 22:21:57 - main1.py[line:361] - INFO: Epoch: 36 training finished. Time: 61.33s, speed: 44.83st/s,  total loss: tensor(14749.2686, device='cuda:0')
+2023-01-27 22:22:01 - metric.py[line:62] - INFO: gold_num = 2576 pred_num = 2599 right_num = 2188
+2023-01-27 22:22:01 - main1.py[line:370] - INFO: Dev: time: 3.38s, speed: 98.03st/s; acc: 0.9621, p: 0.8419, r: 0.8494, f: 0.8456
+2023-01-27 22:22:04 - metric.py[line:62] - INFO: gold_num = 2681 pred_num = 2735 right_num = 2318
+2023-01-27 22:22:04 - main1.py[line:396] - INFO: Test: time: 3.52s, speed: 97.69st/s; acc: 0.9702, p: 0.8475, r: 0.8646, f: 0.8560
+2023-01-27 22:22:04 - main1.py[line:408] - INFO: Best dev score: p:0.8480278422273781, r:0.8513198757763976, f:0.8496706702828362
+2023-01-27 22:22:04 - main1.py[line:409] - INFO: Test score: p:0.85625, r:0.8687057068258113, f:0.8624328827994815
+2023-01-27 22:22:16 - main1.py[line:296] - INFO: Epoch: 37/100
+2023-01-27 22:22:16 - main1.py[line:121] - INFO:  Learning rate is setted as: 0.0007494512702440773
+2023-01-27 22:22:27 - main1.py[line:344] - INFO:      Instance: 500; Time: 11.01s; loss: 2577.3799; acc: 93200.0/95393.0=0.9770
+2023-01-27 22:22:38 - main1.py[line:344] - INFO:      Instance: 1000; Time: 11.07s; loss: 2726.2205; acc: 184917.0/189103.0=0.9779
+2023-01-27 22:22:49 - main1.py[line:344] - INFO:      Instance: 1500; Time: 11.18s; loss: 2809.7705; acc: 275207.0/281733.0=0.9768
+2023-01-27 22:23:00 - main1.py[line:344] - INFO:      Instance: 2000; Time: 11.19s; loss: 2587.0537; acc: 367400.0/375969.0=0.9772
+2023-01-27 22:23:11 - main1.py[line:344] - INFO:      Instance: 2500; Time: 11.14s; loss: 2651.5229; acc: 459680.0/470539.0=0.9769
+2023-01-27 22:23:17 - main1.py[line:356] - INFO:      Instance: 2749; Time: 5.79s; loss: 1335.6226; acc: 504838.0/516868.0=0.9767
+2023-01-27 22:23:17 - main1.py[line:361] - INFO: Epoch: 37 training finished. Time: 61.37s, speed: 44.79st/s,  total loss: tensor(14687.5703, device='cuda:0')
+2023-01-27 22:23:20 - metric.py[line:62] - INFO: gold_num = 2576 pred_num = 2600 right_num = 2199
+2023-01-27 22:23:20 - main1.py[line:370] - INFO: Dev: time: 3.39s, speed: 97.69st/s; acc: 0.9639, p: 0.8458, r: 0.8536, f: 0.8497
+2023-01-27 22:23:20 - main1.py[line:379] - INFO: Exceed previous best f score: 0
+2023-01-27 22:23:24 - metric.py[line:62] - INFO: gold_num = 2681 pred_num = 2729 right_num = 2332
+2023-01-27 22:23:24 - main1.py[line:396] - INFO: Test: time: 4.12s, speed: 97.51st/s; acc: 0.9713, p: 0.8545, r: 0.8698, f: 0.8621
+2023-01-27 22:23:24 - main1.py[line:408] - INFO: Best dev score: p:0.8457692307692307, r:0.8536490683229814, f:0.8496908809891809
+2023-01-27 22:23:24 - main1.py[line:409] - INFO: Test score: p:0.854525467204104, r:0.8698246922790004, f:0.8621072088724585
+2023-01-27 22:23:36 - main1.py[line:296] - INFO: Epoch: 38/100
+2023-01-27 22:23:36 - main1.py[line:121] - INFO:  Learning rate is setted as: 0.0007119787067318734
+2023-01-27 22:23:47 - main1.py[line:344] - INFO:      Instance: 500; Time: 11.02s; loss: 2634.9141; acc: 94688.0/96856.0=0.9776
+2023-01-27 22:23:58 - main1.py[line:344] - INFO:      Instance: 1000; Time: 11.12s; loss: 2523.6086; acc: 184732.0/188915.0=0.9779
+2023-01-27 22:24:09 - main1.py[line:344] - INFO:      Instance: 1500; Time: 11.25s; loss: 2517.3928; acc: 278824.0/285009.0=0.9783
+2023-01-27 22:24:20 - main1.py[line:344] - INFO:      Instance: 2000; Time: 11.12s; loss: 2542.5322; acc: 371670.0/379966.0=0.9782
+2023-01-27 22:24:32 - main1.py[line:344] - INFO:      Instance: 2500; Time: 11.20s; loss: 2604.6685; acc: 461715.0/472154.0=0.9779
+2023-01-27 22:24:37 - main1.py[line:356] - INFO:      Instance: 2749; Time: 5.72s; loss: 1196.1210; acc: 505353.0/516868.0=0.9777
+2023-01-27 22:24:37 - main1.py[line:361] - INFO: Epoch: 38 training finished. Time: 61.43s, speed: 44.75st/s,  total loss: tensor(14019.2402, device='cuda:0')
+2023-01-27 22:24:41 - metric.py[line:62] - INFO: gold_num = 2576 pred_num = 2571 right_num = 2189
+2023-01-27 22:24:41 - main1.py[line:370] - INFO: Dev: time: 3.38s, speed: 97.98st/s; acc: 0.9632, p: 0.8514, r: 0.8498, f: 0.8506
+2023-01-27 22:24:41 - main1.py[line:379] - INFO: Exceed previous best f score: 0
+2023-01-27 22:24:45 - metric.py[line:62] - INFO: gold_num = 2681 pred_num = 2699 right_num = 2325
+2023-01-27 22:24:45 - main1.py[line:396] - INFO: Test: time: 4.16s, speed: 96.55st/s; acc: 0.9711, p: 0.8614, r: 0.8672, f: 0.8643
+2023-01-27 22:24:45 - main1.py[line:408] - INFO: Best dev score: p:0.8514196810579541, r:0.8497670807453416, f:0.8505925782008936
+2023-01-27 22:24:45 - main1.py[line:409] - INFO: Test score: p:0.861430159318266, r:0.8672137262215591, f:0.8643122676579925
+2023-01-27 22:24:56 - main1.py[line:296] - INFO: Epoch: 39/100
+2023-01-27 22:24:56 - main1.py[line:121] - INFO:  Learning rate is setted as: 0.0006763797713952796
+2023-01-27 22:25:07 - main1.py[line:344] - INFO:      Instance: 500; Time: 11.02s; loss: 2667.7336; acc: 95128.0/97390.0=0.9768
+2023-01-27 22:25:18 - main1.py[line:344] - INFO:      Instance: 1000; Time: 11.21s; loss: 2578.1936; acc: 186743.0/191185.0=0.9768
+2023-01-27 22:25:30 - main1.py[line:344] - INFO:      Instance: 1500; Time: 11.29s; loss: 2439.7026; acc: 278902.0/285400.0=0.9772
+2023-01-27 22:25:41 - main1.py[line:344] - INFO:      Instance: 2000; Time: 11.12s; loss: 2394.8879; acc: 371744.0/380237.0=0.9777
+2023-01-27 22:25:52 - main1.py[line:344] - INFO:      Instance: 2500; Time: 10.95s; loss: 2469.1924; acc: 462937.0/473564.0=0.9776
+2023-01-27 22:25:57 - main1.py[line:356] - INFO:      Instance: 2749; Time: 5.68s; loss: 1248.2498; acc: 505256.0/516868.0=0.9775
+2023-01-27 22:25:57 - main1.py[line:361] - INFO: Epoch: 39 training finished. Time: 61.27s, speed: 44.87st/s,  total loss: tensor(13797.9570, device='cuda:0')
+2023-01-27 22:26:01 - metric.py[line:62] - INFO: gold_num = 2576 pred_num = 2593 right_num = 2187
+2023-01-27 22:26:01 - main1.py[line:370] - INFO: Dev: time: 3.39s, speed: 97.62st/s; acc: 0.9610, p: 0.8434, r: 0.8490, f: 0.8462
+2023-01-27 22:26:04 - metric.py[line:62] - INFO: gold_num = 2681 pred_num = 2720 right_num = 2330
+2023-01-27 22:26:04 - main1.py[line:396] - INFO: Test: time: 3.56s, speed: 96.65st/s; acc: 0.9704, p: 0.8566, r: 0.8691, f: 0.8628
+2023-01-27 22:26:04 - main1.py[line:408] - INFO: Best dev score: p:0.8514196810579541, r:0.8497670807453416, f:0.8505925782008936
+2023-01-27 22:26:04 - main1.py[line:409] - INFO: Test score: p:0.861430159318266, r:0.8672137262215591, f:0.8643122676579925
+2023-01-27 22:26:16 - main1.py[line:296] - INFO: Epoch: 40/100
+2023-01-27 22:26:16 - main1.py[line:121] - INFO:  Learning rate is setted as: 0.0006425607828255156
+2023-01-27 22:26:27 - main1.py[line:344] - INFO:      Instance: 500; Time: 10.97s; loss: 2306.5671; acc: 90916.0/92807.0=0.9796
+2023-01-27 22:26:38 - main1.py[line:344] - INFO:      Instance: 1000; Time: 11.20s; loss: 2482.0740; acc: 183210.0/187303.0=0.9781
+2023-01-27 22:26:49 - main1.py[line:344] - INFO:      Instance: 1500; Time: 11.30s; loss: 2343.9106; acc: 275863.0/281920.0=0.9785
+2023-01-27 22:27:01 - main1.py[line:344] - INFO:      Instance: 2000; Time: 11.21s; loss: 2419.0745; acc: 366310.0/374269.0=0.9787
+2023-01-27 22:27:12 - main1.py[line:344] - INFO:      Instance: 2500; Time: 11.23s; loss: 2571.8826; acc: 459235.0/469385.0=0.9784
+2023-01-27 22:27:18 - main1.py[line:356] - INFO:      Instance: 2749; Time: 5.78s; loss: 1308.8257; acc: 505697.0/516868.0=0.9784
+2023-01-27 22:27:18 - main1.py[line:361] - INFO: Epoch: 40 training finished. Time: 61.69s, speed: 44.56st/s,  total loss: tensor(13432.3350, device='cuda:0')
+2023-01-27 22:27:21 - metric.py[line:62] - INFO: gold_num = 2576 pred_num = 2623 right_num = 2198
+2023-01-27 22:27:21 - main1.py[line:370] - INFO: Dev: time: 3.36s, speed: 98.43st/s; acc: 0.9629, p: 0.8380, r: 0.8533, f: 0.8455
+2023-01-27 22:27:24 - metric.py[line:62] - INFO: gold_num = 2681 pred_num = 2757 right_num = 2343
+2023-01-27 22:27:24 - main1.py[line:396] - INFO: Test: time: 3.49s, speed: 98.45st/s; acc: 0.9709, p: 0.8498, r: 0.8739, f: 0.8617
+2023-01-27 22:27:24 - main1.py[line:408] - INFO: Best dev score: p:0.8514196810579541, r:0.8497670807453416, f:0.8505925782008936
+2023-01-27 22:27:24 - main1.py[line:409] - INFO: Test score: p:0.861430159318266, r:0.8672137262215591, f:0.8643122676579925
+2023-01-27 22:27:36 - main1.py[line:296] - INFO: Epoch: 41/100
+2023-01-27 22:27:36 - main1.py[line:121] - INFO:  Learning rate is setted as: 0.0006104327436842398
+2023-01-27 22:27:47 - main1.py[line:344] - INFO:      Instance: 500; Time: 11.08s; loss: 2299.6431; acc: 92547.0/94509.0=0.9792
+2023-01-27 22:27:58 - main1.py[line:344] - INFO:      Instance: 1000; Time: 11.16s; loss: 2241.8372; acc: 183982.0/187884.0=0.9792
+2023-01-27 22:28:09 - main1.py[line:344] - INFO:      Instance: 1500; Time: 10.98s; loss: 2495.9385; acc: 273648.0/279496.0=0.9791
+2023-01-27 22:28:20 - main1.py[line:344] - INFO:      Instance: 2000; Time: 10.84s; loss: 2527.3242; acc: 366000.0/374053.0=0.9785
+2023-01-27 22:28:31 - main1.py[line:344] - INFO:      Instance: 2500; Time: 10.99s; loss: 2568.5735; acc: 458887.0/469113.0=0.9782
+2023-01-27 22:28:37 - main1.py[line:356] - INFO:      Instance: 2749; Time: 5.81s; loss: 1375.0548; acc: 505627.0/516868.0=0.9783
+2023-01-27 22:28:37 - main1.py[line:361] - INFO: Epoch: 41 training finished. Time: 60.86s, speed: 45.17st/s,  total loss: tensor(13508.3730, device='cuda:0')
+2023-01-27 22:28:40 - metric.py[line:62] - INFO: gold_num = 2576 pred_num = 2608 right_num = 2193
+2023-01-27 22:28:40 - main1.py[line:370] - INFO: Dev: time: 3.39s, speed: 97.51st/s; acc: 0.9617, p: 0.8409, r: 0.8513, f: 0.8461
+2023-01-27 22:28:44 - metric.py[line:62] - INFO: gold_num = 2681 pred_num = 2742 right_num = 2347
+2023-01-27 22:28:44 - main1.py[line:396] - INFO: Test: time: 3.57s, speed: 96.34st/s; acc: 0.9723, p: 0.8559, r: 0.8754, f: 0.8656
+2023-01-27 22:28:44 - main1.py[line:408] - INFO: Best dev score: p:0.8514196810579541, r:0.8497670807453416, f:0.8505925782008936
+2023-01-27 22:28:44 - main1.py[line:409] - INFO: Test score: p:0.861430159318266, r:0.8672137262215591, f:0.8643122676579925
+2023-01-27 22:28:55 - main1.py[line:296] - INFO: Epoch: 42/100
+2023-01-27 22:28:55 - main1.py[line:121] - INFO:  Learning rate is setted as: 0.0005799111065000278
+2023-01-27 22:29:06 - main1.py[line:344] - INFO:      Instance: 500; Time: 11.07s; loss: 2458.5176; acc: 91201.0/93164.0=0.9789
+2023-01-27 22:29:17 - main1.py[line:344] - INFO:      Instance: 1000; Time: 11.16s; loss: 2363.7148; acc: 182780.0/186790.0=0.9785
+2023-01-27 22:29:28 - main1.py[line:344] - INFO:      Instance: 1500; Time: 11.07s; loss: 2264.5212; acc: 272544.0/278226.0=0.9796
+2023-01-27 22:29:40 - main1.py[line:344] - INFO:      Instance: 2000; Time: 11.16s; loss: 2472.4844; acc: 365856.0/373676.0=0.9791
+2023-01-27 22:29:51 - main1.py[line:344] - INFO:      Instance: 2500; Time: 11.27s; loss: 2464.6038; acc: 459378.0/469224.0=0.9790
+2023-01-27 22:29:57 - main1.py[line:356] - INFO:      Instance: 2749; Time: 5.82s; loss: 1215.2258; acc: 506107.0/516868.0=0.9792
+2023-01-27 22:29:57 - main1.py[line:361] - INFO: Epoch: 42 training finished. Time: 61.55s, speed: 44.66st/s,  total loss: tensor(13239.0684, device='cuda:0')
+2023-01-27 22:30:00 - metric.py[line:62] - INFO: gold_num = 2576 pred_num = 2586 right_num = 2196
+2023-01-27 22:30:00 - main1.py[line:370] - INFO: Dev: time: 3.38s, speed: 97.92st/s; acc: 0.9629, p: 0.8492, r: 0.8525, f: 0.8508
+2023-01-27 22:30:00 - main1.py[line:379] - INFO: Exceed previous best f score: 0
+2023-01-27 22:30:04 - metric.py[line:62] - INFO: gold_num = 2681 pred_num = 2724 right_num = 2330
+2023-01-27 22:30:04 - main1.py[line:396] - INFO: Test: time: 4.11s, speed: 97.81st/s; acc: 0.9712, p: 0.8554, r: 0.8691, f: 0.8622
+2023-01-27 22:30:04 - main1.py[line:408] - INFO: Best dev score: p:0.8491879350348028, r:0.8524844720496895, f:0.8508330104610617
+2023-01-27 22:30:04 - main1.py[line:409] - INFO: Test score: p:0.855359765051395, r:0.8690787019768743, f:0.8621646623496761
+2023-01-27 22:30:16 - main1.py[line:296] - INFO: Epoch: 43/100
+2023-01-27 22:30:16 - main1.py[line:121] - INFO:  Learning rate is setted as: 0.0005509155511750264
+2023-01-27 22:30:26 - main1.py[line:344] - INFO:      Instance: 500; Time: 10.67s; loss: 2331.4590; acc: 91092.0/93050.0=0.9790
+2023-01-27 22:30:37 - main1.py[line:344] - INFO:      Instance: 1000; Time: 11.16s; loss: 2259.1765; acc: 184465.0/188277.0=0.9798
+2023-01-27 22:30:49 - main1.py[line:344] - INFO:      Instance: 1500; Time: 11.13s; loss: 2375.9600; acc: 276618.0/282397.0=0.9795
+2023-01-27 22:31:00 - main1.py[line:344] - INFO:      Instance: 2000; Time: 11.17s; loss: 2239.5479; acc: 367805.0/375516.0=0.9795
+2023-01-27 22:31:11 - main1.py[line:344] - INFO:      Instance: 2500; Time: 11.24s; loss: 2546.1733; acc: 459641.0/469538.0=0.9789
+2023-01-27 22:31:17 - main1.py[line:356] - INFO:      Instance: 2749; Time: 5.74s; loss: 1232.1396; acc: 506012.0/516868.0=0.9790
+2023-01-27 22:31:17 - main1.py[line:361] - INFO: Epoch: 43 training finished. Time: 61.11s, speed: 44.98st/s,  total loss: tensor(12984.4590, device='cuda:0')
+2023-01-27 22:31:20 - metric.py[line:62] - INFO: gold_num = 2576 pred_num = 2593 right_num = 2189
+2023-01-27 22:31:20 - main1.py[line:370] - INFO: Dev: time: 3.37s, speed: 98.26st/s; acc: 0.9623, p: 0.8442, r: 0.8498, f: 0.8470
+2023-01-27 22:31:24 - metric.py[line:62] - INFO: gold_num = 2681 pred_num = 2725 right_num = 2330
+2023-01-27 22:31:24 - main1.py[line:396] - INFO: Test: time: 3.55s, speed: 96.83st/s; acc: 0.9709, p: 0.8550, r: 0.8691, f: 0.8620
+2023-01-27 22:31:24 - main1.py[line:408] - INFO: Best dev score: p:0.8491879350348028, r:0.8524844720496895, f:0.8508330104610617
+2023-01-27 22:31:24 - main1.py[line:409] - INFO: Test score: p:0.855359765051395, r:0.8690787019768743, f:0.8621646623496761
+2023-01-27 22:31:35 - main1.py[line:296] - INFO: Epoch: 44/100
+2023-01-27 22:31:35 - main1.py[line:121] - INFO:  Learning rate is setted as: 0.0005233697736162751
+2023-01-27 22:31:46 - main1.py[line:344] - INFO:      Instance: 500; Time: 11.04s; loss: 2425.3633; acc: 93625.0/95532.0=0.9800
+2023-01-27 22:31:57 - main1.py[line:344] - INFO:      Instance: 1000; Time: 11.17s; loss: 2199.7112; acc: 185956.0/189693.0=0.9803
+2023-01-27 22:32:09 - main1.py[line:344] - INFO:      Instance: 1500; Time: 11.14s; loss: 2212.4417; acc: 278839.0/284316.0=0.9807
+2023-01-27 22:32:20 - main1.py[line:344] - INFO:      Instance: 2000; Time: 11.23s; loss: 2303.1619; acc: 368827.0/376173.0=0.9805
+2023-01-27 22:32:31 - main1.py[line:344] - INFO:      Instance: 2500; Time: 11.06s; loss: 2548.7295; acc: 460920.0/470296.0=0.9801
+2023-01-27 22:32:37 - main1.py[line:356] - INFO:      Instance: 2749; Time: 5.68s; loss: 1181.7574; acc: 506552.0/516868.0=0.9800
+2023-01-27 22:32:37 - main1.py[line:361] - INFO: Epoch: 44 training finished. Time: 61.32s, speed: 44.83st/s,  total loss: tensor(12871.1650, device='cuda:0')
+2023-01-27 22:32:40 - metric.py[line:62] - INFO: gold_num = 2576 pred_num = 2580 right_num = 2192
+2023-01-27 22:32:40 - main1.py[line:370] - INFO: Dev: time: 3.36s, speed: 98.36st/s; acc: 0.9628, p: 0.8496, r: 0.8509, f: 0.8503
+2023-01-27 22:32:43 - metric.py[line:62] - INFO: gold_num = 2681 pred_num = 2703 right_num = 2325
+2023-01-27 22:32:43 - main1.py[line:396] - INFO: Test: time: 3.58s, speed: 96.13st/s; acc: 0.9710, p: 0.8602, r: 0.8672, f: 0.8637
+2023-01-27 22:32:43 - main1.py[line:408] - INFO: Best dev score: p:0.8491879350348028, r:0.8524844720496895, f:0.8508330104610617
+2023-01-27 22:32:43 - main1.py[line:409] - INFO: Test score: p:0.855359765051395, r:0.8690787019768743, f:0.8621646623496761
+2023-01-27 22:32:55 - main1.py[line:296] - INFO: Epoch: 45/100
+2023-01-27 22:32:55 - main1.py[line:121] - INFO:  Learning rate is setted as: 0.0004972012849354613
+2023-01-27 22:33:06 - main1.py[line:344] - INFO:      Instance: 500; Time: 11.07s; loss: 2322.8564; acc: 89907.0/91683.0=0.9806
+2023-01-27 22:33:17 - main1.py[line:344] - INFO:      Instance: 1000; Time: 11.17s; loss: 2304.2512; acc: 183699.0/187549.0=0.9795
+2023-01-27 22:33:28 - main1.py[line:344] - INFO:      Instance: 1500; Time: 11.14s; loss: 2012.5325; acc: 274239.0/279796.0=0.9801
+2023-01-27 22:33:39 - main1.py[line:344] - INFO:      Instance: 2000; Time: 11.23s; loss: 2331.1606; acc: 367764.0/375305.0=0.9799
+2023-01-27 22:33:51 - main1.py[line:344] - INFO:      Instance: 2500; Time: 11.21s; loss: 2243.6409; acc: 461147.0/470697.0=0.9797
+2023-01-27 22:33:56 - main1.py[line:356] - INFO:      Instance: 2749; Time: 5.76s; loss: 1139.8665; acc: 506348.0/516868.0=0.9796
+2023-01-27 22:33:56 - main1.py[line:361] - INFO: Epoch: 45 training finished. Time: 61.58s, speed: 44.64st/s,  total loss: tensor(12354.3086, device='cuda:0')
+2023-01-27 22:34:00 - metric.py[line:62] - INFO: gold_num = 2576 pred_num = 2605 right_num = 2198
+2023-01-27 22:34:00 - main1.py[line:370] - INFO: Dev: time: 3.47s, speed: 95.30st/s; acc: 0.9618, p: 0.8438, r: 0.8533, f: 0.8485
+2023-01-27 22:34:03 - metric.py[line:62] - INFO: gold_num = 2681 pred_num = 2737 right_num = 2349
+2023-01-27 22:34:03 - main1.py[line:396] - INFO: Test: time: 3.52s, speed: 97.84st/s; acc: 0.9719, p: 0.8582, r: 0.8762, f: 0.8671
+2023-01-27 22:34:03 - main1.py[line:408] - INFO: Best dev score: p:0.8491879350348028, r:0.8524844720496895, f:0.8508330104610617
+2023-01-27 22:34:03 - main1.py[line:409] - INFO: Test score: p:0.855359765051395, r:0.8690787019768743, f:0.8621646623496761
+2023-01-27 22:34:15 - main1.py[line:296] - INFO: Epoch: 46/100
+2023-01-27 22:34:15 - main1.py[line:121] - INFO:  Learning rate is setted as: 0.00047234122068868817
+2023-01-27 22:34:26 - main1.py[line:344] - INFO:      Instance: 500; Time: 10.98s; loss: 2184.7500; acc: 88919.0/90607.0=0.9814
+2023-01-27 22:34:37 - main1.py[line:344] - INFO:      Instance: 1000; Time: 11.08s; loss: 2229.1501; acc: 181835.0/185415.0=0.9807
+2023-01-27 22:34:48 - main1.py[line:344] - INFO:      Instance: 1500; Time: 11.00s; loss: 2201.0884; acc: 273979.0/279288.0=0.9810
+2023-01-27 22:34:59 - main1.py[line:344] - INFO:      Instance: 2000; Time: 11.12s; loss: 2461.6694; acc: 365866.0/373122.0=0.9806
+2023-01-27 22:35:10 - main1.py[line:344] - INFO:      Instance: 2500; Time: 11.13s; loss: 2153.1008; acc: 458629.0/467673.0=0.9807
+2023-01-27 22:35:16 - main1.py[line:356] - INFO:      Instance: 2749; Time: 5.71s; loss: 1184.0159; acc: 506799.0/516868.0=0.9805
+2023-01-27 22:35:16 - main1.py[line:361] - INFO: Epoch: 46 training finished. Time: 61.02s, speed: 45.05st/s,  total loss: tensor(12413.7764, device='cuda:0')
+2023-01-27 22:35:19 - metric.py[line:62] - INFO: gold_num = 2576 pred_num = 2604 right_num = 2194
+2023-01-27 22:35:19 - main1.py[line:370] - INFO: Dev: time: 3.36s, speed: 98.51st/s; acc: 0.9613, p: 0.8425, r: 0.8517, f: 0.8471
+2023-01-27 22:35:23 - metric.py[line:62] - INFO: gold_num = 2681 pred_num = 2740 right_num = 2336
+2023-01-27 22:35:23 - main1.py[line:396] - INFO: Test: time: 3.57s, speed: 96.20st/s; acc: 0.9710, p: 0.8526, r: 0.8713, f: 0.8618
+2023-01-27 22:35:23 - main1.py[line:408] - INFO: Best dev score: p:0.8491879350348028, r:0.8524844720496895, f:0.8508330104610617
+2023-01-27 22:35:23 - main1.py[line:409] - INFO: Test score: p:0.855359765051395, r:0.8690787019768743, f:0.8621646623496761
+2023-01-27 22:35:34 - main1.py[line:296] - INFO: Epoch: 47/100
+2023-01-27 22:35:34 - main1.py[line:121] - INFO:  Learning rate is setted as: 0.0004487241596542538
+2023-01-27 22:35:46 - main1.py[line:344] - INFO:      Instance: 500; Time: 11.14s; loss: 2011.8616; acc: 91053.0/92745.0=0.9818
+2023-01-27 22:35:57 - main1.py[line:344] - INFO:      Instance: 1000; Time: 11.14s; loss: 2296.1550; acc: 185965.0/189643.0=0.9806
+2023-01-27 22:36:08 - main1.py[line:344] - INFO:      Instance: 1500; Time: 11.01s; loss: 2397.0127; acc: 278358.0/284155.0=0.9796
+2023-01-27 22:36:19 - main1.py[line:344] - INFO:      Instance: 2000; Time: 11.01s; loss: 2094.1584; acc: 368713.0/376250.0=0.9800
+2023-01-27 22:36:30 - main1.py[line:344] - INFO:      Instance: 2500; Time: 11.01s; loss: 2403.1968; acc: 461549.0/471188.0=0.9795
+2023-01-27 22:36:35 - main1.py[line:356] - INFO:      Instance: 2749; Time: 5.75s; loss: 945.9580; acc: 506472.0/516868.0=0.9799
+2023-01-27 22:36:35 - main1.py[line:361] - INFO: Epoch: 47 training finished. Time: 61.07s, speed: 45.01st/s,  total loss: tensor(12148.3418, device='cuda:0')
+2023-01-27 22:36:39 - metric.py[line:62] - INFO: gold_num = 2576 pred_num = 2620 right_num = 2205
+2023-01-27 22:36:39 - main1.py[line:370] - INFO: Dev: time: 3.42s, speed: 96.72st/s; acc: 0.9634, p: 0.8416, r: 0.8560, f: 0.8487
+2023-01-27 22:36:42 - metric.py[line:62] - INFO: gold_num = 2681 pred_num = 2746 right_num = 2342
+2023-01-27 22:36:42 - main1.py[line:396] - INFO: Test: time: 3.53s, speed: 97.51st/s; acc: 0.9709, p: 0.8529, r: 0.8736, f: 0.8631
+2023-01-27 22:36:42 - main1.py[line:408] - INFO: Best dev score: p:0.8491879350348028, r:0.8524844720496895, f:0.8508330104610617
+2023-01-27 22:36:42 - main1.py[line:409] - INFO: Test score: p:0.855359765051395, r:0.8690787019768743, f:0.8621646623496761
+2023-01-27 22:36:54 - main1.py[line:296] - INFO: Epoch: 48/100
+2023-01-27 22:36:54 - main1.py[line:121] - INFO:  Learning rate is setted as: 0.000426287951671541
+2023-01-27 22:37:05 - main1.py[line:344] - INFO:      Instance: 500; Time: 11.05s; loss: 2170.0325; acc: 90527.0/92318.0=0.9806
+2023-01-27 22:37:16 - main1.py[line:344] - INFO:      Instance: 1000; Time: 11.17s; loss: 2089.7046; acc: 181901.0/185357.0=0.9814
+2023-01-27 22:37:27 - main1.py[line:344] - INFO:      Instance: 1500; Time: 11.11s; loss: 2247.3481; acc: 275732.0/280998.0=0.9813
+2023-01-27 22:37:38 - main1.py[line:344] - INFO:      Instance: 2000; Time: 11.22s; loss: 2265.5681; acc: 366692.0/373791.0=0.9810
+2023-01-27 22:37:49 - main1.py[line:344] - INFO:      Instance: 2500; Time: 11.18s; loss: 2220.6257; acc: 459967.0/469031.0=0.9807
+2023-01-27 22:37:55 - main1.py[line:356] - INFO:      Instance: 2749; Time: 5.76s; loss: 1053.8162; acc: 506920.0/516868.0=0.9808
+2023-01-27 22:37:55 - main1.py[line:361] - INFO: Epoch: 48 training finished. Time: 61.47s, speed: 44.72st/s,  total loss: tensor(12047.0947, device='cuda:0')
+2023-01-27 22:37:59 - metric.py[line:62] - INFO: gold_num = 2576 pred_num = 2604 right_num = 2196
+2023-01-27 22:37:59 - main1.py[line:370] - INFO: Dev: time: 3.46s, speed: 95.64st/s; acc: 0.9621, p: 0.8433, r: 0.8525, f: 0.8479
+2023-01-27 22:38:02 - metric.py[line:62] - INFO: gold_num = 2681 pred_num = 2730 right_num = 2343
+2023-01-27 22:38:02 - main1.py[line:396] - INFO: Test: time: 3.56s, speed: 96.70st/s; acc: 0.9722, p: 0.8582, r: 0.8739, f: 0.8660
+2023-01-27 22:38:02 - main1.py[line:408] - INFO: Best dev score: p:0.8491879350348028, r:0.8524844720496895, f:0.8508330104610617
+2023-01-27 22:38:02 - main1.py[line:409] - INFO: Test score: p:0.855359765051395, r:0.8690787019768743, f:0.8621646623496761
+2023-01-27 22:38:14 - main1.py[line:296] - INFO: Epoch: 49/100
+2023-01-27 22:38:14 - main1.py[line:121] - INFO:  Learning rate is setted as: 0.000404973554087964
+2023-01-27 22:38:25 - main1.py[line:344] - INFO:      Instance: 500; Time: 10.99s; loss: 2196.2673; acc: 92239.0/93996.0=0.9813
+2023-01-27 22:38:36 - main1.py[line:344] - INFO:      Instance: 1000; Time: 11.15s; loss: 2300.9958; acc: 186168.0/189804.0=0.9808
+2023-01-27 22:38:47 - main1.py[line:344] - INFO:      Instance: 1500; Time: 11.22s; loss: 2069.9766; acc: 276569.0/281882.0=0.9812
+2023-01-27 22:38:58 - main1.py[line:344] - INFO:      Instance: 2000; Time: 11.14s; loss: 2067.3604; acc: 366797.0/373793.0=0.9813
+2023-01-27 22:39:09 - main1.py[line:344] - INFO:      Instance: 2500; Time: 11.15s; loss: 2356.2122; acc: 460992.0/470021.0=0.9808
+2023-01-27 22:39:15 - main1.py[line:356] - INFO:      Instance: 2749; Time: 5.70s; loss: 1157.1683; acc: 506887.0/516868.0=0.9807
+2023-01-27 22:39:15 - main1.py[line:361] - INFO: Epoch: 49 training finished. Time: 61.36s, speed: 44.80st/s,  total loss: tensor(12147.9814, device='cuda:0')
+2023-01-27 22:39:18 - metric.py[line:62] - INFO: gold_num = 2576 pred_num = 2584 right_num = 2194
+2023-01-27 22:39:18 - main1.py[line:370] - INFO: Dev: time: 3.35s, speed: 98.83st/s; acc: 0.9631, p: 0.8491, r: 0.8517, f: 0.8504
+2023-01-27 22:39:22 - metric.py[line:62] - INFO: gold_num = 2681 pred_num = 2718 right_num = 2330
+2023-01-27 22:39:22 - main1.py[line:396] - INFO: Test: time: 3.55s, speed: 96.93st/s; acc: 0.9714, p: 0.8572, r: 0.8691, f: 0.8631
+2023-01-27 22:39:22 - main1.py[line:408] - INFO: Best dev score: p:0.8491879350348028, r:0.8524844720496895, f:0.8508330104610617
+2023-01-27 22:39:22 - main1.py[line:409] - INFO: Test score: p:0.855359765051395, r:0.8690787019768743, f:0.8621646623496761
+2023-01-27 22:39:33 - main1.py[line:296] - INFO: Epoch: 50/100
+2023-01-27 22:39:33 - main1.py[line:121] - INFO:  Learning rate is setted as: 0.0003847248763835658
+2023-01-27 22:39:44 - main1.py[line:344] - INFO:      Instance: 500; Time: 10.97s; loss: 1980.9307; acc: 91163.0/92871.0=0.9816
+2023-01-27 22:39:55 - main1.py[line:344] - INFO:      Instance: 1000; Time: 10.79s; loss: 2326.9805; acc: 185898.0/189437.0=0.9813
+2023-01-27 22:40:07 - main1.py[line:344] - INFO:      Instance: 1500; Time: 11.35s; loss: 2165.5208; acc: 276650.0/282062.0=0.9808
+2023-01-27 22:40:18 - main1.py[line:344] - INFO:      Instance: 2000; Time: 11.20s; loss: 2142.7681; acc: 369783.0/376977.0=0.9809
+2023-01-27 22:40:29 - main1.py[line:344] - INFO:      Instance: 2500; Time: 11.17s; loss: 1993.7856; acc: 460219.0/469090.0=0.9811
+2023-01-27 22:40:35 - main1.py[line:356] - INFO:      Instance: 2749; Time: 5.75s; loss: 1150.1241; acc: 507121.0/516868.0=0.9811
+2023-01-27 22:40:35 - main1.py[line:361] - INFO: Epoch: 50 training finished. Time: 61.24s, speed: 44.89st/s,  total loss: tensor(11760.1094, device='cuda:0')
+2023-01-27 22:40:38 - metric.py[line:62] - INFO: gold_num = 2576 pred_num = 2611 right_num = 2189
+2023-01-27 22:40:38 - main1.py[line:370] - INFO: Dev: time: 3.39s, speed: 97.65st/s; acc: 0.9613, p: 0.8384, r: 0.8498, f: 0.8440
+2023-01-27 22:40:42 - metric.py[line:62] - INFO: gold_num = 2681 pred_num = 2738 right_num = 2342
+2023-01-27 22:40:42 - main1.py[line:396] - INFO: Test: time: 3.56s, speed: 96.60st/s; acc: 0.9722, p: 0.8554, r: 0.8736, f: 0.8644
+2023-01-27 22:40:42 - main1.py[line:408] - INFO: Best dev score: p:0.8491879350348028, r:0.8524844720496895, f:0.8508330104610617
+2023-01-27 22:40:42 - main1.py[line:409] - INFO: Test score: p:0.855359765051395, r:0.8690787019768743, f:0.8621646623496761
+2023-01-27 22:40:53 - main1.py[line:296] - INFO: Epoch: 51/100
+2023-01-27 22:40:53 - main1.py[line:121] - INFO:  Learning rate is setted as: 0.00036548863256438745
+2023-01-27 22:41:04 - main1.py[line:344] - INFO:      Instance: 500; Time: 11.03s; loss: 2006.6792; acc: 89669.0/91300.0=0.9821
+2023-01-27 22:41:15 - main1.py[line:344] - INFO:      Instance: 1000; Time: 11.04s; loss: 2144.4758; acc: 179087.0/182437.0=0.9816
+2023-01-27 22:41:26 - main1.py[line:344] - INFO:      Instance: 1500; Time: 11.15s; loss: 2305.3816; acc: 275979.0/281406.0=0.9807
+2023-01-27 22:41:37 - main1.py[line:344] - INFO:      Instance: 2000; Time: 11.19s; loss: 2078.7512; acc: 367260.0/374493.0=0.9807
+2023-01-27 22:41:48 - main1.py[line:344] - INFO:      Instance: 2500; Time: 10.98s; loss: 2094.5276; acc: 459660.0/468571.0=0.9810
+2023-01-27 22:41:54 - main1.py[line:356] - INFO:      Instance: 2749; Time: 5.58s; loss: 1068.8999; acc: 506944.0/516868.0=0.9808
+2023-01-27 22:41:54 - main1.py[line:361] - INFO: Epoch: 51 training finished. Time: 60.97s, speed: 45.08st/s,  total loss: tensor(11698.7148, device='cuda:0')
+2023-01-27 22:41:57 - metric.py[line:62] - INFO: gold_num = 2576 pred_num = 2580 right_num = 2181
+2023-01-27 22:41:57 - main1.py[line:370] - INFO: Dev: time: 3.36s, speed: 98.40st/s; acc: 0.9604, p: 0.8453, r: 0.8467, f: 0.8460
+2023-01-27 22:42:01 - metric.py[line:62] - INFO: gold_num = 2681 pred_num = 2712 right_num = 2328
+2023-01-27 22:42:01 - main1.py[line:396] - INFO: Test: time: 3.50s, speed: 98.25st/s; acc: 0.9710, p: 0.8584, r: 0.8683, f: 0.8633
+2023-01-27 22:42:01 - main1.py[line:408] - INFO: Best dev score: p:0.8491879350348028, r:0.8524844720496895, f:0.8508330104610617
+2023-01-27 22:42:01 - main1.py[line:409] - INFO: Test score: p:0.855359765051395, r:0.8690787019768743, f:0.8621646623496761
+2023-01-27 22:42:12 - main1.py[line:296] - INFO: Epoch: 52/100
+2023-01-27 22:42:12 - main1.py[line:121] - INFO:  Learning rate is setted as: 0.000347214200936168
+2023-01-27 22:42:23 - main1.py[line:344] - INFO:      Instance: 500; Time: 11.00s; loss: 2143.2915; acc: 90749.0/92487.0=0.9812
+2023-01-27 22:42:34 - main1.py[line:344] - INFO:      Instance: 1000; Time: 11.16s; loss: 2131.3403; acc: 181189.0/184764.0=0.9807
+2023-01-27 22:42:46 - main1.py[line:344] - INFO:      Instance: 1500; Time: 11.09s; loss: 2171.9121; acc: 273436.0/278787.0=0.9808
+2023-01-27 22:42:57 - main1.py[line:344] - INFO:      Instance: 2000; Time: 11.10s; loss: 2000.5645; acc: 367406.0/374477.0=0.9811
+2023-01-27 22:43:08 - main1.py[line:344] - INFO:      Instance: 2500; Time: 11.20s; loss: 2130.3772; acc: 460104.0/468936.0=0.9812
+2023-01-27 22:43:14 - main1.py[line:356] - INFO:      Instance: 2749; Time: 5.81s; loss: 1083.4325; acc: 507130.0/516868.0=0.9812
+2023-01-27 22:43:14 - main1.py[line:361] - INFO: Epoch: 52 training finished. Time: 61.35s, speed: 44.81st/s,  total loss: tensor(11660.9180, device='cuda:0')
+2023-01-27 22:43:17 - metric.py[line:62] - INFO: gold_num = 2576 pred_num = 2592 right_num = 2197
+2023-01-27 22:43:17 - main1.py[line:370] - INFO: Dev: time: 3.37s, speed: 98.25st/s; acc: 0.9625, p: 0.8476, r: 0.8529, f: 0.8502
+2023-01-27 22:43:21 - metric.py[line:62] - INFO: gold_num = 2681 pred_num = 2718 right_num = 2339
+2023-01-27 22:43:21 - main1.py[line:396] - INFO: Test: time: 3.55s, speed: 96.91st/s; acc: 0.9718, p: 0.8606, r: 0.8724, f: 0.8665
+2023-01-27 22:43:21 - main1.py[line:408] - INFO: Best dev score: p:0.8491879350348028, r:0.8524844720496895, f:0.8508330104610617
+2023-01-27 22:43:21 - main1.py[line:409] - INFO: Test score: p:0.855359765051395, r:0.8690787019768743, f:0.8621646623496761
+2023-01-27 22:43:32 - main1.py[line:296] - INFO: Epoch: 53/100
+2023-01-27 22:43:32 - main1.py[line:121] - INFO:  Learning rate is setted as: 0.00032985349088935967
+2023-01-27 22:43:43 - main1.py[line:344] - INFO:      Instance: 500; Time: 10.88s; loss: 1834.9431; acc: 91019.0/92539.0=0.9836
+2023-01-27 22:43:54 - main1.py[line:344] - INFO:      Instance: 1000; Time: 10.77s; loss: 2096.3198; acc: 183655.0/186937.0=0.9824
+2023-01-27 22:44:05 - main1.py[line:344] - INFO:      Instance: 1500; Time: 11.13s; loss: 2140.1499; acc: 275910.0/280983.0=0.9819
+2023-01-27 22:44:16 - main1.py[line:344] - INFO:      Instance: 2000; Time: 11.08s; loss: 2049.5957; acc: 365271.0/372084.0=0.9817
+2023-01-27 22:44:27 - main1.py[line:344] - INFO:      Instance: 2500; Time: 11.18s; loss: 2233.0674; acc: 459840.0/468474.0=0.9816
+2023-01-27 22:44:33 - main1.py[line:356] - INFO:      Instance: 2749; Time: 5.78s; loss: 1129.0414; acc: 507176.0/516868.0=0.9812
+2023-01-27 22:44:33 - main1.py[line:361] - INFO: Epoch: 53 training finished. Time: 60.82s, speed: 45.20st/s,  total loss: tensor(11483.1191, device='cuda:0')
+2023-01-27 22:44:36 - metric.py[line:62] - INFO: gold_num = 2576 pred_num = 2593 right_num = 2193
+2023-01-27 22:44:36 - main1.py[line:370] - INFO: Dev: time: 3.37s, speed: 98.29st/s; acc: 0.9616, p: 0.8457, r: 0.8513, f: 0.8485
+2023-01-27 22:44:40 - metric.py[line:62] - INFO: gold_num = 2681 pred_num = 2717 right_num = 2336
+2023-01-27 22:44:40 - main1.py[line:396] - INFO: Test: time: 3.51s, speed: 97.95st/s; acc: 0.9722, p: 0.8598, r: 0.8713, f: 0.8655
+2023-01-27 22:44:40 - main1.py[line:408] - INFO: Best dev score: p:0.8491879350348028, r:0.8524844720496895, f:0.8508330104610617
+2023-01-27 22:44:40 - main1.py[line:409] - INFO: Test score: p:0.855359765051395, r:0.8690787019768743, f:0.8621646623496761
+2023-01-27 22:44:51 - main1.py[line:296] - INFO: Epoch: 54/100
+2023-01-27 22:44:51 - main1.py[line:121] - INFO:  Learning rate is setted as: 0.00031336081634489164
+2023-01-27 22:45:02 - main1.py[line:344] - INFO:      Instance: 500; Time: 11.00s; loss: 2010.0605; acc: 91037.0/92761.0=0.9814
+2023-01-27 22:45:14 - main1.py[line:344] - INFO:      Instance: 1000; Time: 11.21s; loss: 2170.2983; acc: 184362.0/188056.0=0.9804
+2023-01-27 22:45:25 - main1.py[line:344] - INFO:      Instance: 1500; Time: 11.24s; loss: 2124.9065; acc: 278094.0/283600.0=0.9806
+2023-01-27 22:45:36 - main1.py[line:344] - INFO:      Instance: 2000; Time: 11.14s; loss: 2026.1580; acc: 371678.0/378883.0=0.9810
+2023-01-27 22:45:47 - main1.py[line:344] - INFO:      Instance: 2500; Time: 11.10s; loss: 1996.7336; acc: 461301.0/470145.0=0.9812
+2023-01-27 22:45:53 - main1.py[line:356] - INFO:      Instance: 2749; Time: 5.78s; loss: 940.7063; acc: 507247.0/516868.0=0.9814
+2023-01-27 22:45:53 - main1.py[line:361] - INFO: Epoch: 54 training finished. Time: 61.48s, speed: 44.72st/s,  total loss: tensor(11268.8662, device='cuda:0')
+2023-01-27 22:45:56 - metric.py[line:62] - INFO: gold_num = 2576 pred_num = 2578 right_num = 2184
+2023-01-27 22:45:56 - main1.py[line:370] - INFO: Dev: time: 3.37s, speed: 98.19st/s; acc: 0.9622, p: 0.8472, r: 0.8478, f: 0.8475
+2023-01-27 22:46:00 - metric.py[line:62] - INFO: gold_num = 2681 pred_num = 2708 right_num = 2335
+2023-01-27 22:46:00 - main1.py[line:396] - INFO: Test: time: 3.52s, speed: 97.73st/s; acc: 0.9723, p: 0.8623, r: 0.8709, f: 0.8666
+2023-01-27 22:46:00 - main1.py[line:408] - INFO: Best dev score: p:0.8491879350348028, r:0.8524844720496895, f:0.8508330104610617
+2023-01-27 22:46:00 - main1.py[line:409] - INFO: Test score: p:0.855359765051395, r:0.8690787019768743, f:0.8621646623496761
+2023-01-27 22:46:11 - main1.py[line:296] - INFO: Epoch: 55/100
+2023-01-27 22:46:11 - main1.py[line:121] - INFO:  Learning rate is setted as: 0.00029769277552764705
+2023-01-27 22:46:22 - main1.py[line:344] - INFO:      Instance: 500; Time: 10.96s; loss: 2207.1055; acc: 94961.0/96773.0=0.9813
+2023-01-27 22:46:33 - main1.py[line:344] - INFO:      Instance: 1000; Time: 11.09s; loss: 1860.6057; acc: 187216.0/190502.0=0.9828
+2023-01-27 22:46:44 - main1.py[line:344] - INFO:      Instance: 1500; Time: 11.14s; loss: 2110.8662; acc: 277131.0/282160.0=0.9822
+2023-01-27 22:46:55 - main1.py[line:344] - INFO:      Instance: 2000; Time: 11.07s; loss: 2044.9116; acc: 369010.0/375855.0=0.9818
+2023-01-27 22:47:07 - main1.py[line:344] - INFO:      Instance: 2500; Time: 11.19s; loss: 1952.1567; acc: 462752.0/471116.0=0.9822
+2023-01-27 22:47:12 - main1.py[line:356] - INFO:      Instance: 2749; Time: 5.78s; loss: 983.8165; acc: 507612.0/516868.0=0.9821
+2023-01-27 22:47:12 - main1.py[line:361] - INFO: Epoch: 55 training finished. Time: 61.22s, speed: 44.90st/s,  total loss: tensor(11159.4639, device='cuda:0')
+2023-01-27 22:47:16 - metric.py[line:62] - INFO: gold_num = 2576 pred_num = 2597 right_num = 2182
+2023-01-27 22:47:16 - main1.py[line:370] - INFO: Dev: time: 3.41s, speed: 96.94st/s; acc: 0.9614, p: 0.8402, r: 0.8470, f: 0.8436
+2023-01-27 22:47:19 - metric.py[line:62] - INFO: gold_num = 2681 pred_num = 2729 right_num = 2331
+2023-01-27 22:47:19 - main1.py[line:396] - INFO: Test: time: 3.56s, speed: 96.74st/s; acc: 0.9714, p: 0.8542, r: 0.8695, f: 0.8617
+2023-01-27 22:47:19 - main1.py[line:408] - INFO: Best dev score: p:0.8491879350348028, r:0.8524844720496895, f:0.8508330104610617
+2023-01-27 22:47:19 - main1.py[line:409] - INFO: Test score: p:0.855359765051395, r:0.8690787019768743, f:0.8621646623496761
+2023-01-27 22:47:31 - main1.py[line:296] - INFO: Epoch: 56/100
+2023-01-27 22:47:31 - main1.py[line:121] - INFO:  Learning rate is setted as: 0.00028280813675126467
+2023-01-27 22:47:42 - main1.py[line:344] - INFO:      Instance: 500; Time: 11.02s; loss: 1871.5103; acc: 90072.0/91619.0=0.9831
+2023-01-27 22:47:53 - main1.py[line:344] - INFO:      Instance: 1000; Time: 11.00s; loss: 2194.3450; acc: 183657.0/187100.0=0.9816
+2023-01-27 22:48:04 - main1.py[line:344] - INFO:      Instance: 1500; Time: 11.08s; loss: 2086.1799; acc: 277821.0/283034.0=0.9816
+2023-01-27 22:48:15 - main1.py[line:344] - INFO:      Instance: 2000; Time: 11.16s; loss: 2094.0276; acc: 368668.0/375679.0=0.9813
+2023-01-27 22:48:26 - main1.py[line:344] - INFO:      Instance: 2500; Time: 11.17s; loss: 1935.9001; acc: 461950.0/470547.0=0.9817
+2023-01-27 22:48:32 - main1.py[line:356] - INFO:      Instance: 2749; Time: 5.74s; loss: 902.4536; acc: 507527.0/516868.0=0.9819
+2023-01-27 22:48:32 - main1.py[line:361] - INFO: Epoch: 56 training finished. Time: 61.17s, speed: 44.94st/s,  total loss: tensor(11084.4160, device='cuda:0')
+2023-01-27 22:48:35 - metric.py[line:62] - INFO: gold_num = 2576 pred_num = 2588 right_num = 2186
+2023-01-27 22:48:35 - main1.py[line:370] - INFO: Dev: time: 3.36s, speed: 98.45st/s; acc: 0.9611, p: 0.8447, r: 0.8486, f: 0.8466
+2023-01-27 22:48:39 - metric.py[line:62] - INFO: gold_num = 2681 pred_num = 2715 right_num = 2337
+2023-01-27 22:48:39 - main1.py[line:396] - INFO: Test: time: 3.50s, speed: 98.39st/s; acc: 0.9720, p: 0.8608, r: 0.8717, f: 0.8662
+2023-01-27 22:48:39 - main1.py[line:408] - INFO: Best dev score: p:0.8491879350348028, r:0.8524844720496895, f:0.8508330104610617
+2023-01-27 22:48:39 - main1.py[line:409] - INFO: Test score: p:0.855359765051395, r:0.8690787019768743, f:0.8621646623496761
+2023-01-27 22:48:50 - main1.py[line:296] - INFO: Epoch: 57/100
+2023-01-27 22:48:50 - main1.py[line:121] - INFO:  Learning rate is setted as: 0.0002686677299137014
+2023-01-27 22:49:01 - main1.py[line:344] - INFO:      Instance: 500; Time: 10.91s; loss: 1951.5935; acc: 92423.0/93983.0=0.9834
+2023-01-27 22:49:12 - main1.py[line:344] - INFO:      Instance: 1000; Time: 11.16s; loss: 1854.3584; acc: 185089.0/188107.0=0.9840
+2023-01-27 22:49:23 - main1.py[line:344] - INFO:      Instance: 1500; Time: 11.07s; loss: 1826.8296; acc: 276408.0/281041.0=0.9835
+2023-01-27 22:49:34 - main1.py[line:344] - INFO:      Instance: 2000; Time: 11.06s; loss: 2264.7043; acc: 368320.0/374783.0=0.9828
+2023-01-27 22:49:45 - main1.py[line:344] - INFO:      Instance: 2500; Time: 11.03s; loss: 2229.9929; acc: 462291.0/470796.0=0.9819
+2023-01-27 22:49:51 - main1.py[line:356] - INFO:      Instance: 2749; Time: 5.73s; loss: 1025.1663; acc: 507327.0/516868.0=0.9815
+2023-01-27 22:49:51 - main1.py[line:361] - INFO: Epoch: 57 training finished. Time: 60.96s, speed: 45.10st/s,  total loss: tensor(11152.6416, device='cuda:0')
+2023-01-27 22:49:55 - metric.py[line:62] - INFO: gold_num = 2576 pred_num = 2612 right_num = 2188
+2023-01-27 22:49:55 - main1.py[line:370] - INFO: Dev: time: 3.38s, speed: 97.87st/s; acc: 0.9612, p: 0.8377, r: 0.8494, f: 0.8435
+2023-01-27 22:49:58 - metric.py[line:62] - INFO: gold_num = 2681 pred_num = 2732 right_num = 2339
+2023-01-27 22:49:58 - main1.py[line:396] - INFO: Test: time: 3.57s, speed: 96.21st/s; acc: 0.9712, p: 0.8561, r: 0.8724, f: 0.8642
+2023-01-27 22:49:58 - main1.py[line:408] - INFO: Best dev score: p:0.8491879350348028, r:0.8524844720496895, f:0.8508330104610617
+2023-01-27 22:49:58 - main1.py[line:409] - INFO: Test score: p:0.855359765051395, r:0.8690787019768743, f:0.8621646623496761
+2023-01-27 22:50:10 - main1.py[line:296] - INFO: Epoch: 58/100
+2023-01-27 22:50:10 - main1.py[line:121] - INFO:  Learning rate is setted as: 0.0002552343434180163
+2023-01-27 22:50:21 - main1.py[line:344] - INFO:      Instance: 500; Time: 11.04s; loss: 2043.7466; acc: 93056.0/94857.0=0.9810
+2023-01-27 22:50:32 - main1.py[line:344] - INFO:      Instance: 1000; Time: 11.16s; loss: 2106.0920; acc: 187415.0/190993.0=0.9813
+2023-01-27 22:50:43 - main1.py[line:344] - INFO:      Instance: 1500; Time: 11.24s; loss: 1876.2849; acc: 280090.0/285309.0=0.9817
+2023-01-27 22:50:54 - main1.py[line:344] - INFO:      Instance: 2000; Time: 11.18s; loss: 2056.9431; acc: 371274.0/378105.0=0.9819
+2023-01-27 22:51:05 - main1.py[line:344] - INFO:      Instance: 2500; Time: 11.20s; loss: 1984.3367; acc: 461590.0/470170.0=0.9818
+2023-01-27 22:51:11 - main1.py[line:356] - INFO:      Instance: 2749; Time: 5.76s; loss: 935.9041; acc: 507491.0/516868.0=0.9819
+2023-01-27 22:51:11 - main1.py[line:361] - INFO: Epoch: 58 training finished. Time: 61.58s, speed: 44.64st/s,  total loss: tensor(11003.3066, device='cuda:0')
+2023-01-27 22:51:15 - metric.py[line:62] - INFO: gold_num = 2576 pred_num = 2601 right_num = 2193
+2023-01-27 22:51:15 - main1.py[line:370] - INFO: Dev: time: 3.39s, speed: 97.54st/s; acc: 0.9616, p: 0.8431, r: 0.8513, f: 0.8472
+2023-01-27 22:51:18 - metric.py[line:62] - INFO: gold_num = 2681 pred_num = 2731 right_num = 2339
+2023-01-27 22:51:18 - main1.py[line:396] - INFO: Test: time: 3.50s, speed: 98.19st/s; acc: 0.9716, p: 0.8565, r: 0.8724, f: 0.8644
+2023-01-27 22:51:18 - main1.py[line:408] - INFO: Best dev score: p:0.8491879350348028, r:0.8524844720496895, f:0.8508330104610617
+2023-01-27 22:51:18 - main1.py[line:409] - INFO: Test score: p:0.855359765051395, r:0.8690787019768743, f:0.8621646623496761
+2023-01-27 22:51:29 - main1.py[line:296] - INFO: Epoch: 59/100
+2023-01-27 22:51:29 - main1.py[line:121] - INFO:  Learning rate is setted as: 0.00024247262624711553
+2023-01-27 22:51:41 - main1.py[line:344] - INFO:      Instance: 500; Time: 11.06s; loss: 1827.8315; acc: 92210.0/93698.0=0.9841
+2023-01-27 22:51:52 - main1.py[line:344] - INFO:      Instance: 1000; Time: 11.17s; loss: 1966.7515; acc: 186279.0/189510.0=0.9830
+2023-01-27 22:52:03 - main1.py[line:344] - INFO:      Instance: 1500; Time: 11.21s; loss: 1919.7151; acc: 277548.0/282375.0=0.9829
+2023-01-27 22:52:14 - main1.py[line:344] - INFO:      Instance: 2000; Time: 11.13s; loss: 2176.5020; acc: 369951.0/376620.0=0.9823
+2023-01-27 22:52:25 - main1.py[line:344] - INFO:      Instance: 2500; Time: 11.08s; loss: 2009.0579; acc: 462038.0/470415.0=0.9822
+2023-01-27 22:52:31 - main1.py[line:356] - INFO:      Instance: 2749; Time: 5.78s; loss: 972.2992; acc: 507667.0/516868.0=0.9822
+2023-01-27 22:52:31 - main1.py[line:361] - INFO: Epoch: 59 training finished. Time: 61.43s, speed: 44.75st/s,  total loss: tensor(10872.1523, device='cuda:0')
+2023-01-27 22:52:34 - metric.py[line:62] - INFO: gold_num = 2576 pred_num = 2593 right_num = 2191
+2023-01-27 22:52:34 - main1.py[line:370] - INFO: Dev: time: 3.37s, speed: 98.28st/s; acc: 0.9622, p: 0.8450, r: 0.8505, f: 0.8477
+2023-01-27 22:52:38 - metric.py[line:62] - INFO: gold_num = 2681 pred_num = 2720 right_num = 2332
+2023-01-27 22:52:38 - main1.py[line:396] - INFO: Test: time: 3.51s, speed: 97.91st/s; acc: 0.9712, p: 0.8574, r: 0.8698, f: 0.8635
+2023-01-27 22:52:38 - main1.py[line:408] - INFO: Best dev score: p:0.8491879350348028, r:0.8524844720496895, f:0.8508330104610617
+2023-01-27 22:52:38 - main1.py[line:409] - INFO: Test score: p:0.855359765051395, r:0.8690787019768743, f:0.8621646623496761
+2023-01-27 22:52:49 - main1.py[line:296] - INFO: Epoch: 60/100
+2023-01-27 22:52:49 - main1.py[line:121] - INFO:  Learning rate is setted as: 0.00023034899493475973
+2023-01-27 22:53:00 - main1.py[line:344] - INFO:      Instance: 500; Time: 11.09s; loss: 1912.6323; acc: 92426.0/93929.0=0.9840
+2023-01-27 22:53:11 - main1.py[line:344] - INFO:      Instance: 1000; Time: 11.12s; loss: 1952.6250; acc: 183424.0/186633.0=0.9828
+2023-01-27 22:53:23 - main1.py[line:344] - INFO:      Instance: 1500; Time: 11.14s; loss: 2078.0916; acc: 277403.0/282356.0=0.9825
+2023-01-27 22:53:34 - main1.py[line:344] - INFO:      Instance: 2000; Time: 11.17s; loss: 1821.9861; acc: 369032.0/375535.0=0.9827
+2023-01-27 22:53:45 - main1.py[line:344] - INFO:      Instance: 2500; Time: 11.26s; loss: 1996.5483; acc: 462828.0/470916.0=0.9828
+2023-01-27 22:53:51 - main1.py[line:356] - INFO:      Instance: 2749; Time: 5.73s; loss: 1062.3240; acc: 507830.0/516868.0=0.9825
+2023-01-27 22:53:51 - main1.py[line:361] - INFO: Epoch: 60 training finished. Time: 61.51s, speed: 44.69st/s,  total loss: tensor(10824.2051, device='cuda:0')
+2023-01-27 22:53:54 - metric.py[line:62] - INFO: gold_num = 2576 pred_num = 2583 right_num = 2185
+2023-01-27 22:53:54 - main1.py[line:370] - INFO: Dev: time: 3.36s, speed: 98.47st/s; acc: 0.9614, p: 0.8459, r: 0.8482, f: 0.8471
+2023-01-27 22:53:58 - metric.py[line:62] - INFO: gold_num = 2681 pred_num = 2717 right_num = 2333
+2023-01-27 22:53:58 - main1.py[line:396] - INFO: Test: time: 3.54s, speed: 97.07st/s; acc: 0.9717, p: 0.8587, r: 0.8702, f: 0.8644
+2023-01-27 22:53:58 - main1.py[line:408] - INFO: Best dev score: p:0.8491879350348028, r:0.8524844720496895, f:0.8508330104610617
+2023-01-27 22:53:58 - main1.py[line:409] - INFO: Test score: p:0.855359765051395, r:0.8690787019768743, f:0.8621646623496761
+2023-01-27 22:54:09 - main1.py[line:296] - INFO: Epoch: 61/100
+2023-01-27 22:54:09 - main1.py[line:121] - INFO:  Learning rate is setted as: 0.00021883154518802174
+2023-01-27 22:54:20 - main1.py[line:344] - INFO:      Instance: 500; Time: 11.02s; loss: 2051.5488; acc: 93817.0/95462.0=0.9828
+2023-01-27 22:54:31 - main1.py[line:344] - INFO:      Instance: 1000; Time: 10.97s; loss: 2024.6963; acc: 185729.0/189172.0=0.9818
+2023-01-27 22:54:42 - main1.py[line:344] - INFO:      Instance: 1500; Time: 11.16s; loss: 1772.6267; acc: 277159.0/282084.0=0.9825
+2023-01-27 22:54:53 - main1.py[line:344] - INFO:      Instance: 2000; Time: 11.05s; loss: 1994.7300; acc: 370518.0/377120.0=0.9825
+2023-01-27 22:55:04 - main1.py[line:344] - INFO:      Instance: 2500; Time: 11.16s; loss: 2051.5640; acc: 462947.0/471146.0=0.9826
+2023-01-27 22:55:10 - main1.py[line:356] - INFO:      Instance: 2749; Time: 5.74s; loss: 934.6509; acc: 507906.0/516868.0=0.9827
+2023-01-27 22:55:10 - main1.py[line:361] - INFO: Epoch: 61 training finished. Time: 61.09s, speed: 45.00st/s,  total loss: tensor(10829.8193, device='cuda:0')
+2023-01-27 22:55:13 - metric.py[line:62] - INFO: gold_num = 2576 pred_num = 2593 right_num = 2193
+2023-01-27 22:55:13 - main1.py[line:370] - INFO: Dev: time: 3.36s, speed: 98.59st/s; acc: 0.9617, p: 0.8457, r: 0.8513, f: 0.8485
+2023-01-27 22:55:17 - metric.py[line:62] - INFO: gold_num = 2681 pred_num = 2717 right_num = 2332
+2023-01-27 22:55:17 - main1.py[line:396] - INFO: Test: time: 3.51s, speed: 98.11st/s; acc: 0.9711, p: 0.8583, r: 0.8698, f: 0.8640
+2023-01-27 22:55:17 - main1.py[line:408] - INFO: Best dev score: p:0.8491879350348028, r:0.8524844720496895, f:0.8508330104610617
+2023-01-27 22:55:17 - main1.py[line:409] - INFO: Test score: p:0.855359765051395, r:0.8690787019768743, f:0.8621646623496761
+2023-01-27 22:55:28 - main1.py[line:296] - INFO: Epoch: 62/100
+2023-01-27 22:55:28 - main1.py[line:121] - INFO:  Learning rate is setted as: 0.00020788996792862066
+2023-01-27 22:55:39 - main1.py[line:344] - INFO:      Instance: 500; Time: 11.08s; loss: 2073.5730; acc: 93471.0/95120.0=0.9827
+2023-01-27 22:55:51 - main1.py[line:344] - INFO:      Instance: 1000; Time: 11.21s; loss: 1996.8013; acc: 185292.0/188681.0=0.9820
+2023-01-27 22:56:02 - main1.py[line:344] - INFO:      Instance: 1500; Time: 11.13s; loss: 1912.3772; acc: 278195.0/283151.0=0.9825
+2023-01-27 22:56:13 - main1.py[line:344] - INFO:      Instance: 2000; Time: 11.11s; loss: 1792.9778; acc: 369860.0/376318.0=0.9828
+2023-01-27 22:56:24 - main1.py[line:344] - INFO:      Instance: 2500; Time: 11.17s; loss: 1839.6653; acc: 463070.0/471163.0=0.9828
+2023-01-27 22:56:30 - main1.py[line:356] - INFO:      Instance: 2749; Time: 5.70s; loss: 905.2522; acc: 507973.0/516868.0=0.9828
+2023-01-27 22:56:30 - main1.py[line:361] - INFO: Epoch: 62 training finished. Time: 61.39s, speed: 44.78st/s,  total loss: tensor(10520.6455, device='cuda:0')
+2023-01-27 22:56:33 - metric.py[line:62] - INFO: gold_num = 2576 pred_num = 2609 right_num = 2198
+2023-01-27 22:56:33 - main1.py[line:370] - INFO: Dev: time: 3.39s, speed: 97.54st/s; acc: 0.9616, p: 0.8425, r: 0.8533, f: 0.8478
+2023-01-27 22:56:37 - metric.py[line:62] - INFO: gold_num = 2681 pred_num = 2732 right_num = 2336
+2023-01-27 22:56:37 - main1.py[line:396] - INFO: Test: time: 3.51s, speed: 98.08st/s; acc: 0.9709, p: 0.8551, r: 0.8713, f: 0.8631
+2023-01-27 22:56:37 - main1.py[line:408] - INFO: Best dev score: p:0.8491879350348028, r:0.8524844720496895, f:0.8508330104610617
+2023-01-27 22:56:37 - main1.py[line:409] - INFO: Test score: p:0.855359765051395, r:0.8690787019768743, f:0.8621646623496761
+2023-01-27 22:56:48 - main1.py[line:296] - INFO: Epoch: 63/100
+2023-01-27 22:56:48 - main1.py[line:121] - INFO:  Learning rate is setted as: 0.00019749546953218958
+2023-01-27 22:56:59 - main1.py[line:344] - INFO:      Instance: 500; Time: 11.11s; loss: 2034.4033; acc: 94276.0/96070.0=0.9813
+2023-01-27 22:57:10 - main1.py[line:344] - INFO:      Instance: 1000; Time: 11.15s; loss: 1727.5667; acc: 184843.0/188023.0=0.9831
+2023-01-27 22:57:22 - main1.py[line:344] - INFO:      Instance: 1500; Time: 11.22s; loss: 2040.3167; acc: 278503.0/283407.0=0.9827
+2023-01-27 22:57:33 - main1.py[line:344] - INFO:      Instance: 2000; Time: 11.07s; loss: 1947.8354; acc: 372878.0/379317.0=0.9830
+2023-01-27 22:57:44 - main1.py[line:344] - INFO:      Instance: 2500; Time: 11.21s; loss: 1776.4390; acc: 463827.0/471934.0=0.9828
+2023-01-27 22:57:50 - main1.py[line:356] - INFO:      Instance: 2749; Time: 5.70s; loss: 1031.4951; acc: 507962.0/516868.0=0.9828
+2023-01-27 22:57:50 - main1.py[line:361] - INFO: Epoch: 63 training finished. Time: 61.47s, speed: 44.72st/s,  total loss: tensor(10558.0537, device='cuda:0')
+2023-01-27 22:57:53 - metric.py[line:62] - INFO: gold_num = 2576 pred_num = 2604 right_num = 2191
+2023-01-27 22:57:53 - main1.py[line:370] - INFO: Dev: time: 3.36s, speed: 98.45st/s; acc: 0.9611, p: 0.8414, r: 0.8505, f: 0.8459
+2023-01-27 22:57:56 - metric.py[line:62] - INFO: gold_num = 2681 pred_num = 2730 right_num = 2335
+2023-01-27 22:57:56 - main1.py[line:396] - INFO: Test: time: 3.53s, speed: 97.53st/s; acc: 0.9712, p: 0.8553, r: 0.8709, f: 0.8631
+2023-01-27 22:57:56 - main1.py[line:408] - INFO: Best dev score: p:0.8491879350348028, r:0.8524844720496895, f:0.8508330104610617
+2023-01-27 22:57:56 - main1.py[line:409] - INFO: Test score: p:0.855359765051395, r:0.8690787019768743, f:0.8621646623496761
+2023-01-27 22:58:08 - main1.py[line:296] - INFO: Epoch: 64/100
+2023-01-27 22:58:08 - main1.py[line:121] - INFO:  Learning rate is setted as: 0.00018762069605558009
+2023-01-27 22:58:19 - main1.py[line:344] - INFO:      Instance: 500; Time: 11.03s; loss: 1815.2668; acc: 91139.0/92690.0=0.9833
+2023-01-27 22:58:30 - main1.py[line:344] - INFO:      Instance: 1000; Time: 11.17s; loss: 1760.5068; acc: 183782.0/186753.0=0.9841
+2023-01-27 22:58:41 - main1.py[line:344] - INFO:      Instance: 1500; Time: 10.95s; loss: 1884.9341; acc: 275486.0/279946.0=0.9841
+2023-01-27 22:58:52 - main1.py[line:344] - INFO:      Instance: 2000; Time: 11.06s; loss: 1947.2427; acc: 367647.0/373757.0=0.9837
+2023-01-27 22:59:03 - main1.py[line:344] - INFO:      Instance: 2500; Time: 11.23s; loss: 1957.9331; acc: 460316.0/468019.0=0.9835
+2023-01-27 22:59:09 - main1.py[line:356] - INFO:      Instance: 2749; Time: 5.76s; loss: 1075.7538; acc: 508140.0/516868.0=0.9831
+2023-01-27 22:59:09 - main1.py[line:361] - INFO: Epoch: 64 training finished. Time: 61.19s, speed: 44.92st/s,  total loss: tensor(10441.6357, device='cuda:0')
+2023-01-27 22:59:12 - metric.py[line:62] - INFO: gold_num = 2576 pred_num = 2600 right_num = 2191
+2023-01-27 22:59:12 - main1.py[line:370] - INFO: Dev: time: 3.37s, speed: 98.18st/s; acc: 0.9613, p: 0.8427, r: 0.8505, f: 0.8466
+2023-01-27 22:59:16 - metric.py[line:62] - INFO: gold_num = 2681 pred_num = 2729 right_num = 2344
+2023-01-27 22:59:16 - main1.py[line:396] - INFO: Test: time: 3.55s, speed: 96.86st/s; acc: 0.9715, p: 0.8589, r: 0.8743, f: 0.8665
+2023-01-27 22:59:16 - main1.py[line:408] - INFO: Best dev score: p:0.8491879350348028, r:0.8524844720496895, f:0.8508330104610617
+2023-01-27 22:59:16 - main1.py[line:409] - INFO: Test score: p:0.855359765051395, r:0.8690787019768743, f:0.8621646623496761
+2023-01-27 22:59:27 - main1.py[line:296] - INFO: Epoch: 65/100
+2023-01-27 22:59:27 - main1.py[line:121] - INFO:  Learning rate is setted as: 0.0001782396612528011
+2023-01-27 22:59:38 - main1.py[line:344] - INFO:      Instance: 500; Time: 11.01s; loss: 1836.6750; acc: 94589.0/96051.0=0.9848
+2023-01-27 22:59:50 - main1.py[line:344] - INFO:      Instance: 1000; Time: 11.08s; loss: 1993.5334; acc: 186244.0/189311.0=0.9838
+2023-01-27 23:00:01 - main1.py[line:344] - INFO:      Instance: 1500; Time: 11.06s; loss: 1932.5315; acc: 278830.0/283466.0=0.9836
+2023-01-27 23:00:12 - main1.py[line:344] - INFO:      Instance: 2000; Time: 11.18s; loss: 1779.0664; acc: 368261.0/374347.0=0.9837
+2023-01-27 23:00:23 - main1.py[line:344] - INFO:      Instance: 2500; Time: 11.14s; loss: 1968.4021; acc: 461079.0/468823.0=0.9835
+2023-01-27 23:00:29 - main1.py[line:356] - INFO:      Instance: 2749; Time: 5.80s; loss: 968.7468; acc: 508283.0/516868.0=0.9834
+2023-01-27 23:00:29 - main1.py[line:361] - INFO: Epoch: 65 training finished. Time: 61.27s, speed: 44.87st/s,  total loss: tensor(10478.9551, device='cuda:0')
+2023-01-27 23:00:32 - metric.py[line:62] - INFO: gold_num = 2576 pred_num = 2596 right_num = 2188
+2023-01-27 23:00:32 - main1.py[line:370] - INFO: Dev: time: 3.35s, speed: 98.82st/s; acc: 0.9612, p: 0.8428, r: 0.8494, f: 0.8461
+2023-01-27 23:00:36 - metric.py[line:62] - INFO: gold_num = 2681 pred_num = 2722 right_num = 2335
+2023-01-27 23:00:36 - main1.py[line:396] - INFO: Test: time: 3.51s, speed: 98.02st/s; acc: 0.9712, p: 0.8578, r: 0.8709, f: 0.8643
+2023-01-27 23:00:36 - main1.py[line:408] - INFO: Best dev score: p:0.8491879350348028, r:0.8524844720496895, f:0.8508330104610617
+2023-01-27 23:00:36 - main1.py[line:409] - INFO: Test score: p:0.855359765051395, r:0.8690787019768743, f:0.8621646623496761
+2023-01-27 23:00:47 - main1.py[line:296] - INFO: Epoch: 66/100
+2023-01-27 23:00:47 - main1.py[line:121] - INFO:  Learning rate is setted as: 0.00016932767819016103
+2023-01-27 23:00:58 - main1.py[line:344] - INFO:      Instance: 500; Time: 11.09s; loss: 1974.7998; acc: 95326.0/97095.0=0.9818
+2023-01-27 23:01:09 - main1.py[line:344] - INFO:      Instance: 1000; Time: 11.09s; loss: 1963.4861; acc: 186741.0/190084.0=0.9824
+2023-01-27 23:01:20 - main1.py[line:344] - INFO:      Instance: 1500; Time: 11.20s; loss: 1905.8245; acc: 279064.0/284121.0=0.9822
+2023-01-27 23:01:32 - main1.py[line:344] - INFO:      Instance: 2000; Time: 11.14s; loss: 1844.5505; acc: 369185.0/375807.0=0.9824
+2023-01-27 23:01:43 - main1.py[line:344] - INFO:      Instance: 2500; Time: 11.19s; loss: 1901.0247; acc: 461298.0/469430.0=0.9827
+2023-01-27 23:01:49 - main1.py[line:356] - INFO:      Instance: 2749; Time: 5.79s; loss: 850.6824; acc: 507998.0/516868.0=0.9828
+2023-01-27 23:01:49 - main1.py[line:361] - INFO: Epoch: 66 training finished. Time: 61.52s, speed: 44.69st/s,  total loss: tensor(10440.3682, device='cuda:0')
+2023-01-27 23:01:52 - metric.py[line:62] - INFO: gold_num = 2576 pred_num = 2587 right_num = 2186
+2023-01-27 23:01:52 - main1.py[line:370] - INFO: Dev: time: 3.38s, speed: 97.88st/s; acc: 0.9618, p: 0.8450, r: 0.8486, f: 0.8468
+2023-01-27 23:01:55 - metric.py[line:62] - INFO: gold_num = 2681 pred_num = 2721 right_num = 2341
+2023-01-27 23:01:55 - main1.py[line:396] - INFO: Test: time: 3.50s, speed: 98.16st/s; acc: 0.9720, p: 0.8603, r: 0.8732, f: 0.8667
+2023-01-27 23:01:55 - main1.py[line:408] - INFO: Best dev score: p:0.8491879350348028, r:0.8524844720496895, f:0.8508330104610617
+2023-01-27 23:01:55 - main1.py[line:409] - INFO: Test score: p:0.855359765051395, r:0.8690787019768743, f:0.8621646623496761
+2023-01-27 23:02:07 - main1.py[line:296] - INFO: Epoch: 67/100
+2023-01-27 23:02:07 - main1.py[line:121] - INFO:  Learning rate is setted as: 0.00016086129428065298
+2023-01-27 23:02:18 - main1.py[line:344] - INFO:      Instance: 500; Time: 10.98s; loss: 1817.8660; acc: 90607.0/92204.0=0.9827
+2023-01-27 23:02:29 - main1.py[line:344] - INFO:      Instance: 1000; Time: 11.24s; loss: 1945.7664; acc: 186365.0/189611.0=0.9829
+2023-01-27 23:02:40 - main1.py[line:344] - INFO:      Instance: 1500; Time: 11.20s; loss: 1938.6174; acc: 278524.0/283274.0=0.9832
+2023-01-27 23:02:51 - main1.py[line:344] - INFO:      Instance: 2000; Time: 11.23s; loss: 1688.3015; acc: 368560.0/374690.0=0.9836
+2023-01-27 23:03:03 - main1.py[line:344] - INFO:      Instance: 2500; Time: 11.07s; loss: 1954.5393; acc: 460064.0/467909.0=0.9832
+2023-01-27 23:03:08 - main1.py[line:356] - INFO:      Instance: 2749; Time: 5.78s; loss: 1067.1077; acc: 508037.0/516868.0=0.9829
+2023-01-27 23:03:08 - main1.py[line:361] - INFO: Epoch: 67 training finished. Time: 61.49s, speed: 44.71st/s,  total loss: tensor(10412.1973, device='cuda:0')
+2023-01-27 23:03:12 - metric.py[line:62] - INFO: gold_num = 2576 pred_num = 2574 right_num = 2180
+2023-01-27 23:03:12 - main1.py[line:370] - INFO: Dev: time: 3.34s, speed: 98.96st/s; acc: 0.9621, p: 0.8469, r: 0.8463, f: 0.8466
+2023-01-27 23:03:15 - metric.py[line:62] - INFO: gold_num = 2681 pred_num = 2705 right_num = 2324
+2023-01-27 23:03:15 - main1.py[line:396] - INFO: Test: time: 3.53s, speed: 97.50st/s; acc: 0.9713, p: 0.8591, r: 0.8668, f: 0.8630
+2023-01-27 23:03:15 - main1.py[line:408] - INFO: Best dev score: p:0.8491879350348028, r:0.8524844720496895, f:0.8508330104610617
+2023-01-27 23:03:15 - main1.py[line:409] - INFO: Test score: p:0.855359765051395, r:0.8690787019768743, f:0.8621646623496761
+2023-01-27 23:03:27 - main1.py[line:296] - INFO: Epoch: 68/100
+2023-01-27 23:03:27 - main1.py[line:121] - INFO:  Learning rate is setted as: 0.0001528182295666203
+2023-01-27 23:03:38 - main1.py[line:344] - INFO:      Instance: 500; Time: 11.03s; loss: 1932.0461; acc: 92812.0/94276.0=0.9845
+2023-01-27 23:03:49 - main1.py[line:344] - INFO:      Instance: 1000; Time: 11.10s; loss: 1974.7351; acc: 184107.0/187267.0=0.9831
+2023-01-27 23:04:00 - main1.py[line:344] - INFO:      Instance: 1500; Time: 11.01s; loss: 1856.6194; acc: 276515.0/281265.0=0.9831
+2023-01-27 23:04:11 - main1.py[line:344] - INFO:      Instance: 2000; Time: 11.11s; loss: 1951.2090; acc: 367543.0/373916.0=0.9830
+2023-01-27 23:04:22 - main1.py[line:344] - INFO:      Instance: 2500; Time: 11.22s; loss: 1641.8552; acc: 463150.0/470829.0=0.9837
+2023-01-27 23:04:28 - main1.py[line:356] - INFO:      Instance: 2749; Time: 5.78s; loss: 878.8154; acc: 508359.0/516868.0=0.9835
+2023-01-27 23:04:28 - main1.py[line:361] - INFO: Epoch: 68 training finished. Time: 61.24s, speed: 44.89st/s,  total loss: tensor(10235.2812, device='cuda:0')
+2023-01-27 23:04:31 - metric.py[line:62] - INFO: gold_num = 2576 pred_num = 2591 right_num = 2188
+2023-01-27 23:04:31 - main1.py[line:370] - INFO: Dev: time: 3.39s, speed: 97.65st/s; acc: 0.9613, p: 0.8445, r: 0.8494, f: 0.8469
+2023-01-27 23:04:35 - metric.py[line:62] - INFO: gold_num = 2681 pred_num = 2724 right_num = 2336
+2023-01-27 23:04:35 - main1.py[line:396] - INFO: Test: time: 3.56s, speed: 96.66st/s; acc: 0.9718, p: 0.8576, r: 0.8713, f: 0.8644
+2023-01-27 23:04:35 - main1.py[line:408] - INFO: Best dev score: p:0.8491879350348028, r:0.8524844720496895, f:0.8508330104610617
+2023-01-27 23:04:35 - main1.py[line:409] - INFO: Test score: p:0.855359765051395, r:0.8690787019768743, f:0.8621646623496761
+2023-01-27 23:04:46 - main1.py[line:296] - INFO: Epoch: 69/100
+2023-01-27 23:04:46 - main1.py[line:121] - INFO:  Learning rate is setted as: 0.0001451773180882893
+2023-01-27 23:04:57 - main1.py[line:344] - INFO:      Instance: 500; Time: 11.10s; loss: 2008.0562; acc: 94136.0/95777.0=0.9829
+2023-01-27 23:05:09 - main1.py[line:344] - INFO:      Instance: 1000; Time: 11.15s; loss: 1849.7151; acc: 185704.0/188900.0=0.9831
+2023-01-27 23:05:20 - main1.py[line:344] - INFO:      Instance: 1500; Time: 11.13s; loss: 1810.7102; acc: 278183.0/282789.0=0.9837
+2023-01-27 23:05:31 - main1.py[line:344] - INFO:      Instance: 2000; Time: 11.18s; loss: 1895.4863; acc: 371281.0/377479.0=0.9836
+2023-01-27 23:05:42 - main1.py[line:344] - INFO:      Instance: 2500; Time: 11.18s; loss: 1795.8862; acc: 462310.0/470042.0=0.9836
+2023-01-27 23:05:48 - main1.py[line:356] - INFO:      Instance: 2749; Time: 5.76s; loss: 953.1895; acc: 508191.0/516868.0=0.9832
+2023-01-27 23:05:48 - main1.py[line:361] - INFO: Epoch: 69 training finished. Time: 61.50s, speed: 44.70st/s,  total loss: tensor(10313.0439, device='cuda:0')
+2023-01-27 23:05:51 - metric.py[line:62] - INFO: gold_num = 2576 pred_num = 2598 right_num = 2190
+2023-01-27 23:05:51 - main1.py[line:370] - INFO: Dev: time: 3.34s, speed: 99.04st/s; acc: 0.9610, p: 0.8430, r: 0.8502, f: 0.8465
+2023-01-27 23:05:55 - metric.py[line:62] - INFO: gold_num = 2681 pred_num = 2730 right_num = 2341
+2023-01-27 23:05:55 - main1.py[line:396] - INFO: Test: time: 3.54s, speed: 97.26st/s; acc: 0.9715, p: 0.8575, r: 0.8732, f: 0.8653
+2023-01-27 23:05:55 - main1.py[line:408] - INFO: Best dev score: p:0.8491879350348028, r:0.8524844720496895, f:0.8508330104610617
+2023-01-27 23:05:55 - main1.py[line:409] - INFO: Test score: p:0.855359765051395, r:0.8690787019768743, f:0.8621646623496761
+2023-01-27 23:06:06 - main1.py[line:296] - INFO: Epoch: 70/100
+2023-01-27 23:06:06 - main1.py[line:121] - INFO:  Learning rate is setted as: 0.00013791845218387482
+2023-01-27 23:06:17 - main1.py[line:344] - INFO:      Instance: 500; Time: 11.12s; loss: 1817.6697; acc: 90352.0/91834.0=0.9839
+2023-01-27 23:06:28 - main1.py[line:344] - INFO:      Instance: 1000; Time: 11.01s; loss: 1932.7988; acc: 185261.0/188331.0=0.9837
+2023-01-27 23:06:39 - main1.py[line:344] - INFO:      Instance: 1500; Time: 10.93s; loss: 1918.8767; acc: 274225.0/278914.0=0.9832
+2023-01-27 23:06:50 - main1.py[line:344] - INFO:      Instance: 2000; Time: 11.17s; loss: 1933.1174; acc: 367704.0/374137.0=0.9828
+2023-01-27 23:07:01 - main1.py[line:344] - INFO:      Instance: 2500; Time: 10.81s; loss: 1876.6912; acc: 459776.0/467926.0=0.9826
+2023-01-27 23:07:07 - main1.py[line:356] - INFO:      Instance: 2749; Time: 5.77s; loss: 1045.7532; acc: 508005.0/516868.0=0.9829
+2023-01-27 23:07:07 - main1.py[line:361] - INFO: Epoch: 70 training finished. Time: 60.81s, speed: 45.21st/s,  total loss: tensor(10524.9043, device='cuda:0')
+2023-01-27 23:07:10 - metric.py[line:62] - INFO: gold_num = 2576 pred_num = 2584 right_num = 2190
+2023-01-27 23:07:10 - main1.py[line:370] - INFO: Dev: time: 3.39s, speed: 97.48st/s; acc: 0.9615, p: 0.8475, r: 0.8502, f: 0.8488
+2023-01-27 23:07:14 - metric.py[line:62] - INFO: gold_num = 2681 pred_num = 2717 right_num = 2334
+2023-01-27 23:07:14 - main1.py[line:396] - INFO: Test: time: 3.53s, speed: 97.36st/s; acc: 0.9712, p: 0.8590, r: 0.8706, f: 0.8648
+2023-01-27 23:07:14 - main1.py[line:408] - INFO: Best dev score: p:0.8491879350348028, r:0.8524844720496895, f:0.8508330104610617
+2023-01-27 23:07:14 - main1.py[line:409] - INFO: Test score: p:0.855359765051395, r:0.8690787019768743, f:0.8621646623496761
+2023-01-27 23:07:25 - main1.py[line:296] - INFO: Epoch: 71/100
+2023-01-27 23:07:25 - main1.py[line:121] - INFO:  Learning rate is setted as: 0.0001310225295746811
+2023-01-27 23:07:36 - main1.py[line:344] - INFO:      Instance: 500; Time: 11.00s; loss: 1780.9165; acc: 92109.0/93561.0=0.9845
+2023-01-27 23:07:48 - main1.py[line:344] - INFO:      Instance: 1000; Time: 11.25s; loss: 1979.0264; acc: 185036.0/188317.0=0.9826
+2023-01-27 23:07:59 - main1.py[line:344] - INFO:      Instance: 1500; Time: 11.16s; loss: 1929.0657; acc: 278759.0/283816.0=0.9822
+2023-01-27 23:08:10 - main1.py[line:344] - INFO:      Instance: 2000; Time: 11.11s; loss: 1697.4419; acc: 368751.0/375201.0=0.9828
+2023-01-27 23:08:21 - main1.py[line:344] - INFO:      Instance: 2500; Time: 11.18s; loss: 1772.9954; acc: 461548.0/469602.0=0.9828
+2023-01-27 23:08:27 - main1.py[line:356] - INFO:      Instance: 2749; Time: 5.79s; loss: 1050.0911; acc: 507992.0/516868.0=0.9828
+2023-01-27 23:08:27 - main1.py[line:361] - INFO: Epoch: 71 training finished. Time: 61.49s, speed: 44.71st/s,  total loss: tensor(10209.5400, device='cuda:0')
+2023-01-27 23:08:30 - metric.py[line:62] - INFO: gold_num = 2576 pred_num = 2590 right_num = 2193
+2023-01-27 23:08:30 - main1.py[line:370] - INFO: Dev: time: 3.36s, speed: 98.44st/s; acc: 0.9618, p: 0.8467, r: 0.8513, f: 0.8490
+2023-01-27 23:08:34 - metric.py[line:62] - INFO: gold_num = 2681 pred_num = 2720 right_num = 2336
+2023-01-27 23:08:34 - main1.py[line:396] - INFO: Test: time: 3.51s, speed: 98.13st/s; acc: 0.9712, p: 0.8588, r: 0.8713, f: 0.8650
+2023-01-27 23:08:34 - main1.py[line:408] - INFO: Best dev score: p:0.8491879350348028, r:0.8524844720496895, f:0.8508330104610617
+2023-01-27 23:08:34 - main1.py[line:409] - INFO: Test score: p:0.855359765051395, r:0.8690787019768743, f:0.8621646623496761
+2023-01-27 23:08:45 - main1.py[line:296] - INFO: Epoch: 72/100
+2023-01-27 23:08:45 - main1.py[line:121] - INFO:  Learning rate is setted as: 0.00012447140309594702
+2023-01-27 23:08:56 - main1.py[line:344] - INFO:      Instance: 500; Time: 11.03s; loss: 1762.3235; acc: 93032.0/94578.0=0.9837
+2023-01-27 23:09:07 - main1.py[line:344] - INFO:      Instance: 1000; Time: 11.15s; loss: 1931.6980; acc: 186571.0/189772.0=0.9831
+2023-01-27 23:09:18 - main1.py[line:344] - INFO:      Instance: 1500; Time: 11.20s; loss: 1851.3511; acc: 279192.0/283963.0=0.9832
+2023-01-27 23:09:30 - main1.py[line:344] - INFO:      Instance: 2000; Time: 11.14s; loss: 1858.9753; acc: 369646.0/375928.0=0.9833
+2023-01-27 23:09:41 - main1.py[line:344] - INFO:      Instance: 2500; Time: 11.08s; loss: 1782.3804; acc: 461865.0/469698.0=0.9833
+2023-01-27 23:09:46 - main1.py[line:356] - INFO:      Instance: 2749; Time: 5.81s; loss: 906.5729; acc: 508267.0/516868.0=0.9834
+2023-01-27 23:09:46 - main1.py[line:361] - INFO: Epoch: 72 training finished. Time: 61.40s, speed: 44.77st/s,  total loss: tensor(10093.3008, device='cuda:0')
+2023-01-27 23:09:50 - metric.py[line:62] - INFO: gold_num = 2576 pred_num = 2590 right_num = 2193
+2023-01-27 23:09:50 - main1.py[line:370] - INFO: Dev: time: 3.35s, speed: 98.85st/s; acc: 0.9617, p: 0.8467, r: 0.8513, f: 0.8490
+2023-01-27 23:09:53 - metric.py[line:62] - INFO: gold_num = 2681 pred_num = 2719 right_num = 2338
+2023-01-27 23:09:53 - main1.py[line:396] - INFO: Test: time: 3.55s, speed: 96.92st/s; acc: 0.9716, p: 0.8599, r: 0.8721, f: 0.8659
+2023-01-27 23:09:53 - main1.py[line:408] - INFO: Best dev score: p:0.8491879350348028, r:0.8524844720496895, f:0.8508330104610617
+2023-01-27 23:09:53 - main1.py[line:409] - INFO: Test score: p:0.855359765051395, r:0.8690787019768743, f:0.8621646623496761
+2023-01-27 23:10:05 - main1.py[line:296] - INFO: Epoch: 73/100
+2023-01-27 23:10:05 - main1.py[line:121] - INFO:  Learning rate is setted as: 0.00011824783294114967
+2023-01-27 23:10:16 - main1.py[line:344] - INFO:      Instance: 500; Time: 11.05s; loss: 1713.5955; acc: 91302.0/92790.0=0.9840
+2023-01-27 23:10:27 - main1.py[line:344] - INFO:      Instance: 1000; Time: 11.18s; loss: 1672.8630; acc: 185488.0/188393.0=0.9846
+2023-01-27 23:10:38 - main1.py[line:344] - INFO:      Instance: 1500; Time: 11.06s; loss: 1902.5188; acc: 277243.0/281710.0=0.9841
+2023-01-27 23:10:49 - main1.py[line:344] - INFO:      Instance: 2000; Time: 11.25s; loss: 2055.2476; acc: 369453.0/375547.0=0.9838
+2023-01-27 23:11:01 - main1.py[line:344] - INFO:      Instance: 2500; Time: 11.18s; loss: 1795.2703; acc: 462603.0/470163.0=0.9839
+2023-01-27 23:11:06 - main1.py[line:356] - INFO:      Instance: 2749; Time: 5.73s; loss: 976.3193; acc: 508497.0/516868.0=0.9838
+2023-01-27 23:11:06 - main1.py[line:361] - INFO: Epoch: 73 training finished. Time: 61.46s, speed: 44.73st/s,  total loss: tensor(10115.8174, device='cuda:0')
+2023-01-27 23:11:10 - metric.py[line:62] - INFO: gold_num = 2576 pred_num = 2595 right_num = 2194
+2023-01-27 23:11:10 - main1.py[line:370] - INFO: Dev: time: 3.35s, speed: 98.79st/s; acc: 0.9615, p: 0.8455, r: 0.8517, f: 0.8486
+2023-01-27 23:11:13 - metric.py[line:62] - INFO: gold_num = 2681 pred_num = 2725 right_num = 2342
+2023-01-27 23:11:13 - main1.py[line:396] - INFO: Test: time: 3.55s, speed: 96.98st/s; acc: 0.9717, p: 0.8594, r: 0.8736, f: 0.8664
+2023-01-27 23:11:13 - main1.py[line:408] - INFO: Best dev score: p:0.8491879350348028, r:0.8524844720496895, f:0.8508330104610617
+2023-01-27 23:11:13 - main1.py[line:409] - INFO: Test score: p:0.855359765051395, r:0.8690787019768743, f:0.8621646623496761
+2023-01-27 23:11:25 - main1.py[line:296] - INFO: Epoch: 74/100
+2023-01-27 23:11:25 - main1.py[line:121] - INFO:  Learning rate is setted as: 0.00011233544129409217
+2023-01-27 23:11:36 - main1.py[line:344] - INFO:      Instance: 500; Time: 11.03s; loss: 1887.8708; acc: 90585.0/92072.0=0.9838
+2023-01-27 23:11:47 - main1.py[line:344] - INFO:      Instance: 1000; Time: 11.25s; loss: 1776.3423; acc: 183562.0/186568.0=0.9839
+2023-01-27 23:11:58 - main1.py[line:344] - INFO:      Instance: 1500; Time: 11.13s; loss: 1723.2207; acc: 275187.0/279839.0=0.9834
+2023-01-27 23:12:09 - main1.py[line:344] - INFO:      Instance: 2000; Time: 11.15s; loss: 1805.9812; acc: 364721.0/370866.0=0.9834
+2023-01-27 23:12:20 - main1.py[line:344] - INFO:      Instance: 2500; Time: 11.20s; loss: 2017.0950; acc: 461175.0/469019.0=0.9833
+2023-01-27 23:12:26 - main1.py[line:356] - INFO:      Instance: 2749; Time: 5.79s; loss: 973.0117; acc: 508215.0/516868.0=0.9833
+2023-01-27 23:12:26 - main1.py[line:361] - INFO: Epoch: 74 training finished. Time: 61.55s, speed: 44.67st/s,  total loss: tensor(10183.5215, device='cuda:0')
+2023-01-27 23:12:30 - metric.py[line:62] - INFO: gold_num = 2576 pred_num = 2595 right_num = 2193
+2023-01-27 23:12:30 - main1.py[line:370] - INFO: Dev: time: 3.37s, speed: 98.31st/s; acc: 0.9617, p: 0.8451, r: 0.8513, f: 0.8482
+2023-01-27 23:12:33 - metric.py[line:62] - INFO: gold_num = 2681 pred_num = 2723 right_num = 2338
+2023-01-27 23:12:33 - main1.py[line:396] - INFO: Test: time: 3.51s, speed: 97.97st/s; acc: 0.9720, p: 0.8586, r: 0.8721, f: 0.8653
+2023-01-27 23:12:33 - main1.py[line:408] - INFO: Best dev score: p:0.8491879350348028, r:0.8524844720496895, f:0.8508330104610617
+2023-01-27 23:12:33 - main1.py[line:409] - INFO: Test score: p:0.855359765051395, r:0.8690787019768743, f:0.8621646623496761
+2023-01-27 23:12:44 - main1.py[line:296] - INFO: Epoch: 75/100
+2023-01-27 23:12:44 - main1.py[line:121] - INFO:  Learning rate is setted as: 0.00010671866922938755
+2023-01-27 23:12:55 - main1.py[line:344] - INFO:      Instance: 500; Time: 11.00s; loss: 1741.7468; acc: 93886.0/95429.0=0.9838
+2023-01-27 23:13:07 - main1.py[line:344] - INFO:      Instance: 1000; Time: 11.08s; loss: 1967.5586; acc: 186533.0/189744.0=0.9831
+2023-01-27 23:13:18 - main1.py[line:344] - INFO:      Instance: 1500; Time: 11.21s; loss: 1664.7229; acc: 278450.0/283059.0=0.9837
+2023-01-27 23:13:29 - main1.py[line:344] - INFO:      Instance: 2000; Time: 11.16s; loss: 1856.2483; acc: 374084.0/380330.0=0.9836
+2023-01-27 23:13:40 - main1.py[line:344] - INFO:      Instance: 2500; Time: 11.13s; loss: 1799.6687; acc: 463936.0/471624.0=0.9837
+2023-01-27 23:13:46 - main1.py[line:356] - INFO:      Instance: 2749; Time: 5.70s; loss: 982.2545; acc: 508369.0/516868.0=0.9836
+2023-01-27 23:13:46 - main1.py[line:361] - INFO: Epoch: 75 training finished. Time: 61.29s, speed: 44.85st/s,  total loss: tensor(10012.2021, device='cuda:0')
+2023-01-27 23:13:49 - metric.py[line:62] - INFO: gold_num = 2576 pred_num = 2588 right_num = 2190
+2023-01-27 23:13:49 - main1.py[line:370] - INFO: Dev: time: 3.36s, speed: 98.45st/s; acc: 0.9617, p: 0.8462, r: 0.8502, f: 0.8482
+2023-01-27 23:13:53 - metric.py[line:62] - INFO: gold_num = 2681 pred_num = 2717 right_num = 2332
+2023-01-27 23:13:53 - main1.py[line:396] - INFO: Test: time: 3.51s, speed: 97.98st/s; acc: 0.9716, p: 0.8583, r: 0.8698, f: 0.8640
+2023-01-27 23:13:53 - main1.py[line:408] - INFO: Best dev score: p:0.8491879350348028, r:0.8524844720496895, f:0.8508330104610617
+2023-01-27 23:13:53 - main1.py[line:409] - INFO: Test score: p:0.855359765051395, r:0.8690787019768743, f:0.8621646623496761
+2023-01-27 23:14:04 - main1.py[line:296] - INFO: Epoch: 76/100
+2023-01-27 23:14:04 - main1.py[line:121] - INFO:  Learning rate is setted as: 0.00010138273576791818
+2023-01-27 23:14:15 - main1.py[line:344] - INFO:      Instance: 500; Time: 11.02s; loss: 1692.3994; acc: 91511.0/92943.0=0.9846
+2023-01-27 23:14:26 - main1.py[line:344] - INFO:      Instance: 1000; Time: 11.23s; loss: 1881.4150; acc: 185864.0/188876.0=0.9841
+2023-01-27 23:14:38 - main1.py[line:344] - INFO:      Instance: 1500; Time: 11.21s; loss: 1902.6709; acc: 279955.0/284684.0=0.9834
+2023-01-27 23:14:49 - main1.py[line:344] - INFO:      Instance: 2000; Time: 11.12s; loss: 2039.4092; acc: 375557.0/381978.0=0.9832
+2023-01-27 23:15:00 - main1.py[line:344] - INFO:      Instance: 2500; Time: 11.22s; loss: 1766.8354; acc: 465230.0/473121.0=0.9833
+2023-01-27 23:15:06 - main1.py[line:356] - INFO:      Instance: 2749; Time: 5.75s; loss: 784.3340; acc: 508290.0/516868.0=0.9834
+2023-01-27 23:15:06 - main1.py[line:361] - INFO: Epoch: 76 training finished. Time: 61.55s, speed: 44.67st/s,  total loss: tensor(10067.0605, device='cuda:0')
+2023-01-27 23:15:09 - metric.py[line:62] - INFO: gold_num = 2576 pred_num = 2585 right_num = 2190
+2023-01-27 23:15:09 - main1.py[line:370] - INFO: Dev: time: 3.39s, speed: 97.68st/s; acc: 0.9618, p: 0.8472, r: 0.8502, f: 0.8487
+2023-01-27 23:15:13 - metric.py[line:62] - INFO: gold_num = 2681 pred_num = 2716 right_num = 2329
+2023-01-27 23:15:13 - main1.py[line:396] - INFO: Test: time: 3.50s, speed: 98.39st/s; acc: 0.9711, p: 0.8575, r: 0.8687, f: 0.8631
+2023-01-27 23:15:13 - main1.py[line:408] - INFO: Best dev score: p:0.8491879350348028, r:0.8524844720496895, f:0.8508330104610617
+2023-01-27 23:15:13 - main1.py[line:409] - INFO: Test score: p:0.855359765051395, r:0.8690787019768743, f:0.8621646623496761
+2023-01-27 23:15:24 - main1.py[line:296] - INFO: Epoch: 77/100
+2023-01-27 23:15:24 - main1.py[line:121] - INFO:  Learning rate is setted as: 9.631359897952226e-05
+2023-01-27 23:15:35 - main1.py[line:344] - INFO:      Instance: 500; Time: 11.03s; loss: 1831.5496; acc: 90286.0/91838.0=0.9831
+2023-01-27 23:15:46 - main1.py[line:344] - INFO:      Instance: 1000; Time: 11.09s; loss: 1656.8147; acc: 179943.0/182845.0=0.9841
+2023-01-27 23:15:57 - main1.py[line:344] - INFO:      Instance: 1500; Time: 11.17s; loss: 1737.6968; acc: 272470.0/276853.0=0.9842
+2023-01-27 23:16:08 - main1.py[line:344] - INFO:      Instance: 2000; Time: 11.17s; loss: 2032.7209; acc: 367027.0/373143.0=0.9836
+2023-01-27 23:16:20 - main1.py[line:344] - INFO:      Instance: 2500; Time: 11.14s; loss: 1860.2947; acc: 461081.0/468882.0=0.9834
+2023-01-27 23:16:25 - main1.py[line:356] - INFO:      Instance: 2749; Time: 5.76s; loss: 857.2657; acc: 508422.0/516868.0=0.9837
+2023-01-27 23:16:25 - main1.py[line:361] - INFO: Epoch: 77 training finished. Time: 61.36s, speed: 44.80st/s,  total loss: tensor(9976.3447, device='cuda:0')
+2023-01-27 23:16:29 - metric.py[line:62] - INFO: gold_num = 2576 pred_num = 2602 right_num = 2196
+2023-01-27 23:16:29 - main1.py[line:370] - INFO: Dev: time: 3.36s, speed: 98.39st/s; acc: 0.9617, p: 0.8440, r: 0.8525, f: 0.8482
+2023-01-27 23:16:32 - metric.py[line:62] - INFO: gold_num = 2681 pred_num = 2730 right_num = 2341
+2023-01-27 23:16:32 - main1.py[line:396] - INFO: Test: time: 3.56s, speed: 96.66st/s; acc: 0.9716, p: 0.8575, r: 0.8732, f: 0.8653
+2023-01-27 23:16:32 - main1.py[line:408] - INFO: Best dev score: p:0.8491879350348028, r:0.8524844720496895, f:0.8508330104610617
+2023-01-27 23:16:32 - main1.py[line:409] - INFO: Test score: p:0.855359765051395, r:0.8690787019768743, f:0.8621646623496761
+2023-01-27 23:16:44 - main1.py[line:296] - INFO: Epoch: 78/100
+2023-01-27 23:16:44 - main1.py[line:121] - INFO:  Learning rate is setted as: 9.149791903054614e-05
+2023-01-27 23:16:55 - main1.py[line:344] - INFO:      Instance: 500; Time: 10.87s; loss: 1832.6589; acc: 91957.0/93412.0=0.9844
+2023-01-27 23:17:06 - main1.py[line:344] - INFO:      Instance: 1000; Time: 11.26s; loss: 1793.4224; acc: 182786.0/185733.0=0.9841
+2023-01-27 23:17:17 - main1.py[line:344] - INFO:      Instance: 1500; Time: 11.22s; loss: 1754.6570; acc: 276449.0/280900.0=0.9842
+2023-01-27 23:17:28 - main1.py[line:344] - INFO:      Instance: 2000; Time: 11.22s; loss: 1869.7795; acc: 369596.0/375532.0=0.9842
+2023-01-27 23:17:39 - main1.py[line:344] - INFO:      Instance: 2500; Time: 11.08s; loss: 1797.2446; acc: 461356.0/468689.0=0.9844
+2023-01-27 23:17:45 - main1.py[line:356] - INFO:      Instance: 2749; Time: 5.81s; loss: 824.5079; acc: 508892.0/516868.0=0.9846
+2023-01-27 23:17:45 - main1.py[line:361] - INFO: Epoch: 78 training finished. Time: 61.46s, speed: 44.73st/s,  total loss: tensor(9872.2734, device='cuda:0')
+2023-01-27 23:17:49 - metric.py[line:62] - INFO: gold_num = 2576 pred_num = 2589 right_num = 2189
+2023-01-27 23:17:49 - main1.py[line:370] - INFO: Dev: time: 3.35s, speed: 98.61st/s; acc: 0.9615, p: 0.8455, r: 0.8498, f: 0.8476
+2023-01-27 23:17:52 - metric.py[line:62] - INFO: gold_num = 2681 pred_num = 2724 right_num = 2335
+2023-01-27 23:17:52 - main1.py[line:396] - INFO: Test: time: 3.51s, speed: 98.13st/s; acc: 0.9713, p: 0.8572, r: 0.8709, f: 0.8640
+2023-01-27 23:17:52 - main1.py[line:408] - INFO: Best dev score: p:0.8491879350348028, r:0.8524844720496895, f:0.8508330104610617
+2023-01-27 23:17:52 - main1.py[line:409] - INFO: Test score: p:0.855359765051395, r:0.8690787019768743, f:0.8621646623496761
+2023-01-27 23:18:03 - main1.py[line:296] - INFO: Epoch: 79/100
+2023-01-27 23:18:03 - main1.py[line:121] - INFO:  Learning rate is setted as: 8.692302307901883e-05
+2023-01-27 23:18:14 - main1.py[line:344] - INFO:      Instance: 500; Time: 10.97s; loss: 1901.5847; acc: 96150.0/97709.0=0.9840
+2023-01-27 23:18:26 - main1.py[line:344] - INFO:      Instance: 1000; Time: 11.23s; loss: 1771.3694; acc: 188816.0/191759.0=0.9847
+2023-01-27 23:18:37 - main1.py[line:344] - INFO:      Instance: 1500; Time: 11.24s; loss: 2024.1272; acc: 281769.0/286437.0=0.9837
+2023-01-27 23:18:48 - main1.py[line:344] - INFO:      Instance: 2000; Time: 11.23s; loss: 1675.1804; acc: 372603.0/378793.0=0.9837
+2023-01-27 23:18:59 - main1.py[line:344] - INFO:      Instance: 2500; Time: 11.25s; loss: 1655.4546; acc: 462919.0/470605.0=0.9837
+2023-01-27 23:19:05 - main1.py[line:356] - INFO:      Instance: 2749; Time: 5.79s; loss: 884.7294; acc: 508492.0/516868.0=0.9838
+2023-01-27 23:19:05 - main1.py[line:361] - INFO: Epoch: 79 training finished. Time: 61.72s, speed: 44.54st/s,  total loss: tensor(9912.4482, device='cuda:0')
+2023-01-27 23:19:09 - metric.py[line:62] - INFO: gold_num = 2576 pred_num = 2587 right_num = 2187
+2023-01-27 23:19:09 - main1.py[line:370] - INFO: Dev: time: 3.35s, speed: 98.76st/s; acc: 0.9614, p: 0.8454, r: 0.8490, f: 0.8472
+2023-01-27 23:19:12 - metric.py[line:62] - INFO: gold_num = 2681 pred_num = 2725 right_num = 2339
+2023-01-27 23:19:12 - main1.py[line:396] - INFO: Test: time: 3.53s, speed: 97.53st/s; acc: 0.9714, p: 0.8583, r: 0.8724, f: 0.8653
+2023-01-27 23:19:12 - main1.py[line:408] - INFO: Best dev score: p:0.8491879350348028, r:0.8524844720496895, f:0.8508330104610617
+2023-01-27 23:19:12 - main1.py[line:409] - INFO: Test score: p:0.855359765051395, r:0.8690787019768743, f:0.8621646623496761
+2023-01-27 23:19:23 - main1.py[line:296] - INFO: Epoch: 80/100
+2023-01-27 23:19:23 - main1.py[line:121] - INFO:  Learning rate is setted as: 8.25768719250679e-05
+2023-01-27 23:19:34 - main1.py[line:344] - INFO:      Instance: 500; Time: 10.96s; loss: 1778.3552; acc: 91603.0/93080.0=0.9841
+2023-01-27 23:19:46 - main1.py[line:344] - INFO:      Instance: 1000; Time: 11.22s; loss: 1656.0320; acc: 184414.0/187347.0=0.9843
+2023-01-27 23:19:57 - main1.py[line:344] - INFO:      Instance: 1500; Time: 11.14s; loss: 1841.1172; acc: 276525.0/281116.0=0.9837
+2023-01-27 23:20:08 - main1.py[line:344] - INFO:      Instance: 2000; Time: 11.17s; loss: 1974.7441; acc: 369661.0/375838.0=0.9836
+2023-01-27 23:20:19 - main1.py[line:344] - INFO:      Instance: 2500; Time: 11.20s; loss: 1747.6016; acc: 462392.0/469954.0=0.9839
+2023-01-27 23:20:25 - main1.py[line:356] - INFO:      Instance: 2749; Time: 5.77s; loss: 919.9562; acc: 508556.0/516868.0=0.9839
+2023-01-27 23:20:25 - main1.py[line:361] - INFO: Epoch: 80 training finished. Time: 61.45s, speed: 44.74st/s,  total loss: tensor(9917.8057, device='cuda:0')
+2023-01-27 23:20:28 - metric.py[line:62] - INFO: gold_num = 2576 pred_num = 2581 right_num = 2191
+2023-01-27 23:20:28 - main1.py[line:370] - INFO: Dev: time: 3.38s, speed: 97.79st/s; acc: 0.9617, p: 0.8489, r: 0.8505, f: 0.8497
+2023-01-27 23:20:32 - metric.py[line:62] - INFO: gold_num = 2681 pred_num = 2714 right_num = 2333
+2023-01-27 23:20:32 - main1.py[line:396] - INFO: Test: time: 3.54s, speed: 97.05st/s; acc: 0.9714, p: 0.8596, r: 0.8702, f: 0.8649
+2023-01-27 23:20:32 - main1.py[line:408] - INFO: Best dev score: p:0.8491879350348028, r:0.8524844720496895, f:0.8508330104610617
+2023-01-27 23:20:32 - main1.py[line:409] - INFO: Test score: p:0.855359765051395, r:0.8690787019768743, f:0.8621646623496761
+2023-01-27 23:20:43 - main1.py[line:296] - INFO: Epoch: 81/100
+2023-01-27 23:20:43 - main1.py[line:121] - INFO:  Learning rate is setted as: 7.844802832881449e-05
+2023-01-27 23:20:54 - main1.py[line:344] - INFO:      Instance: 500; Time: 10.83s; loss: 1920.8762; acc: 90690.0/92282.0=0.9827
+2023-01-27 23:21:05 - main1.py[line:344] - INFO:      Instance: 1000; Time: 11.17s; loss: 1756.0706; acc: 183223.0/186226.0=0.9839
+2023-01-27 23:21:16 - main1.py[line:344] - INFO:      Instance: 1500; Time: 11.21s; loss: 1830.0085; acc: 277293.0/281810.0=0.9840
+2023-01-27 23:21:28 - main1.py[line:344] - INFO:      Instance: 2000; Time: 11.15s; loss: 1739.8010; acc: 372038.0/377949.0=0.9844
+2023-01-27 23:21:39 - main1.py[line:344] - INFO:      Instance: 2500; Time: 11.17s; loss: 1614.9082; acc: 462070.0/469339.0=0.9845
+2023-01-27 23:21:45 - main1.py[line:356] - INFO:      Instance: 2749; Time: 5.87s; loss: 823.2842; acc: 508901.0/516868.0=0.9846
+2023-01-27 23:21:45 - main1.py[line:361] - INFO: Epoch: 81 training finished. Time: 61.40s, speed: 44.77st/s,  total loss: tensor(9684.9492, device='cuda:0')
+2023-01-27 23:21:48 - metric.py[line:62] - INFO: gold_num = 2576 pred_num = 2580 right_num = 2195
+2023-01-27 23:21:48 - main1.py[line:370] - INFO: Dev: time: 3.34s, speed: 99.04st/s; acc: 0.9620, p: 0.8508, r: 0.8521, f: 0.8514
+2023-01-27 23:21:48 - main1.py[line:379] - INFO: Exceed previous best f score: 0
+2023-01-27 23:21:52 - metric.py[line:62] - INFO: gold_num = 2681 pred_num = 2719 right_num = 2338
+2023-01-27 23:21:52 - main1.py[line:396] - INFO: Test: time: 4.11s, speed: 97.80st/s; acc: 0.9718, p: 0.8599, r: 0.8721, f: 0.8659
+2023-01-27 23:21:52 - main1.py[line:408] - INFO: Best dev score: p:0.8507751937984496, r:0.8520962732919255, f:0.8514352211016292
+2023-01-27 23:21:52 - main1.py[line:409] - INFO: Test score: p:0.8598749540272159, r:0.8720626631853786, f:0.8659259259259259
+2023-01-27 23:22:04 - main1.py[line:296] - INFO: Epoch: 82/100
+2023-01-27 23:22:04 - main1.py[line:121] - INFO:  Learning rate is setted as: 7.452562691237376e-05
+2023-01-27 23:22:15 - main1.py[line:344] - INFO:      Instance: 500; Time: 11.14s; loss: 1818.5386; acc: 91207.0/92571.0=0.9853
+2023-01-27 23:22:26 - main1.py[line:344] - INFO:      Instance: 1000; Time: 11.17s; loss: 1808.7688; acc: 185244.0/188231.0=0.9841
+2023-01-27 23:22:37 - main1.py[line:344] - INFO:      Instance: 1500; Time: 11.24s; loss: 1687.7310; acc: 276936.0/281418.0=0.9841
+2023-01-27 23:22:48 - main1.py[line:344] - INFO:      Instance: 2000; Time: 11.17s; loss: 1683.4163; acc: 370476.0/376474.0=0.9841
+2023-01-27 23:22:59 - main1.py[line:344] - INFO:      Instance: 2500; Time: 11.19s; loss: 1773.8008; acc: 462189.0/469757.0=0.9839
+2023-01-27 23:23:05 - main1.py[line:356] - INFO:      Instance: 2749; Time: 5.76s; loss: 903.2854; acc: 508536.0/516868.0=0.9839
+2023-01-27 23:23:05 - main1.py[line:361] - INFO: Epoch: 82 training finished. Time: 61.67s, speed: 44.58st/s,  total loss: tensor(9675.5391, device='cuda:0')
+2023-01-27 23:23:09 - metric.py[line:62] - INFO: gold_num = 2576 pred_num = 2584 right_num = 2190
+2023-01-27 23:23:09 - main1.py[line:370] - INFO: Dev: time: 3.38s, speed: 97.89st/s; acc: 0.9616, p: 0.8475, r: 0.8502, f: 0.8488
+2023-01-27 23:23:12 - metric.py[line:62] - INFO: gold_num = 2681 pred_num = 2723 right_num = 2344
+2023-01-27 23:23:12 - main1.py[line:396] - INFO: Test: time: 3.57s, speed: 96.46st/s; acc: 0.9718, p: 0.8608, r: 0.8743, f: 0.8675
+2023-01-27 23:23:12 - main1.py[line:408] - INFO: Best dev score: p:0.8507751937984496, r:0.8520962732919255, f:0.8514352211016292
+2023-01-27 23:23:12 - main1.py[line:409] - INFO: Test score: p:0.8598749540272159, r:0.8720626631853786, f:0.8659259259259259
+2023-01-27 23:23:24 - main1.py[line:296] - INFO: Epoch: 83/100
+2023-01-27 23:23:24 - main1.py[line:121] - INFO:  Learning rate is setted as: 7.079934556675507e-05
+2023-01-27 23:23:34 - main1.py[line:344] - INFO:      Instance: 500; Time: 10.94s; loss: 1915.9080; acc: 92036.0/93554.0=0.9838
+2023-01-27 23:23:46 - main1.py[line:344] - INFO:      Instance: 1000; Time: 11.05s; loss: 1700.3916; acc: 183758.0/186731.0=0.9841
+2023-01-27 23:23:57 - main1.py[line:344] - INFO:      Instance: 1500; Time: 11.13s; loss: 1768.2654; acc: 279003.0/283318.0=0.9848
+2023-01-27 23:24:08 - main1.py[line:344] - INFO:      Instance: 2000; Time: 11.26s; loss: 1925.5464; acc: 372965.0/379048.0=0.9840
+2023-01-27 23:24:19 - main1.py[line:344] - INFO:      Instance: 2500; Time: 11.17s; loss: 1684.2339; acc: 464286.0/471833.0=0.9840
+2023-01-27 23:24:25 - main1.py[line:356] - INFO:      Instance: 2749; Time: 5.76s; loss: 723.7325; acc: 508725.0/516868.0=0.9842
+2023-01-27 23:24:25 - main1.py[line:361] - INFO: Epoch: 83 training finished. Time: 61.31s, speed: 44.84st/s,  total loss: tensor(9718.0781, device='cuda:0')
+2023-01-27 23:24:28 - metric.py[line:62] - INFO: gold_num = 2576 pred_num = 2589 right_num = 2192
+2023-01-27 23:24:28 - main1.py[line:370] - INFO: Dev: time: 3.37s, speed: 98.04st/s; acc: 0.9617, p: 0.8467, r: 0.8509, f: 0.8488
+2023-01-27 23:24:32 - metric.py[line:62] - INFO: gold_num = 2681 pred_num = 2722 right_num = 2345
+2023-01-27 23:24:32 - main1.py[line:396] - INFO: Test: time: 3.53s, speed: 97.48st/s; acc: 0.9717, p: 0.8615, r: 0.8747, f: 0.8680
+2023-01-27 23:24:32 - main1.py[line:408] - INFO: Best dev score: p:0.8507751937984496, r:0.8520962732919255, f:0.8514352211016292
+2023-01-27 23:24:32 - main1.py[line:409] - INFO: Test score: p:0.8598749540272159, r:0.8720626631853786, f:0.8659259259259259
+2023-01-27 23:24:43 - main1.py[line:296] - INFO: Epoch: 84/100
+2023-01-27 23:24:43 - main1.py[line:121] - INFO:  Learning rate is setted as: 6.725937828841732e-05
+2023-01-27 23:24:54 - main1.py[line:344] - INFO:      Instance: 500; Time: 11.01s; loss: 1734.1926; acc: 93053.0/94569.0=0.9840
+2023-01-27 23:25:05 - main1.py[line:344] - INFO:      Instance: 1000; Time: 11.21s; loss: 1665.1460; acc: 184369.0/187332.0=0.9842
+2023-01-27 23:25:16 - main1.py[line:344] - INFO:      Instance: 1500; Time: 11.03s; loss: 1688.4011; acc: 275861.0/280288.0=0.9842
+2023-01-27 23:25:28 - main1.py[line:344] - INFO:      Instance: 2000; Time: 11.12s; loss: 1816.6619; acc: 368099.0/374028.0=0.9841
+2023-01-27 23:25:39 - main1.py[line:344] - INFO:      Instance: 2500; Time: 11.23s; loss: 1906.7515; acc: 460795.0/468303.0=0.9840
+2023-01-27 23:25:45 - main1.py[line:356] - INFO:      Instance: 2749; Time: 5.76s; loss: 996.6823; acc: 508570.0/516868.0=0.9839
+2023-01-27 23:25:45 - main1.py[line:361] - INFO: Epoch: 84 training finished. Time: 61.36s, speed: 44.80st/s,  total loss: tensor(9807.8340, device='cuda:0')
+2023-01-27 23:25:48 - metric.py[line:62] - INFO: gold_num = 2576 pred_num = 2590 right_num = 2194
+2023-01-27 23:25:48 - main1.py[line:370] - INFO: Dev: time: 3.37s, speed: 98.07st/s; acc: 0.9615, p: 0.8471, r: 0.8517, f: 0.8494
+2023-01-27 23:25:51 - metric.py[line:62] - INFO: gold_num = 2681 pred_num = 2724 right_num = 2345
+2023-01-27 23:25:51 - main1.py[line:396] - INFO: Test: time: 3.53s, speed: 97.43st/s; acc: 0.9721, p: 0.8609, r: 0.8747, f: 0.8677
+2023-01-27 23:25:51 - main1.py[line:408] - INFO: Best dev score: p:0.8507751937984496, r:0.8520962732919255, f:0.8514352211016292
+2023-01-27 23:25:51 - main1.py[line:409] - INFO: Test score: p:0.8598749540272159, r:0.8720626631853786, f:0.8659259259259259
+2023-01-27 23:26:03 - main1.py[line:296] - INFO: Epoch: 85/100
+2023-01-27 23:26:03 - main1.py[line:121] - INFO:  Learning rate is setted as: 6.389640937399644e-05
+2023-01-27 23:26:14 - main1.py[line:344] - INFO:      Instance: 500; Time: 10.94s; loss: 1673.9575; acc: 90989.0/92454.0=0.9842
+2023-01-27 23:26:25 - main1.py[line:344] - INFO:      Instance: 1000; Time: 11.02s; loss: 1756.1555; acc: 182304.0/185207.0=0.9843
+2023-01-27 23:26:36 - main1.py[line:344] - INFO:      Instance: 1500; Time: 10.99s; loss: 1722.4731; acc: 274772.0/279115.0=0.9844
+2023-01-27 23:26:47 - main1.py[line:344] - INFO:      Instance: 2000; Time: 11.10s; loss: 1585.7454; acc: 363809.0/369481.0=0.9846
+2023-01-27 23:26:58 - main1.py[line:344] - INFO:      Instance: 2500; Time: 11.13s; loss: 1861.1665; acc: 460952.0/468207.0=0.9845
+2023-01-27 23:27:04 - main1.py[line:356] - INFO:      Instance: 2749; Time: 5.72s; loss: 1033.2512; acc: 508795.0/516868.0=0.9844
+2023-01-27 23:27:04 - main1.py[line:361] - INFO: Epoch: 85 training finished. Time: 60.90s, speed: 45.14st/s,  total loss: tensor(9632.7510, device='cuda:0')
+2023-01-27 23:27:07 - metric.py[line:62] - INFO: gold_num = 2576 pred_num = 2585 right_num = 2192
+2023-01-27 23:27:07 - main1.py[line:370] - INFO: Dev: time: 3.38s, speed: 97.85st/s; acc: 0.9618, p: 0.8480, r: 0.8509, f: 0.8494
+2023-01-27 23:27:11 - metric.py[line:62] - INFO: gold_num = 2681 pred_num = 2726 right_num = 2345
+2023-01-27 23:27:11 - main1.py[line:396] - INFO: Test: time: 3.54s, speed: 97.38st/s; acc: 0.9716, p: 0.8602, r: 0.8747, f: 0.8674
+2023-01-27 23:27:11 - main1.py[line:408] - INFO: Best dev score: p:0.8507751937984496, r:0.8520962732919255, f:0.8514352211016292
+2023-01-27 23:27:11 - main1.py[line:409] - INFO: Test score: p:0.8598749540272159, r:0.8720626631853786, f:0.8659259259259259
+2023-01-27 23:27:22 - main1.py[line:296] - INFO: Epoch: 86/100
+2023-01-27 23:27:22 - main1.py[line:121] - INFO:  Learning rate is setted as: 6.0701588905296626e-05
+2023-01-27 23:27:33 - main1.py[line:344] - INFO:      Instance: 500; Time: 11.06s; loss: 1754.2317; acc: 92004.0/93611.0=0.9828
+2023-01-27 23:27:44 - main1.py[line:344] - INFO:      Instance: 1000; Time: 11.19s; loss: 1884.7358; acc: 186216.0/189379.0=0.9833
+2023-01-27 23:27:55 - main1.py[line:344] - INFO:      Instance: 1500; Time: 10.98s; loss: 1736.0469; acc: 277604.0/282180.0=0.9838
+2023-01-27 23:28:06 - main1.py[line:344] - INFO:      Instance: 2000; Time: 11.18s; loss: 1950.3113; acc: 371150.0/377490.0=0.9832
+2023-01-27 23:28:18 - main1.py[line:344] - INFO:      Instance: 2500; Time: 11.20s; loss: 1721.9163; acc: 463254.0/470945.0=0.9837
+2023-01-27 23:28:23 - main1.py[line:356] - INFO:      Instance: 2749; Time: 5.64s; loss: 819.2900; acc: 508457.0/516868.0=0.9837
+2023-01-27 23:28:23 - main1.py[line:361] - INFO: Epoch: 86 training finished. Time: 61.25s, speed: 44.88st/s,  total loss: tensor(9866.5322, device='cuda:0')
+2023-01-27 23:28:27 - metric.py[line:62] - INFO: gold_num = 2576 pred_num = 2578 right_num = 2192
+2023-01-27 23:28:27 - main1.py[line:370] - INFO: Dev: time: 3.38s, speed: 97.99st/s; acc: 0.9616, p: 0.8503, r: 0.8509, f: 0.8506
+2023-01-27 23:28:30 - metric.py[line:62] - INFO: gold_num = 2681 pred_num = 2719 right_num = 2343
+2023-01-27 23:28:30 - main1.py[line:396] - INFO: Test: time: 3.53s, speed: 97.41st/s; acc: 0.9720, p: 0.8617, r: 0.8739, f: 0.8678
+2023-01-27 23:28:30 - main1.py[line:408] - INFO: Best dev score: p:0.8507751937984496, r:0.8520962732919255, f:0.8514352211016292
+2023-01-27 23:28:30 - main1.py[line:409] - INFO: Test score: p:0.8598749540272159, r:0.8720626631853786, f:0.8659259259259259
+2023-01-27 23:28:42 - main1.py[line:296] - INFO: Epoch: 87/100
+2023-01-27 23:28:42 - main1.py[line:121] - INFO:  Learning rate is setted as: 5.7666509460031785e-05
+2023-01-27 23:28:52 - main1.py[line:344] - INFO:      Instance: 500; Time: 10.70s; loss: 1935.3379; acc: 94201.0/95872.0=0.9826
+2023-01-27 23:29:03 - main1.py[line:344] - INFO:      Instance: 1000; Time: 10.82s; loss: 1790.5977; acc: 189645.0/192864.0=0.9833
+2023-01-27 23:29:14 - main1.py[line:344] - INFO:      Instance: 1500; Time: 10.78s; loss: 1871.5005; acc: 281728.0/286557.0=0.9831
+2023-01-27 23:29:25 - main1.py[line:344] - INFO:      Instance: 2000; Time: 11.20s; loss: 1710.5940; acc: 372448.0/378705.0=0.9835
+2023-01-27 23:29:36 - main1.py[line:344] - INFO:      Instance: 2500; Time: 11.13s; loss: 1689.0913; acc: 461816.0/469460.0=0.9837
+2023-01-27 23:29:42 - main1.py[line:356] - INFO:      Instance: 2749; Time: 5.83s; loss: 826.8867; acc: 508541.0/516868.0=0.9839
+2023-01-27 23:29:42 - main1.py[line:361] - INFO: Epoch: 87 training finished. Time: 60.46s, speed: 45.47st/s,  total loss: tensor(9824.0088, device='cuda:0')
+2023-01-27 23:29:46 - metric.py[line:62] - INFO: gold_num = 2576 pred_num = 2589 right_num = 2192
+2023-01-27 23:29:46 - main1.py[line:370] - INFO: Dev: time: 3.37s, speed: 98.27st/s; acc: 0.9618, p: 0.8467, r: 0.8509, f: 0.8488
+2023-01-27 23:29:49 - metric.py[line:62] - INFO: gold_num = 2681 pred_num = 2717 right_num = 2339
+2023-01-27 23:29:49 - main1.py[line:396] - INFO: Test: time: 3.50s, speed: 98.39st/s; acc: 0.9719, p: 0.8609, r: 0.8724, f: 0.8666
+2023-01-27 23:29:49 - main1.py[line:408] - INFO: Best dev score: p:0.8507751937984496, r:0.8520962732919255, f:0.8514352211016292
+2023-01-27 23:29:49 - main1.py[line:409] - INFO: Test score: p:0.8598749540272159, r:0.8720626631853786, f:0.8659259259259259
+2023-01-27 23:30:01 - main1.py[line:296] - INFO: Epoch: 88/100
+2023-01-27 23:30:01 - main1.py[line:121] - INFO:  Learning rate is setted as: 5.4783183987030195e-05
+2023-01-27 23:30:12 - main1.py[line:344] - INFO:      Instance: 500; Time: 11.02s; loss: 1689.0356; acc: 91887.0/93266.0=0.9852
+2023-01-27 23:30:23 - main1.py[line:344] - INFO:      Instance: 1000; Time: 11.20s; loss: 2003.3306; acc: 184928.0/188030.0=0.9835
+2023-01-27 23:30:34 - main1.py[line:344] - INFO:      Instance: 1500; Time: 11.04s; loss: 1639.0784; acc: 276513.0/281066.0=0.9838
+2023-01-27 23:30:45 - main1.py[line:344] - INFO:      Instance: 2000; Time: 11.18s; loss: 1777.7695; acc: 369222.0/375232.0=0.9840
+2023-01-27 23:30:56 - main1.py[line:344] - INFO:      Instance: 2500; Time: 11.17s; loss: 1994.0234; acc: 464029.0/471584.0=0.9840
+2023-01-27 23:31:02 - main1.py[line:356] - INFO:      Instance: 2749; Time: 5.82s; loss: 810.9940; acc: 508741.0/516868.0=0.9843
+2023-01-27 23:31:02 - main1.py[line:361] - INFO: Epoch: 88 training finished. Time: 61.43s, speed: 44.75st/s,  total loss: tensor(9914.2334, device='cuda:0')
+2023-01-27 23:31:05 - metric.py[line:62] - INFO: gold_num = 2576 pred_num = 2587 right_num = 2192
+2023-01-27 23:31:05 - main1.py[line:370] - INFO: Dev: time: 3.37s, speed: 98.14st/s; acc: 0.9617, p: 0.8473, r: 0.8509, f: 0.8491
+2023-01-27 23:31:09 - metric.py[line:62] - INFO: gold_num = 2681 pred_num = 2715 right_num = 2340
+2023-01-27 23:31:09 - main1.py[line:396] - INFO: Test: time: 3.50s, speed: 98.30st/s; acc: 0.9718, p: 0.8619, r: 0.8728, f: 0.8673
+2023-01-27 23:31:09 - main1.py[line:408] - INFO: Best dev score: p:0.8507751937984496, r:0.8520962732919255, f:0.8514352211016292
+2023-01-27 23:31:09 - main1.py[line:409] - INFO: Test score: p:0.8598749540272159, r:0.8720626631853786, f:0.8659259259259259
+2023-01-27 23:31:20 - main1.py[line:296] - INFO: Epoch: 89/100
+2023-01-27 23:31:20 - main1.py[line:121] - INFO:  Learning rate is setted as: 5.204402478767869e-05
+2023-01-27 23:31:31 - main1.py[line:344] - INFO:      Instance: 500; Time: 11.05s; loss: 1791.1353; acc: 94936.0/96517.0=0.9836
+2023-01-27 23:31:42 - main1.py[line:344] - INFO:      Instance: 1000; Time: 11.16s; loss: 1835.7124; acc: 186868.0/189859.0=0.9842
+2023-01-27 23:31:54 - main1.py[line:344] - INFO:      Instance: 1500; Time: 11.18s; loss: 1705.1631; acc: 279310.0/283791.0=0.9842
+2023-01-27 23:32:05 - main1.py[line:344] - INFO:      Instance: 2000; Time: 11.00s; loss: 1724.9866; acc: 372136.0/378060.0=0.9843
+2023-01-27 23:32:16 - main1.py[line:344] - INFO:      Instance: 2500; Time: 11.18s; loss: 1754.3091; acc: 463635.0/471095.0=0.9842
+2023-01-27 23:32:22 - main1.py[line:356] - INFO:      Instance: 2749; Time: 5.75s; loss: 858.2129; acc: 508610.0/516868.0=0.9840
+2023-01-27 23:32:22 - main1.py[line:361] - INFO: Epoch: 89 training finished. Time: 61.32s, speed: 44.83st/s,  total loss: tensor(9669.5176, device='cuda:0')
+2023-01-27 23:32:25 - metric.py[line:62] - INFO: gold_num = 2576 pred_num = 2588 right_num = 2191
+2023-01-27 23:32:25 - main1.py[line:370] - INFO: Dev: time: 3.37s, speed: 98.13st/s; acc: 0.9620, p: 0.8466, r: 0.8505, f: 0.8486
+2023-01-27 23:32:28 - metric.py[line:62] - INFO: gold_num = 2681 pred_num = 2721 right_num = 2347
+2023-01-27 23:32:28 - main1.py[line:396] - INFO: Test: time: 3.53s, speed: 97.45st/s; acc: 0.9720, p: 0.8626, r: 0.8754, f: 0.8689
+2023-01-27 23:32:28 - main1.py[line:408] - INFO: Best dev score: p:0.8507751937984496, r:0.8520962732919255, f:0.8514352211016292
+2023-01-27 23:32:28 - main1.py[line:409] - INFO: Test score: p:0.8598749540272159, r:0.8720626631853786, f:0.8659259259259259
+2023-01-27 23:32:40 - main1.py[line:296] - INFO: Epoch: 90/100
+2023-01-27 23:32:40 - main1.py[line:121] - INFO:  Learning rate is setted as: 4.944182354829475e-05
+2023-01-27 23:32:51 - main1.py[line:344] - INFO:      Instance: 500; Time: 11.04s; loss: 1720.2117; acc: 92767.0/94248.0=0.9843
+2023-01-27 23:33:02 - main1.py[line:344] - INFO:      Instance: 1000; Time: 11.16s; loss: 1700.3674; acc: 188088.0/190999.0=0.9848
+2023-01-27 23:33:13 - main1.py[line:344] - INFO:      Instance: 1500; Time: 11.20s; loss: 1882.9456; acc: 281390.0/285807.0=0.9845
+2023-01-27 23:33:25 - main1.py[line:344] - INFO:      Instance: 2000; Time: 11.27s; loss: 1690.6235; acc: 374867.0/380760.0=0.9845
+2023-01-27 23:33:36 - main1.py[line:344] - INFO:      Instance: 2500; Time: 11.15s; loss: 1642.2341; acc: 464140.0/471449.0=0.9845
+2023-01-27 23:33:42 - main1.py[line:356] - INFO:      Instance: 2749; Time: 5.78s; loss: 874.3931; acc: 508692.0/516868.0=0.9842
+2023-01-27 23:33:42 - main1.py[line:361] - INFO: Epoch: 90 training finished. Time: 61.60s, speed: 44.63st/s,  total loss: tensor(9510.7754, device='cuda:0')
+2023-01-27 23:33:45 - metric.py[line:62] - INFO: gold_num = 2576 pred_num = 2583 right_num = 2190
+2023-01-27 23:33:45 - main1.py[line:370] - INFO: Dev: time: 3.40s, speed: 97.44st/s; acc: 0.9619, p: 0.8479, r: 0.8502, f: 0.8490
+2023-01-27 23:33:48 - metric.py[line:62] - INFO: gold_num = 2681 pred_num = 2722 right_num = 2345
+2023-01-27 23:33:48 - main1.py[line:396] - INFO: Test: time: 3.50s, speed: 98.15st/s; acc: 0.9721, p: 0.8615, r: 0.8747, f: 0.8680
+2023-01-27 23:33:48 - main1.py[line:408] - INFO: Best dev score: p:0.8507751937984496, r:0.8520962732919255, f:0.8514352211016292
+2023-01-27 23:33:48 - main1.py[line:409] - INFO: Test score: p:0.8598749540272159, r:0.8720626631853786, f:0.8659259259259259
+2023-01-27 23:34:00 - main1.py[line:296] - INFO: Epoch: 91/100
+2023-01-27 23:34:00 - main1.py[line:121] - INFO:  Learning rate is setted as: 4.696973237088e-05
+2023-01-27 23:34:11 - main1.py[line:344] - INFO:      Instance: 500; Time: 11.07s; loss: 1725.3445; acc: 93640.0/95046.0=0.9852
+2023-01-27 23:34:22 - main1.py[line:344] - INFO:      Instance: 1000; Time: 11.24s; loss: 1887.3215; acc: 188699.0/191651.0=0.9846
+2023-01-27 23:34:33 - main1.py[line:344] - INFO:      Instance: 1500; Time: 11.19s; loss: 1749.6763; acc: 281613.0/286117.0=0.9843
+2023-01-27 23:34:44 - main1.py[line:344] - INFO:      Instance: 2000; Time: 11.14s; loss: 1767.0093; acc: 373927.0/379982.0=0.9841
+2023-01-27 23:34:56 - main1.py[line:344] - INFO:      Instance: 2500; Time: 11.09s; loss: 1544.7571; acc: 462464.0/469859.0=0.9843
+2023-01-27 23:35:01 - main1.py[line:356] - INFO:      Instance: 2749; Time: 5.79s; loss: 894.7522; acc: 508703.0/516868.0=0.9842
+2023-01-27 23:35:01 - main1.py[line:361] - INFO: Epoch: 91 training finished. Time: 61.51s, speed: 44.69st/s,  total loss: tensor(9568.8613, device='cuda:0')
+2023-01-27 23:35:05 - metric.py[line:62] - INFO: gold_num = 2576 pred_num = 2584 right_num = 2186
+2023-01-27 23:35:05 - main1.py[line:370] - INFO: Dev: time: 3.37s, speed: 98.26st/s; acc: 0.9613, p: 0.8460, r: 0.8486, f: 0.8473
+2023-01-27 23:35:08 - metric.py[line:62] - INFO: gold_num = 2681 pred_num = 2721 right_num = 2348
+2023-01-27 23:35:08 - main1.py[line:396] - INFO: Test: time: 3.54s, speed: 97.12st/s; acc: 0.9725, p: 0.8629, r: 0.8758, f: 0.8693
+2023-01-27 23:35:08 - main1.py[line:408] - INFO: Best dev score: p:0.8507751937984496, r:0.8520962732919255, f:0.8514352211016292
+2023-01-27 23:35:08 - main1.py[line:409] - INFO: Test score: p:0.8598749540272159, r:0.8720626631853786, f:0.8659259259259259
+2023-01-27 23:35:20 - main1.py[line:296] - INFO: Epoch: 92/100
+2023-01-27 23:35:20 - main1.py[line:121] - INFO:  Learning rate is setted as: 4.462124575233601e-05
+2023-01-27 23:35:31 - main1.py[line:344] - INFO:      Instance: 500; Time: 11.00s; loss: 1874.8215; acc: 92764.0/94307.0=0.9836
+2023-01-27 23:35:42 - main1.py[line:344] - INFO:      Instance: 1000; Time: 11.28s; loss: 1765.5688; acc: 186664.0/189712.0=0.9839
+2023-01-27 23:35:53 - main1.py[line:344] - INFO:      Instance: 1500; Time: 11.16s; loss: 1599.0496; acc: 278196.0/282582.0=0.9845
+2023-01-27 23:36:04 - main1.py[line:344] - INFO:      Instance: 2000; Time: 11.24s; loss: 1844.1147; acc: 371178.0/377151.0=0.9842
+2023-01-27 23:36:16 - main1.py[line:344] - INFO:      Instance: 2500; Time: 11.16s; loss: 1672.2593; acc: 464117.0/471334.0=0.9847
+2023-01-27 23:36:21 - main1.py[line:356] - INFO:      Instance: 2749; Time: 5.82s; loss: 869.9568; acc: 508848.0/516868.0=0.9845
+2023-01-27 23:36:21 - main1.py[line:361] - INFO: Epoch: 92 training finished. Time: 61.66s, speed: 44.58st/s,  total loss: tensor(9625.7715, device='cuda:0')
+2023-01-27 23:36:25 - metric.py[line:62] - INFO: gold_num = 2576 pred_num = 2592 right_num = 2190
+2023-01-27 23:36:25 - main1.py[line:370] - INFO: Dev: time: 3.34s, speed: 98.98st/s; acc: 0.9616, p: 0.8449, r: 0.8502, f: 0.8475
+2023-01-27 23:36:28 - metric.py[line:62] - INFO: gold_num = 2681 pred_num = 2723 right_num = 2346
+2023-01-27 23:36:28 - main1.py[line:396] - INFO: Test: time: 3.51s, speed: 98.06st/s; acc: 0.9722, p: 0.8615, r: 0.8750, f: 0.8682
+2023-01-27 23:36:28 - main1.py[line:408] - INFO: Best dev score: p:0.8507751937984496, r:0.8520962732919255, f:0.8514352211016292
+2023-01-27 23:36:28 - main1.py[line:409] - INFO: Test score: p:0.8598749540272159, r:0.8720626631853786, f:0.8659259259259259
+2023-01-27 23:36:40 - main1.py[line:296] - INFO: Epoch: 93/100
+2023-01-27 23:36:40 - main1.py[line:121] - INFO:  Learning rate is setted as: 4.2390183464719205e-05
+2023-01-27 23:36:51 - main1.py[line:344] - INFO:      Instance: 500; Time: 11.03s; loss: 1766.9800; acc: 89847.0/91463.0=0.9823
+2023-01-27 23:37:02 - main1.py[line:344] - INFO:      Instance: 1000; Time: 11.03s; loss: 1884.9861; acc: 182739.0/185891.0=0.9830
+2023-01-27 23:37:13 - main1.py[line:344] - INFO:      Instance: 1500; Time: 11.10s; loss: 1813.6323; acc: 275139.0/279790.0=0.9834
+2023-01-27 23:37:24 - main1.py[line:344] - INFO:      Instance: 2000; Time: 11.05s; loss: 1658.0481; acc: 367982.0/374086.0=0.9837
+2023-01-27 23:37:35 - main1.py[line:344] - INFO:      Instance: 2500; Time: 11.23s; loss: 1798.8279; acc: 461092.0/468684.0=0.9838
+2023-01-27 23:37:41 - main1.py[line:356] - INFO:      Instance: 2749; Time: 5.72s; loss: 884.9933; acc: 508537.0/516868.0=0.9839
+2023-01-27 23:37:41 - main1.py[line:361] - INFO: Epoch: 93 training finished. Time: 61.16s, speed: 44.95st/s,  total loss: tensor(9807.4668, device='cuda:0')
+2023-01-27 23:37:44 - metric.py[line:62] - INFO: gold_num = 2576 pred_num = 2581 right_num = 2188
+2023-01-27 23:37:44 - main1.py[line:370] - INFO: Dev: time: 3.38s, speed: 97.77st/s; acc: 0.9619, p: 0.8477, r: 0.8494, f: 0.8486
+2023-01-27 23:37:48 - metric.py[line:62] - INFO: gold_num = 2681 pred_num = 2722 right_num = 2349
+2023-01-27 23:37:48 - main1.py[line:396] - INFO: Test: time: 3.53s, speed: 97.45st/s; acc: 0.9723, p: 0.8630, r: 0.8762, f: 0.8695
+2023-01-27 23:37:48 - main1.py[line:408] - INFO: Best dev score: p:0.8507751937984496, r:0.8520962732919255, f:0.8514352211016292
+2023-01-27 23:37:48 - main1.py[line:409] - INFO: Test score: p:0.8598749540272159, r:0.8720626631853786, f:0.8659259259259259
+2023-01-27 23:37:59 - main1.py[line:296] - INFO: Epoch: 94/100
+2023-01-27 23:37:59 - main1.py[line:121] - INFO:  Learning rate is setted as: 4.0270674291483244e-05
+2023-01-27 23:38:10 - main1.py[line:344] - INFO:      Instance: 500; Time: 11.06s; loss: 1758.2603; acc: 92908.0/94407.0=0.9841
+2023-01-27 23:38:21 - main1.py[line:344] - INFO:      Instance: 1000; Time: 11.14s; loss: 1901.7476; acc: 183831.0/186901.0=0.9836
+2023-01-27 23:38:33 - main1.py[line:344] - INFO:      Instance: 1500; Time: 11.22s; loss: 1819.2544; acc: 275993.0/280667.0=0.9833
+2023-01-27 23:38:44 - main1.py[line:344] - INFO:      Instance: 2000; Time: 11.11s; loss: 1672.7202; acc: 368203.0/374262.0=0.9838
+2023-01-27 23:38:55 - main1.py[line:344] - INFO:      Instance: 2500; Time: 11.13s; loss: 1777.6660; acc: 463551.0/471164.0=0.9838
+2023-01-27 23:39:01 - main1.py[line:356] - INFO:      Instance: 2749; Time: 5.79s; loss: 731.0237; acc: 508664.0/516868.0=0.9841
+2023-01-27 23:39:01 - main1.py[line:361] - INFO: Epoch: 94 training finished. Time: 61.46s, speed: 44.73st/s,  total loss: tensor(9660.6729, device='cuda:0')
+2023-01-27 23:39:04 - metric.py[line:62] - INFO: gold_num = 2576 pred_num = 2578 right_num = 2189
+2023-01-27 23:39:04 - main1.py[line:370] - INFO: Dev: time: 3.36s, speed: 98.43st/s; acc: 0.9618, p: 0.8491, r: 0.8498, f: 0.8494
+2023-01-27 23:39:07 - metric.py[line:62] - INFO: gold_num = 2681 pred_num = 2721 right_num = 2348
+2023-01-27 23:39:07 - main1.py[line:396] - INFO: Test: time: 3.56s, speed: 96.71st/s; acc: 0.9723, p: 0.8629, r: 0.8758, f: 0.8693
+2023-01-27 23:39:07 - main1.py[line:408] - INFO: Best dev score: p:0.8507751937984496, r:0.8520962732919255, f:0.8514352211016292
+2023-01-27 23:39:07 - main1.py[line:409] - INFO: Test score: p:0.8598749540272159, r:0.8720626631853786, f:0.8659259259259259
+2023-01-27 23:39:19 - main1.py[line:296] - INFO: Epoch: 95/100
+2023-01-27 23:39:19 - main1.py[line:121] - INFO:  Learning rate is setted as: 3.825714057690908e-05
+2023-01-27 23:39:30 - main1.py[line:344] - INFO:      Instance: 500; Time: 10.99s; loss: 1688.0037; acc: 91825.0/93169.0=0.9856
+2023-01-27 23:39:41 - main1.py[line:344] - INFO:      Instance: 1000; Time: 11.14s; loss: 1841.3953; acc: 185833.0/188633.0=0.9852
+2023-01-27 23:39:52 - main1.py[line:344] - INFO:      Instance: 1500; Time: 11.16s; loss: 1795.1912; acc: 276192.0/280449.0=0.9848
+2023-01-27 23:40:03 - main1.py[line:344] - INFO:      Instance: 2000; Time: 11.14s; loss: 1702.5667; acc: 371478.0/377211.0=0.9848
+2023-01-27 23:40:15 - main1.py[line:344] - INFO:      Instance: 2500; Time: 11.20s; loss: 1615.9614; acc: 462910.0/470022.0=0.9849
+2023-01-27 23:40:20 - main1.py[line:356] - INFO:      Instance: 2749; Time: 5.76s; loss: 932.9807; acc: 508942.0/516868.0=0.9847
+2023-01-27 23:40:20 - main1.py[line:361] - INFO: Epoch: 95 training finished. Time: 61.39s, speed: 44.78st/s,  total loss: tensor(9576.0957, device='cuda:0')
+2023-01-27 23:40:24 - metric.py[line:62] - INFO: gold_num = 2576 pred_num = 2592 right_num = 2190
+2023-01-27 23:40:24 - main1.py[line:370] - INFO: Dev: time: 3.38s, speed: 97.80st/s; acc: 0.9616, p: 0.8449, r: 0.8502, f: 0.8475
+2023-01-27 23:40:27 - metric.py[line:62] - INFO: gold_num = 2681 pred_num = 2725 right_num = 2345
+2023-01-27 23:40:27 - main1.py[line:396] - INFO: Test: time: 3.52s, speed: 97.72st/s; acc: 0.9720, p: 0.8606, r: 0.8747, f: 0.8676
+2023-01-27 23:40:27 - main1.py[line:408] - INFO: Best dev score: p:0.8507751937984496, r:0.8520962732919255, f:0.8514352211016292
+2023-01-27 23:40:27 - main1.py[line:409] - INFO: Test score: p:0.8598749540272159, r:0.8720626631853786, f:0.8659259259259259
+2023-01-27 23:40:39 - main1.py[line:296] - INFO: Epoch: 96/100
+2023-01-27 23:40:39 - main1.py[line:121] - INFO:  Learning rate is setted as: 3.634428354806362e-05
+2023-01-27 23:40:50 - main1.py[line:344] - INFO:      Instance: 500; Time: 11.07s; loss: 1719.6926; acc: 94000.0/95393.0=0.9854
+2023-01-27 23:41:01 - main1.py[line:344] - INFO:      Instance: 1000; Time: 11.16s; loss: 1550.8359; acc: 182128.0/184910.0=0.9850
+2023-01-27 23:41:12 - main1.py[line:344] - INFO:      Instance: 1500; Time: 11.11s; loss: 1787.8188; acc: 273569.0/277790.0=0.9848
+2023-01-27 23:41:23 - main1.py[line:344] - INFO:      Instance: 2000; Time: 10.98s; loss: 1791.8235; acc: 364688.0/370419.0=0.9845
+2023-01-27 23:41:34 - main1.py[line:344] - INFO:      Instance: 2500; Time: 11.22s; loss: 1843.0312; acc: 459263.0/466611.0=0.9843
+2023-01-27 23:41:40 - main1.py[line:356] - INFO:      Instance: 2749; Time: 5.77s; loss: 1018.2744; acc: 508717.0/516868.0=0.9842
+2023-01-27 23:41:40 - main1.py[line:361] - INFO: Epoch: 96 training finished. Time: 61.31s, speed: 44.84st/s,  total loss: tensor(9711.4736, device='cuda:0')
+2023-01-27 23:41:43 - metric.py[line:62] - INFO: gold_num = 2576 pred_num = 2585 right_num = 2185
+2023-01-27 23:41:43 - main1.py[line:370] - INFO: Dev: time: 3.40s, speed: 97.20st/s; acc: 0.9614, p: 0.8453, r: 0.8482, f: 0.8467
+2023-01-27 23:41:47 - metric.py[line:62] - INFO: gold_num = 2681 pred_num = 2722 right_num = 2344
+2023-01-27 23:41:47 - main1.py[line:396] - INFO: Test: time: 3.49s, speed: 98.53st/s; acc: 0.9720, p: 0.8611, r: 0.8743, f: 0.8677
+2023-01-27 23:41:47 - main1.py[line:408] - INFO: Best dev score: p:0.8507751937984496, r:0.8520962732919255, f:0.8514352211016292
+2023-01-27 23:41:47 - main1.py[line:409] - INFO: Test score: p:0.8598749540272159, r:0.8720626631853786, f:0.8659259259259259
+2023-01-27 23:41:58 - main1.py[line:296] - INFO: Epoch: 97/100
+2023-01-27 23:41:58 - main1.py[line:121] - INFO:  Learning rate is setted as: 3.452706937066044e-05
+2023-01-27 23:42:09 - main1.py[line:344] - INFO:      Instance: 500; Time: 10.99s; loss: 1816.3669; acc: 92761.0/94279.0=0.9839
+2023-01-27 23:42:20 - main1.py[line:344] - INFO:      Instance: 1000; Time: 11.08s; loss: 1715.0015; acc: 184391.0/187300.0=0.9845
+2023-01-27 23:42:32 - main1.py[line:344] - INFO:      Instance: 1500; Time: 11.27s; loss: 1643.7158; acc: 278469.0/282778.0=0.9848
+2023-01-27 23:42:43 - main1.py[line:344] - INFO:      Instance: 2000; Time: 11.17s; loss: 1883.3477; acc: 371713.0/377523.0=0.9846
+2023-01-27 23:42:54 - main1.py[line:344] - INFO:      Instance: 2500; Time: 10.95s; loss: 1727.1323; acc: 464599.0/471984.0=0.9844
+2023-01-27 23:43:00 - main1.py[line:356] - INFO:      Instance: 2749; Time: 5.81s; loss: 913.6743; acc: 508743.0/516868.0=0.9843
+2023-01-27 23:43:00 - main1.py[line:361] - INFO: Epoch: 97 training finished. Time: 61.25s, speed: 44.88st/s,  total loss: tensor(9699.2363, device='cuda:0')
+2023-01-27 23:43:03 - metric.py[line:62] - INFO: gold_num = 2576 pred_num = 2584 right_num = 2182
+2023-01-27 23:43:03 - main1.py[line:370] - INFO: Dev: time: 3.34s, speed: 98.93st/s; acc: 0.9611, p: 0.8444, r: 0.8470, f: 0.8457
+2023-01-27 23:43:06 - metric.py[line:62] - INFO: gold_num = 2681 pred_num = 2722 right_num = 2344
+2023-01-27 23:43:06 - main1.py[line:396] - INFO: Test: time: 3.55s, speed: 96.93st/s; acc: 0.9721, p: 0.8611, r: 0.8743, f: 0.8677
+2023-01-27 23:43:06 - main1.py[line:408] - INFO: Best dev score: p:0.8507751937984496, r:0.8520962732919255, f:0.8514352211016292
+2023-01-27 23:43:06 - main1.py[line:409] - INFO: Test score: p:0.8598749540272159, r:0.8720626631853786, f:0.8659259259259259
+2023-01-27 23:43:18 - main1.py[line:296] - INFO: Epoch: 98/100
+2023-01-27 23:43:18 - main1.py[line:121] - INFO:  Learning rate is setted as: 3.280071590212741e-05
+2023-01-27 23:43:29 - main1.py[line:344] - INFO:      Instance: 500; Time: 11.03s; loss: 1893.9014; acc: 94174.0/95653.0=0.9845
+2023-01-27 23:43:40 - main1.py[line:344] - INFO:      Instance: 1000; Time: 11.25s; loss: 1728.6548; acc: 186950.0/190004.0=0.9839
+2023-01-27 23:43:51 - main1.py[line:344] - INFO:      Instance: 1500; Time: 11.07s; loss: 1733.7925; acc: 277888.0/282440.0=0.9839
+2023-01-27 23:44:03 - main1.py[line:344] - INFO:      Instance: 2000; Time: 11.22s; loss: 1581.6953; acc: 368461.0/374358.0=0.9842
+2023-01-27 23:44:14 - main1.py[line:344] - INFO:      Instance: 2500; Time: 11.16s; loss: 1734.0234; acc: 463613.0/470960.0=0.9844
+2023-01-27 23:44:19 - main1.py[line:356] - INFO:      Instance: 2749; Time: 5.75s; loss: 819.8156; acc: 508808.0/516868.0=0.9844
+2023-01-27 23:44:19 - main1.py[line:361] - INFO: Epoch: 98 training finished. Time: 61.49s, speed: 44.71st/s,  total loss: tensor(9491.8838, device='cuda:0')
+2023-01-27 23:44:23 - metric.py[line:62] - INFO: gold_num = 2576 pred_num = 2579 right_num = 2187
+2023-01-27 23:44:23 - main1.py[line:370] - INFO: Dev: time: 3.36s, speed: 98.46st/s; acc: 0.9617, p: 0.8480, r: 0.8490, f: 0.8485
+2023-01-27 23:44:26 - metric.py[line:62] - INFO: gold_num = 2681 pred_num = 2721 right_num = 2346
+2023-01-27 23:44:26 - main1.py[line:396] - INFO: Test: time: 3.51s, speed: 97.90st/s; acc: 0.9722, p: 0.8622, r: 0.8750, f: 0.8686
+2023-01-27 23:44:26 - main1.py[line:408] - INFO: Best dev score: p:0.8507751937984496, r:0.8520962732919255, f:0.8514352211016292
+2023-01-27 23:44:26 - main1.py[line:409] - INFO: Test score: p:0.8598749540272159, r:0.8720626631853786, f:0.8659259259259259
+2023-01-27 23:44:38 - main1.py[line:296] - INFO: Epoch: 99/100
+2023-01-27 23:44:38 - main1.py[line:121] - INFO:  Learning rate is setted as: 3.116068010702104e-05
+2023-01-27 23:44:49 - main1.py[line:344] - INFO:      Instance: 500; Time: 11.01s; loss: 1659.0391; acc: 93752.0/95164.0=0.9852
+2023-01-27 23:45:00 - main1.py[line:344] - INFO:      Instance: 1000; Time: 11.20s; loss: 1773.6248; acc: 185176.0/188104.0=0.9844
+2023-01-27 23:45:11 - main1.py[line:344] - INFO:      Instance: 1500; Time: 11.19s; loss: 1611.4937; acc: 276424.0/280819.0=0.9843
+2023-01-27 23:45:22 - main1.py[line:344] - INFO:      Instance: 2000; Time: 11.15s; loss: 1844.0222; acc: 368838.0/374696.0=0.9844
+2023-01-27 23:45:33 - main1.py[line:344] - INFO:      Instance: 2500; Time: 11.03s; loss: 1766.0483; acc: 462871.0/470213.0=0.9844
+2023-01-27 23:45:39 - main1.py[line:356] - INFO:      Instance: 2749; Time: 5.69s; loss: 953.8379; acc: 508678.0/516868.0=0.9842
+2023-01-27 23:45:39 - main1.py[line:361] - INFO: Epoch: 99 training finished. Time: 61.27s, speed: 44.87st/s,  total loss: tensor(9608.0605, device='cuda:0')
+2023-01-27 23:45:42 - metric.py[line:62] - INFO: gold_num = 2576 pred_num = 2580 right_num = 2188
+2023-01-27 23:45:42 - main1.py[line:370] - INFO: Dev: time: 3.38s, speed: 97.95st/s; acc: 0.9616, p: 0.8481, r: 0.8494, f: 0.8487
+2023-01-27 23:45:46 - metric.py[line:62] - INFO: gold_num = 2681 pred_num = 2719 right_num = 2342
+2023-01-27 23:45:46 - main1.py[line:396] - INFO: Test: time: 3.52s, speed: 98.14st/s; acc: 0.9718, p: 0.8613, r: 0.8736, f: 0.8674
+2023-01-27 23:45:46 - main1.py[line:408] - INFO: Best dev score: p:0.8507751937984496, r:0.8520962732919255, f:0.8514352211016292
+2023-01-27 23:45:46 - main1.py[line:409] - INFO: Test score: p:0.8598749540272159, r:0.8720626631853786, f:0.8659259259259259
